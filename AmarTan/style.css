@@ -1,0 +1,9 @@
+h1{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding-top: 40vh;
+    font-size: 100px;
+}
