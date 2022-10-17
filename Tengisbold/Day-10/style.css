@@ -5,10 +5,10 @@
     border: 2px solid red;
     height: calc(100vh-20px);
     width: calc(100vw-20px);
-    align-content: center;
+    align-content: end;
     justify-content: center;
 }
 img
 {
-   margin: 50px; 
+   margin: 50px;
 }
