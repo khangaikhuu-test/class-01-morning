@@ -1,1 +1,38 @@
 /* This is the style  */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1280px;
+    
+}
+.nav-menu {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 437px;
+    margin: 0 auto;
+   
+
+}
+.nav-menu a {
+    box-sizing: border-box;
+    color: #394149;
+
+    
+   
+
+}
+
+.call {
+    display: flex;
+    border-radius: 10px;
+    height: 52px;
+    width: 173px;
+    color: #F58A07;
+    background-color: #fde8ce;
+
+}
