@@ -1,0 +1,19 @@
+body{
+    /* width: 1920px; */
+}
+.container{
+    max-width: 1280px;
+    Font Family: Poppins
+    margin: 0 auto;
+}
+.nav-menu{
+    justify-content: space-between;
+    display: flex;
+}
+.button{
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+    color: orange;
+    text-decoration-line: none;
+}
