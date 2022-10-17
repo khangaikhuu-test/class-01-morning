@@ -154,3 +154,183 @@ header {
     width: 735px;
     height: 90px;
 }
+.help-post{
+    display:flex;
+    gap:40px;
+}
+.img-post{
+    border-radius: 20px;
+}
+.helpbutton{
+    text-decoration: none;
+    color:#F58A07;
+}
+.features{
+    width: 1920px;
+    height: 665px;
+    background:#EDF7FF; 
+   
+}
+.features0{
+    display: flex;
+    
+    margin-left: 321px;
+}
+.feature-text1{
+    font-size: 36px;
+    margin-top: 96px;
+    width: 619px;
+    height: 132px;
+    box-sizing: content-box;
+}
+.feature-text2{
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: 96px;
+    width: 620px;
+    height: 102px;
+    
+}
+.features1{
+    display: flex;
+    margin-left: 320px;
+    gap:38px;
+    margin-top:64px;
+    width: 1280px;
+    height: 277px;
+}
+.features2{
+    width: 401px;
+    height: 277px;
+    border-radius: 20px;
+    background-color: white;
+    padding-left: 39px;
+    padding-top: 48px;
+}
+.about{
+    margin-left: 320px;
+    margin-top: 99px;
+    width:1280px;
+    height: 667px;
+    display: flex;
+}
+.about-text3{
+    margin-top: 67px;
+    font-size: 48px;
+    width: 596px;
+    height: 157px;
+}
+.about-text4{
+    margin-top: 64px;
+    width: 510px;
+    height: 120px;
+    font-size: 18px;
+}
+.about-text2{
+    display: flex;
+    gap: 26px;
+}
+.about-text5{
+    width: 264px;
+    height: 192px;
+}
+.about-text6{
+    color:#F58A07;
+    font-size: 36px;
+}
+.about-image{
+    margin-left: 47px;
+    background-image: url("https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png");
+    width: 637px;
+    height: 667px;
+    
+}
+.backgroundblend{
+    width: 153px;
+    height: 670px;
+    mix-blend-mode: multiply;
+    background-color: #F58A07;
+}
+.services{
+    width: 1274.39px;
+    height: 682px;
+    margin-left: 320px;
+    margin-top: 95px;
+    background-color: #EDF7FF;;
+}
+.service-tab{
+    margin-top: 56px;
+    margin-left: 72px;
+    display: flex;
+    gap: 48px;
+}
+#business{
+    margin-top: 56px;
+    background-color: white;
+    padding-left:20px;
+    padding-top:10px;
+    padding-right:20px;
+    padding-bottom: 10px;
+    border-radius:31px;
+    color:#F58A07;
+    text-decoration :none;
+}
+#digital{
+    margin-top: 56px;
+    padding-left:20px;
+    padding-top:10px;
+    padding-right:20px;
+    padding-bottom: 10px;
+    border-radius:31px;
+    border: 1px solid #A8BCCC;
+    color:    #063255;
+    text-decoration: none;
+}
+#risk{
+    margin-top: 56px;
+    padding-left:20px;
+    padding-top:10px;
+    padding-right:20px;
+    padding-bottom: 10px;
+    border-radius:31px;
+    border: 1px solid #A8BCCC;
+    color:#063255;
+    text-decoration: none;
+}
+.service2{
+    display: flex;
+}
+.service-img{
+    background-image: url(../images/team.png);
+    width: 472px;
+    height: 466px;
+    margin-top: 88px;
+    margin-right: 42.39px;
+}
+.backgroundblend2{
+    width: 120px;
+    height: 466px;
+    mix-blend-mode: multiply;
+    background-color: #F58A07;
+}
+.service-text1{
+    width: 572px;
+    height: 168px;
+    margin-left: 48px;
+    margin-top:88px;
+    font-size: 48px;
+}
+.service-text2{
+    margin-top: 88px;
+    width:510px;
+    height: 210px;
+    margin-left: 48px;
+    margin-bottom: 0px;
+}
+.servicebutton{
+    margin-left: 48px;
+    margin-top: 0px;
+}
+#servicebutton{
+    color:#F58A07;
+}
