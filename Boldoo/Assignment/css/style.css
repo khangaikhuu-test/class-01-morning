@@ -42,6 +42,7 @@ body{
     align-items: center;
     /* background-image: url("https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/header-image.png"); */
 }
+
 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 64px;
@@ -65,4 +66,56 @@ p{
 }
 *{
     font-family: 'Poppins', sans-serif;
+}
+ .dedgarchig{    
+    max-width: 1280px;
+    margin: 0 auto;
+    font-size: 48px;
+    font-weight: 600;
+ }
+ .row{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+ }
+ .col{    
+    width: 400px;
+    height: 242px;
+ }
+ img{
+    border-radius: 25px;
+    /* margin-right: 100px; */
+ }
+ a{
+    color: #F58A07;
+ }
+ .slideback{
+    
+    height: 665px;
+    background-color: #dceaf5; 
+    margin-top: 300px;
+}
+.slidenews{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.boxframe{
+    display: flex;
+    justify-content: space-between;
+}
+.slideframe{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.box{
+    background-color: white;
+    border-radius: 25px;
+    width: 400px;
+    height: 277px;
 }
