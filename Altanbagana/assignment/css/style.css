@@ -122,7 +122,7 @@ h1 {
     scale: 0.75;
 }
 
-section {
+#section-1 {
     width: 80vw;
     margin: 0 auto;
     padding-top: 10px;
@@ -149,10 +149,10 @@ h3 {
     font-weight: 500;
 }
 
-aside {
+#section-2 {
     margin-top: 50px;
     background-color: #EDF7FF;
-    height: 30em;
+    margin-bottom: 50px;
 }
 
 .part-2 {
@@ -191,21 +191,23 @@ h4 {
     border-radius: 8.5%;
     background-color: white;
     padding: 1.8rem;
+    margin-bottom: 2.5rem;
 }
 
-section-1 {
-    margin: 0 auto;
+#section-3 {
+    margin-top: 20px;
 }
 
 .container2 {
     display: flex;
     flex-flow: row wrap;
-    width: 80%;
+    justify-content: space-between;
+    width: 80vw;
     margin: 0 auto;
 }
 
 .prosper2 {
-    display: flex;
+    display: inline-block;
     flex-flow: column wrap;
     width: 45%;
     margin: 0 auto;
@@ -216,27 +218,40 @@ section-1 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
-.container2 .img2 {
-    /* display: flex; */
-    /* flex-flow: column; */
-    border-radius: 10%;
-    scale: 0.8;
-    border-image: 10%;
-}
-
-.container2 .img2 {
+.img2 {
+    display: inline-block;
+    flex-flow: column;
+    width: 45%;
     border-radius: 5%;
     background-position: center;
-    background-size: cover;
+    background-size: 80% 100%, cover;
+    background-repeat: no-repeat;
     background-blend-mode: multiply;
-    background-color: #F58A07;
+    /* background-color: #F58A07; */
+    background-image:
+        url("https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png");
+}
 
-    /* .gradientcol {
-    display: flex;
-    flex-flow: column wrap;
+/* linear-gradient(90deg,
+            #F58A07 10%, #808080 90%, #808080 90%, #808080 10%), */
 
+.img2>h7 {
+    height: fit-content;
     width: 10%;
-    height: 100%;
-} */
+    mix-blend-mode: multiply;
+    background-color: #F58A07;
+}
+
+.img3 {
+    background-image: url(../images/team.png);
+}
+
+.card {
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+
+}
