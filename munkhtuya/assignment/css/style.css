@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: "Poppins";
+  border: 1px dotted red;
 }
 
 .container {
@@ -75,7 +76,6 @@ nav a {
   line-height: 30px;
   margin-top: 18px;
   margin-bottom: 32px;
-
   color: #5b5b5b;
 }
 
@@ -131,14 +131,13 @@ nav a {
   top: 607px;
 }
 
-.logo:nth-child(0){
-    width: 143px;
+.logo:nth-child(0) {
+  width: 143px;
 }
 
-.logo:nth-child(1){
-    width: 134px;
+.logo:nth-child(1) {
+  width: 134px;
 }
-
 
 .all {
   display: flex;
@@ -146,28 +145,27 @@ nav a {
   justify-content: center;
   color: #1d3444;
 }
-.textb {
-  display: flex;
-  justify-content: space-between;
-  font-size: 16px;
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #1d3444;
+  margin-left: 320px;
+  width: 1280px;
+  height: 740px;
+
 }
 
-.textc {
-  border-radius: 27px;
-  background-color: #f58a07;
-  display: flex;
-  align-items: center;
-  width: 199px;
-  height: 54px;
-  justify-content: center;
-  color: white;
+.we-help{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #1D3444; 
 }
-.textd {
-  display: flex;
-  align-items: center;
-  color: #1d3444;
-}
-.texte {
-  font-size: 12px;
-  color: #3941496a;
+
+.zurag{
+    display: flex;
 }
