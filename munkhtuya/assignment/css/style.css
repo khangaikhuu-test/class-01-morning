@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   font-family: "Poppins";
-  border: 1px dotted red;
 }
 
 .container {
@@ -155,17 +154,33 @@ nav a {
   margin-left: 320px;
   width: 1280px;
   height: 740px;
-
 }
 
-.we-help{
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 56px;
-    letter-spacing: -0.03em;
-    color: #1D3444; 
+.we-help {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #1d3444;
+  width: 50%;
+  margin-top: 96px;
 }
 
-.zurag{
-    display: flex;
+/* .zurag {
+  display: flex;
+} */
+
+.zuragnuud {
+  display: flex;
+  border-radius: 50px;
+}
+
+.lorem {
+  width: 50%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #5b5b5b;
+  margin-top: 27px;
+  margin-bottom: 64px;
 }
