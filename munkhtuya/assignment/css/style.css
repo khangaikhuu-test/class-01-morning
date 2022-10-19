@@ -1,39 +1,45 @@
-*{
+* {
     box-sizing: border-box;
-    font-family: "Poppins"; 
+    font-family: "Poppins";
 }
-.container{
+
+.container {
     max-width: 1280px;
     margin: 0 auto;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
     height: 151px;
     align-items: center;
 }
-.Container-div{
+
+.Container-div {
     display: flex;
     width: 437px;
     height: 24px;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 }
-.Container-div a{
+
+.Container-div a {
     text-decoration: none;
     color: black;
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     align-items: center;
     width: 658px;
     justify-content: space-between;
 }
-.call{
+
+.call {
     width: 173px;
     height: 52px;
-    background-color: #efc38c;
+    background-color:rgba(245, 138, 7, 0.1);
     border-radius: 31px;
     display: flex;
     justify-content: center;
@@ -41,34 +47,60 @@
     color: #F58A07;
     text-decoration: none;
 }
-.header img{
+
+.header img {
     width: 122px;
     height: 28px;
 
 }
-.background{
+
+.background {
     /* background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/header-image.png) center / cover; */
     /* width: 1933px; */
     height: 636px;
-    background-color: 
-    #DCEAF5;
+    background-color:
+        #DCEAF5;
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: space-between;
-    color:#1D3444;
+    color: #1D3444;
     font-size: 24px;
 }
 
-.banner img{
+.banner img {
     height: 636px;
     font-size: 300px;
 }
-.texta{
-    color:#5B5B5B;
+
+.texta {
+    color: #5B5B5B;
     font-size: 15px;
 }
 
+.textb {
+    display: flex;
+    justify-content:space-between;
+    font-size: 16px;
+}
 
-
-
+.textc {
+    border-radius: 27px;
+    background-color: #F58A07;
+    display: flex;
+    align-items: center;
+    width: 199px;
+    height: 54px;
+    justify-content:center;
+    color: white;
+}
+.textd{
+    display: flex;
+    align-items:center; 
+    color: #1D3444;
+}
+.texte{
+    font-size: 12px;
+    color: #3941496a;
+}
