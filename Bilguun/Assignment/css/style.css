@@ -1,38 +1,106 @@
 /* This is the style  */
+@font-face {
+    font-family: 'Poppins';
+    src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #FFFFFF;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
 
 header {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    align-items: center;
-    max-width: 1280px;
+    
+    
+}   
+
+.container {
+    width: 67%;
+    margin: 0 auto;
+    display: flex;
     
 }
+
+.finsweet-logo {
+    background-image: url("../images/Logo.svg");
+    width: 122px;
+    height: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .nav-menu {
-    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 52px;
+    margin: 16px auto;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    width: 437px;
-    margin: 0 auto;
-   
-
+    align-items: center;
+    flex-direction: row;
 }
+
 .nav-menu a {
-    box-sizing: border-box;
-    color: #394149;
-
-    
-   
+    color: #493d39;
 
 }
 
-.call {
+.nav-items {
     display: flex;
-    border-radius: 10px;
-    height: 52px;
-    width: 173px;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+}
+
+#call-to-action {
     color: #F58A07;
     background-color: #fde8ce;
-    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    padding: 1em 1.5em;
+    background: rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
 }
+    
+.first-page {
+    width: 100%;
+    height: 703px;
+    background: #DCEAF5;
+    display: flex;
+}
+
+.first-face-text h1 {
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+}
+
+.first-face-text {
+    width: 40%;
+    height: 439px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+    margin: 2rem 2 rem 2 rem 0;
+}
+
+.first-face-image {
+    background-image: url("https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/header-image.png");
+    width: 50%;
+
+}
+
+

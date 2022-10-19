@@ -1,0 +1,41 @@
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+}
+
+@media (min-width: 1025px) {
+
+}
+.main-header{
+  display: flex;  
+  justify-content: space-around;
+}
+.main-nav{
+  display: flex;
+  
+}
+.row{
+  display: flex;
+  justify-content: space-between;  
+}
+
+.col{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button{
+  border: 1px rgb(15, 129, 43) solid;
+  background-color: rgb(30, 180, 118);
+  color: white;
+  padding: 5% 10%;
+  border-radius: 10px;
+  margin: 10px;  
+  width: 50%;
+  margin: 0 auto;
+}
