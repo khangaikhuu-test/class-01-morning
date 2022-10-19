@@ -1,0 +1,351 @@
+/* tolgoi heseg */
+header{
+    max-width: 1920px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+/* menu */
+nav{
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+nav a{
+    text-decoration-line: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+/* tom zuragtai slide */
+.slide{
+    height: 700px;
+    background-color: #dceaf5;
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* background-image: url("https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/header-image.png"); */
+}
+.logosize{
+    width: 122px;
+    height: 28px;
+}
+
+#call{
+    background: rgba(245, 138, 7, 0.1);
+    padding: 20px 30px;
+    margin: 10px;
+    border-radius: 20px;
+    color: #f58a07;
+    text-decoration-line: none;
+}
+.slidepng{
+    display: flex; 
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.linkname{
+    color: black;
+    text-decoration-line: none;
+}
+.slidetext{
+    max-width: 600px;
+}
+
+#seeour{
+    background-color: #F58A07;
+    padding: 20px 30px;
+    border-radius: 50px;
+    text-decoration-line: none;
+    color: white;
+    margin-top: 20px;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    line-height: 72px;
+    margin-bottom: inherit;
+}
+h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+}
+h3{
+    font-size: 36px;
+    font-weight: 600;
+}
+h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height:24px;
+}
+
+
+.newsfirst{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.newssecond{    
+    height: 665px;
+    background-color: #dceaf5; 
+    margin-top: 300px;
+}
+.newsthird{    
+    height: 665px;
+}
+ .dedgarchig{    
+    max-width: 735px;    
+    font-size: 48px;
+    font-weight: 600;
+ }
+ .row{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+ }
+ .col{    
+    width: 400px;
+    height: 242px;
+ }
+ img{
+    border-radius: 25px;
+    /* margin-right: 100px; */
+ }
+ a{
+    color: #F58A07;
+    text-decoration-line: none;
+ }
+
+.slidenews{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxframe{
+    display: flex;
+    justify-content: space-between;
+}
+.slideframe{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.box{
+    background-color: white;
+    border-radius: 25px;
+    padding: 3%;
+    width: 330px;
+    height: 250px;
+}
+
+.huvaah1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.huvaah{
+    display: flex;
+    margin-right: 50px;
+}
+.zuur{
+    background: #F58A07;
+    mix-blend-mode:multiply ;
+}
+.sharungu{
+    color: #F58A07;
+}
+
+.saaralungu{
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color:#EDF7FF;
+    padding: 25px;
+    border-radius: 25px;
+    display: flex;
+    margin-top: 80px;
+}
+.tovch{
+    border: 1px solid #a8bccc;
+    border-radius: 31px;
+    padding: 10px;
+    text-decoration-line: none;
+}
+.but tovch{
+    color: #F58A07;
+    background-color: white;
+}
+.textsize{
+    width: 572px;
+    margin: 0 auto;
+}
+.zuragtext{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+}
+.zuraglast{
+    width:963px;
+    height: 518px;
+    background-image: url("https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png");
+}
+.zuraglast2{
+    display: flex;
+    align-items: center;
+    width: 960px;
+    height: 518px;
+    background-color: #F58A07;    
+}
+.whitecolor{
+    width: 532px; 
+    margin: 0 auto;   
+    color: white;
+    align-self: center;
+}
+.button5{
+    color: #F58A07;
+    background-color: white;
+    border-radius: 31px;
+    padding: 10px 20px;
+}
+.col5{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.backimg{
+    width: 620px;
+    height: 501px;
+    background-image: url(../images/video-image.png);
+}
+
+.col51{
+    width: 550px;
+}
+.col52{
+    display: flex;
+}
+.garchig2{ 
+    color: #F58A07;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+.garchig1{ 
+    margin-left: 20px;
+}
+.backcolor2{
+    background-color: #DCEAF5;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.col3{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.colll{
+    background-color: white;
+    border-radius: 25px;
+    width: 400px;    
+}
+.orangeco{
+    color: #F58A07;
+    text-decoration-line: none;
+}
+.zuraghuree{
+    width: 400px;
+    border-radius: 25px 25px 0 0;
+}
+.margins{
+    padding:0 20px 20px 20px;
+}
+.backcolor2garchig{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.whitelink12{
+    margin-right: 30px;
+    color: white;
+    text-decoration-line: none;
+}
+.frameorange1{
+    width: 53px;
+    height: 144;
+    background-color: #F58A07;
+    border-radius: 31px;
+}
+.iconimg{
+    max-width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.saaralungu::after{
+    content: "";
+    position:absolute;
+    background-image: url("../images/Ribbon.png");
+    background-repeat: no-repeat;
+    top:-17px;
+    right: -17px;
+    width: 179px;
+    height: 178px;
+    z-index: 10;
+}
+.picture11{
+    position: relative;
+}
+.picture11::after{
+    content: "";
+    position: absolute;
+    background-color: #F58A07;
+    left: 1px;
+    border-radius: 25px 0px 0px 25px;
+    width: 153px;
+    height: 670px;
+    opacity: 0.7;
+}
+.pictureyellow{
+    position: relative;
+}
+.pictureyellow::after{
+    content: "";
+    position: absolute;
+    background-color: #F58A07;
+    left: 1px;
+    border-radius: 25px 0px 0px 25px;
+    width: 120px;
+    height: 466px;
+    opacity: 0.7;
+}

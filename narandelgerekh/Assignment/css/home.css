@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #5B5B5B;
+    /* width: 1920px; */
+}
+
+/* h1 {
+    letter-spacing: -3%;
+    line-height: calc(+8px);
+    margin: 0 auto; 
+}*/
+
+/*header menu*/
+header {
+    max-width: 1280px;
+    height: 52px;
+    margin: 16px auto;
+    /*add 320 side margin*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #394149;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cta {
+    background-color: rgba(245, 138, 7, 0.1);
+    color: #F58A07;
+    padding: 18px 30px 17px 29px;
+    border-radius: 31px;
+}
+
+/*part1 - slider*/
+.slider {
+    background-color: #DCEAF5;
+    display: flex;
+    align-items: center;
+    height: 703px;
+}
+
+.textbox1 {
+    /* border: 1px solid black; */
+    height: 439px;
+    width: 576px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 325px;
+}
+
+.textbox1 h1 {
+    /* height: 144px; */
+    letter-spacing: -3px;
+    line-height: 72px;
+    font-size: 64px;
+    color: #1D3444;
+    font-weight: 600;
+    margin:0 auto;
+}
+
+.links {
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+#sos {
+    background-color: #F58A07;
+    color: #FFF;
+    width: 199px;
+    height: 54px;
+    border-radius: 27px;
+    padding: 18px 31px 19px 32px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#sas {
+    color: #1D3444;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 33px;
+    width: 510px;
+    margin-top: 12px;
+    margin-bottom:0;
+}
+
+.imgbox1 {
+    width:739px;
+    height: 645px;
+    margin: 58px 240px 0 auto;
+}
+
+/*part2 - section1 */
+.section1 {
+    margin: 96px 320px;
+    width: 1280px;
+    max-height: 740px;
+}
+
+.section1 h2 {
+    width: 735px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -3px;
+    color: #1D3444;
+}
+
+#textbox2 {
+    width: 735px;
+    font-weight:500;
+}
+
+.sectorsCol {
+    display:flex;
+    justify-content: space-between;
+}
+
+.sectorsCol div{
+    width:400px;
+    height: 447px;
+}
+
+.sectorsCol div img {
+    border-radius: 20px;
+}
+
+.sectorsCol div a {
+    color:#F58A07;
+}
