@@ -17,7 +17,8 @@ body {
 .container {
     width: 67%;
     margin: 0 auto;
-    display: flex;
+    padding: 2rem 0;
+
 }
 
 .nav-menu {
@@ -64,4 +65,117 @@ a {
     padding: 1em 1.5em;
     background: rgba(245, 138, 7, 0.1);
     border-radius: 31px;
+}
+
+#subscribe {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    padding: 1em 1.5em;
+    background: #F58A07;
+    border-radius: 31px;
+    border-width: 0;
+}
+
+#input-mail {
+    color: #9C9C9C;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 106.5%;
+    padding: 1em 1.5em;
+    background: #FFFFFF;
+    border-radius: 31px;
+    border-width: 0;
+}
+
+
+
+.flex-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    align-items: top;
+}
+
+.flex-column {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+
+}
+
+.txt-white {
+    color: white;
+}
+
+footer * {
+    color: #FFFFFF;
+}
+
+#white-logo {
+    background-image: url("../images/Logo-white.svg");
+    width: 122px;
+    height: 28px;
+}
+
+.col4 {
+    width: 350px;
+}
+
+
+footer .list a {
+    margin: 0.5rem 0;
+}
+
+footer .policy a {
+    margin: 0 1rem;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.jc-start {
+    justify-content: flex-start;
+}
+
+.copyright {
+    margin-top: 2rem;
+}
+
+.social {
+    width: 140px;
+}
+
+footer {
+    background-color: #063255;
+    position: relative;
+
+}
+
+footer::after {
+    content: "";
+    position: absolute;
+    background-color: #F58A07;
+    width: 2%;
+    height: 60%;
+    top: 30px;
+    right: 0px;
+    border-radius: 31px 0 0 31px;
+
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    background-color: #F58A07;
+    width: 2%;
+    height: 35%;
+    bottom: 0;
+    left: 0px;
+    border-top-right-radius: 31px;
+
 }
