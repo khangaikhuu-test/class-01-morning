@@ -3,7 +3,7 @@ html {
 }
 
 
-.container {
+.nav-container {
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
@@ -19,7 +19,6 @@ html {
     flex-direction: row;
     justify-content: space-between;
     width: 437px;
-    /* font-size: 16px; */
     color: #394149;
     padding-left: 501px;
 
@@ -38,8 +37,92 @@ html {
 
 }
 
-a {
+.container a {
     text-decoration: none;
     color: #394149;
     font-weight: bolder;
 }
+
+.header-container {
+    background-color: #DCEAF5;
+    max-width: 1920px;
+    max-height: 703px;
+    display: flex;
+}
+.header-man{
+    padding-right: 232px;
+    height: 645px;
+    width: 734px;
+}
+
+.header-content {
+ border: solid 1px blue;
+ width: 572px;
+ height: 439px;
+ margin-left: 322px;
+ margin-top: 117px;
+}
+
+.header-text :nth-child(1) {
+    font-size: 60px;
+    margin: 0 auto;
+    font-weight: 600;
+    line-height:72px ;
+}
+
+.header-text :nth-child(2) {
+    font-size: 60px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.header-text :nth-child(3) {
+    font-size: 16px;
+    background-color: #F58A07;
+    width: 197px;
+    height: 54px;
+    border-radius: 27px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.help-section {
+
+    
+}
+.help-text :first-child {
+    font-size: 48px;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+    line-height: 56px;
+    width: 735px;
+    padding-left: 320px;
+
+
+}
+
+.help-posts {
+    max-width:1280px ;
+    height: 447px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto; 
+}
+
+
+
+
+
