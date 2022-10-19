@@ -1,0 +1,51 @@
+h5{
+    width: 510px;
+}
+.width5{
+    width: 580px;
+}
+.picture12{
+    position: relative;
+}
+.picture12::after{
+    content: "";
+    position: absolute;
+    background-color: #F58A07;
+    right: -42px;
+    top: 303px;
+    border-radius: 25px;
+    width: 95px;
+    height: 97px;
+    opacity: 0.7;
+}
+.picture13{
+    position: relative;
+}
+.picture13::after{
+    content: "";
+    position: absolute;
+    background-color: #F58A07;
+    left: -42px;
+    top: 150px;
+    border-radius: 25px;
+    width: 95px;
+    height: 97px;
+    opacity: 0.7;
+}
+.huvaah2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.newsfirst2{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+.text01{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    
+}
