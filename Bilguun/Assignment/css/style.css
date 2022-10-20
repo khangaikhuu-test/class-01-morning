@@ -25,6 +25,10 @@ body {
     color: #1D3444;
 }
 
+.first-face-text p {
+    color: #5B5B5B;
+}
+
 .first-face-text {
     width: 40%;
     height: 439px;
@@ -119,6 +123,7 @@ margin: 0 auto;
 
 .second-face-picture h3 {
     font-size: 24px;
+    color: #0D1317;
 }
 
 .second-face-picture img {
@@ -252,6 +257,8 @@ margin: 0 auto;
     line-height: 56px;
     letter-spacing: -0.03em;
     color: #0D1317;
+    width: 596px;
+    height: 157px;
 }
 
 .fourth-face-head-1 p {
@@ -309,15 +316,24 @@ margin: 0 auto;
 }
 
 .first-page-4-picture {
-    background-color: #F58A07;
-   
+    width: 1280px;
     
+}
+
+.page4 {
+    background-color: #F58A07;
+    width: 153px;
+    height: 666px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 
 .first-page-4-picture img {
     border-radius: 20px;
     mix-blend-mode: multiply;
+    width: 605px;
+    height: 667px;
 
 }
 
@@ -333,7 +349,6 @@ margin: 0 auto;
 .fourth-face-head-2 {
     display: flex;
     gap: 24px;  
-    
 }
 
 .fourth-face-text-2 {
@@ -346,7 +361,6 @@ margin: 0 auto;
     width: 194px;
     height: 40px;
     font-size: 16px;
-   
 
 }
 
