@@ -5,8 +5,22 @@
 
 footer {
     background-color: #063255;
+    top: 80px;
+    bottom: 80px;
+  
 }
 
-.footer-finsweet-logo img {
-    color: white;
+.footer-container {
+    width: 1280px;
+    height: 199px;
+    margin: 0 auto;
+}
+
+.footer-text h1 {
+    width: 351px;
+    height: 88px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.03em;
 }
