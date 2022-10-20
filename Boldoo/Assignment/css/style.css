@@ -349,3 +349,99 @@ p{
     height: 466px;
     opacity: 0.7;
 }
+footer{
+    /* max-width: 1920px; */
+    height: 463px;
+    background-color: #063255;
+    padding-top: 80px;
+}
+.footerframe11{
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 463px;
+    /* border: 1px solid white; */
+}
+
+.footerframe11::after{
+    content: "";
+    position:absolute;
+    width: 53px;
+    height: 144px;
+    background-color: #F58A07;
+    top: 318px;
+    z-index: 10;
+    border-radius: 0px 31px 0px 0px;
+}
+.footerframe11::before{
+    content: "";
+    position:absolute;
+    width: 53px;
+    height: 287px;
+    background-color: #F58A07;
+    top: 38px;
+    right: 0px;
+    z-index: 10;
+    border-radius: 31px 0px 0px 31px;
+}
+.footerbottom{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;    
+}
+.Company{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.Connect{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.Newsletter{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.Bespoke{
+    width: 351px;
+    color: white;
+}
+.whitelink1{
+    color: white;
+    text-decoration-line: none;
+    margin-bottom: 10px;
+}
+.whitelink2{
+    width: 342px;
+    height: 30px;
+    color: #9C9C9C;
+    background-color: #ffffff;
+    border-radius: 31px;
+    text-decoration-line: none;
+    padding-top: 5%;
+    padding-left: 10%;
+    margin-bottom: 25px;
+}
+.whitelink3{
+    width: 156px;
+    height: 30px;
+    color: white;
+    background-color: #F58A07;
+    border-radius: 31px;
+    padding-top: 5%;
+    padding-left: 10%;
+    text-decoration-line: none;
+}
+.copyrights{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 50px;
+    text-decoration-line: none;
+}
