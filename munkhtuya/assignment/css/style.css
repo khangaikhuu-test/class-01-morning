@@ -6,6 +6,7 @@
 .container {
   max-width: 1280px;
   margin: 0 auto;
+  margin-left: 320px;
 }
 
 .header {
@@ -46,10 +47,11 @@ nav a {
 
 .background {
   /* background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/header-image.png) center / cover; */
-  /* width: 1933px; */
+  width: 1933px;
   height: 636px;
   background-color: #dceaf5;
 }
+
 /* Banner start */
 .banner {
   display: flex;
@@ -68,6 +70,7 @@ nav a {
 
   letter-spacing: -0.03em;
 }
+
 .banner .content {
   font-style: normal;
   font-weight: 500;
@@ -90,6 +93,7 @@ nav a {
   width: 364px;
   height: 54px;
 }
+
 .services a {
   text-decoration: none;
   font-family: "Poppins";
@@ -130,6 +134,7 @@ nav a {
   top: 607px;
 }
 
+
 .logo:nth-child(0) {
   width: 143px;
 }
@@ -169,10 +174,9 @@ nav a {
 /* .zurag {
   display: flex;
 } */
-
-.zuragnuud {
+.help-text {
   display: flex;
-  border-radius: 50px;
+  gap:40px
 }
 
 .lorem {
@@ -183,4 +187,76 @@ nav a {
   color: #5b5b5b;
   margin-top: 27px;
   margin-bottom: 64px;
+  display: flex;
+  justify-content: flex-end;
 }
+
+.zurag {
+  border-radius: 20px;
+  width: 399px;
+  height: 242px;
+  left: 321px;
+  top: 1176px;
+}
+
+.learnmore {
+  text-decoration: none;
+  color: #F58A07;
+}
+
+/* page3 */
+.section {
+  background: #EDF7FF;
+  width: 1920px;
+  height: 665px;
+  left: 0px;
+  top: 1719px;
+  margin-top: 96px;
+
+}
+
+.sectotext {
+  display: flex;
+
+}
+
+.solution {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  height: 132px;
+  width: 619px;
+  margin-left: 321px;
+  padding-top: 96px;
+
+}
+
+.solution-1 {
+  width: 620px;
+  margin-left: 980px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+
+}
+
+.start{
+    margin-left: 320px;
+    gap: 38px;
+    margin-top: 64px;
+    width: 1280px;
+    height: 277px;
+    display: flex;
+}
+
+.icon1{
+  width: 401px;
+  height: 277px;
+  border-radius: 20px;
+  background-color: white;
+  padding-left: 39px;
+  padding-top: 48px;
+}
+
