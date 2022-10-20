@@ -136,54 +136,8 @@ section {
 
 }
 
-/*SECTION-888888888888888888888888*/
-
-#section-8 {}
 
 
-.latestblog {
-    width: 70vw;
-    margin: 0 auto;
-
-}
-
-.container8 {
-    margin: 0 auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.latestblog {
-    margin-top: 0;
-}
-
-.blog123 {
-    display: inline-block;
-    background-color:
-        #EDF7FF;
-    border-radius: 8% 8% 8% 8%;
-    margin-bottom: 3rem;
-    width: 21vw;
-    height: 30rem;
-}
-
-.blog-1 {
-    display: inline-block;
-    width: 21vw;
-    border-radius: 8% 8% 0 0;
-}
-
-.blogtext {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.learnmore {
-    display: inline-block;
-    padding-bottom: 2px;
-}
 
 
 /*FOOOTER-FOOOTER-FOOOTER-FOOOTER*/
