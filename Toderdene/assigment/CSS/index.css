@@ -149,7 +149,9 @@ header h1 {
 
 
 }
-
+.buttom a{
+    color: #F58A07;
+}
 #mid-text {
     display: flex;
     color: #1D3444;

@@ -5,7 +5,7 @@
 
 * {
     box-sizing: border-box;
-    border: 1px dashed rgba(221, 184, 184, 0.01);
+    border: 1px dashed rgba(221, 184, 184, 1.01);
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -74,3 +74,16 @@ a {
     border-radius: 60px;
 }
 
+.career-button{
+    width: 119px;
+    height: 54px;
+    background-color: #F58A07;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: white;
+    margin-top: 30px;
+    margin-left: 40px;
+}
