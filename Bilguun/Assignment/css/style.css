@@ -434,3 +434,33 @@ margin: 0 auto;
 .see-all-services {
     color: #F58A07;
 }
+
+.first-page-5 {
+    display: flex;
+    width: 1280px;
+}
+
+.first-page-5-head {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+  
+    
+}
+
+.first-page-5-text {
+    background-color: #F58A07;
+    font-size: 48px;
+    width: 960px;
+    height: 518px;
+}
+.first-page-5-picture {
+    width: 960px;
+    height: 518px;
+    background-image: url("https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png");
+}
+.see-job-button {
+    background-color: #F58A07;
+    color: white;
+   
+}
