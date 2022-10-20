@@ -1,0 +1,20 @@
+.container001{
+    max-width: 752px;
+    margin:  0 auto;    
+}
+.innerpic{
+   margin: 0 auto;
+   width: 1280px;
+   height: 500px;
+   background-image: url(../images/innerpic.png);
+   background-repeat: no-repeat; 
+   border-radius: 25px 25px 25px 25px;
+   margin-top: 80px;
+   margin-bottom: 80px;
+}
+.innercol52{
+    max-width: 752px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}

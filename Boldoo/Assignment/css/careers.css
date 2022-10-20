@@ -7,14 +7,12 @@
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
-
-
     flex-wrap: wrap;
 }
 .boxbackname{
     background-color: rgba(193, 228, 255, 0.3);
     border-radius: 20px;
-    width: 380px;
+    width: 360px;
     height: 181px;
     margin-right: 20px;
     margin-bottom: 40px;
