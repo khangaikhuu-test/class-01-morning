@@ -149,7 +149,9 @@ header h1 {
 
 
 }
-
+.buttom a{
+    color: #F58A07;
+}
 #mid-text {
     display: flex;
     color: #1D3444;
@@ -545,7 +547,7 @@ section-blue {
     height: 40px;
 }
 
-.service-button .button {
+.service-button .button a{
     width: 195px;
     height: 40px;
     border: 1px solid #A8BCCC;
@@ -553,11 +555,12 @@ section-blue {
     margin-right: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
     color: rgba(6, 50, 85, 0.5);
     font-weight: 600;
 }
 
-.service-button .button:hover {
+.service-button .button a:hover {
     background-color: #ffffff;
     color: #F58A07;
     font-weight: 600;
@@ -869,4 +872,7 @@ lasted-section{
     border-radius: 20px 20px 0px 0px;
     display: flex;
     
+}
+.sub a{
+    color: white;
 }
