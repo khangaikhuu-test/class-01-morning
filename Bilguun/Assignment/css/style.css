@@ -157,7 +157,7 @@ margin: 0 auto;
     font-family: 'Poppins';
     height: 665px;
     background-color: #DCEAF5;
-    margin-top: 30px;
+    margin-top: 96px;
 
 }
 
@@ -196,6 +196,7 @@ margin: 0 auto;
     width: 1280px;
     height: 277px;
     gap: 40px;
+    margin-top: 64px;
 }
 
 .third-face-post h4 {
