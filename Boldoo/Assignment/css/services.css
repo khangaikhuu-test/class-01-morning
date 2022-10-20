@@ -1,6 +1,6 @@
-h5{
+/* h5{
     width: 510px;
-}
+} */
 .width5{
     width: 580px;
 }
@@ -41,11 +41,14 @@ h5{
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
+    margin-bottom: 50px;
 }
 .text01{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 50px;
-    
+}
+li{
+    line-height: 28px;
 }

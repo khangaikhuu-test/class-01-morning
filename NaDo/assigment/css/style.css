@@ -405,3 +405,21 @@ p {
 .blog-sub1 {
     padding: 32px;
 }
+footer {
+    background-color: rgba(6, 50, 85, 1);
+    display: flex;
+    justify-content: center;
+}
+footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    gap: 110px;
+}
+footer .footer-sub {
+    display: flex;
+    flex-direction: row;
+}
+footer .footer-sub1 {
+    display: flex;
+}
