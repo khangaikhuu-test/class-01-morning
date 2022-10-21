@@ -55,3 +55,12 @@ footer h1{
     padding: 10px;
     margin: 10px;
 }
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jijken{
+    height: 119px;
+}
