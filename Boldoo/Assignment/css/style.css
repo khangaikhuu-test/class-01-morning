@@ -1,6 +1,6 @@
 /* tolgoi heseg */
 header{
-    max-width: 1920px;
+    /* max-width: 1920px; */
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -48,6 +48,10 @@ nav a{
     color: #f58a07;
     text-decoration-line: none;
 }
+#call:hover{
+    background-color: #F58A07;
+    color: white;
+}
 .slidepng{
     display: flex; 
     flex-direction: row;
@@ -64,11 +68,15 @@ nav a{
 
 #seeour{
     background-color: #F58A07;
-    padding: 20px 30px;
+    padding: 1em 1.5rem;
     border-radius: 50px;
     text-decoration-line: none;
     color: white;
     margin-top: 20px;
+}
+#seeour:hover{
+    background-color: white;
+    color:#F58A07;
 }
 *{
     font-family: 'Poppins', sans-serif;
@@ -310,7 +318,8 @@ p{
     max-width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-between;
+    align-items:center ;
 }
 .saaralungu::after{
     content: "";
@@ -357,7 +366,7 @@ footer{
 }
 .footerframe11{
     position: relative;
-    max-width: 1920px;
+    /* max-width: 1920px; */
     margin: 0 auto;
     height: 463px;
     /* border: 1px solid white; */
@@ -391,6 +400,7 @@ footer{
     flex-direction: row;
     justify-content:space-between;    
 }
+
 .Company{
     display: flex;
     flex-direction: column;
@@ -415,6 +425,9 @@ footer{
     text-decoration-line: none;
     margin-bottom: 10px;
 }
+.whitelink1:hover{
+    color: #F58A07;
+}
 .whitelink2{
     width: 342px;
     height: 30px;
@@ -422,19 +435,21 @@ footer{
     background-color: #ffffff;
     border-radius: 31px;
     text-decoration-line: none;
-    padding-top: 5%;
-    padding-left: 10%;
+    padding: 1em 1.5rem;
     margin-bottom: 25px;
 }
 .whitelink3{
     width: 156px;
-    height: 30px;
+    height: 54px;
     color: white;
     background-color: #F58A07;
     border-radius: 31px;
-    padding-top: 5%;
-    padding-left: 10%;
+    padding: 1em 1rem;
     text-decoration-line: none;
+}
+.whitelink3:hover{
+    background-color: white;
+    color: #F58A07;
 }
 .copyrights{
     max-width: 1280px;
@@ -444,4 +459,41 @@ footer{
     justify-content:space-between;
     margin-top: 50px;
     text-decoration-line: none;
+}
+.twitter{
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/twitter.svg);
+    background-repeat: no-repeat;
+}
+.twitter:hover{
+    background-image: url(../images/twitter-yellow.svg);
+}
+
+.instagram{
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/instagram.svg);
+    background-repeat: no-repeat;
+}
+.instagram:hover{
+    background-image: url(../images/instagram-yellow.svg);
+}
+.youtube{
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/youtube.svg);
+    background-repeat: no-repeat;
+}
+.youtube:hover{
+    background-image: url(../images/youtube-yellow.svg);
+}
+.fb{
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/fb.svg);
+    background-repeat: no-repeat;
+}
+.fb:hover{
+    background-image: url(../images/fb-yellow.svg);
 }

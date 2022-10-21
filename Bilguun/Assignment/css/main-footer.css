@@ -2,6 +2,7 @@
     font-family: 'Poppins';
     color: white;
 }
+
 .footer-content{
     max-width: 1280px;
     /* width: 100%; */
@@ -17,19 +18,23 @@ footer {
     margin: auto;
     padding: 80px 320px;
 }
+
 .footer-top{
     display: flex;
     height: 199px;
 }
+
 .footer-top-col{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .footer-text {
     font-size: 36px;
     width: 351px;
     height: 88px;
+
 }
 footer h1{
     margin: 0;
@@ -40,6 +45,35 @@ footer h1{
     background-color: white;
     padding: 20px;
 }
+.submit {
+    color: white;
+    background-color: #F58A07;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jijken{
+    height: 119px;
+}
+
+
+footer h1{
+    margin: 0;
+    font-size: 18px;
+}
+
+.email {
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
 .submit {
     color: white;
     background-color: #F58A07;
