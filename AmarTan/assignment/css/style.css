@@ -96,6 +96,8 @@ a{
  }
 
  .section3{
+    margin: 0 auto;
+    width: 1280px;
     background-color: #DCEAF5;
  }
 
@@ -120,6 +122,25 @@ a{
 }
 
 .section4{
+    margin:0 auto;
+    width: 1280px;
+    height: 518px;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+ .section4 img{
+    width: 963px;
+    height: 518px;
+ }
+
+.half{
+    width:50%;
+}
+
+.half-mid{
+    /* border:1px solid red; */
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -306,3 +306,20 @@ banner
     background-size: cover;
     border-radius: 40px 0 0 40px;
 }
+footer
+{
+    color: white;
+    display: flex;
+    height: 50%;
+    background: rgba(6, 50, 85, 1);   
+}
+footer img
+{
+    filter: white;
+}
+footer ul
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
