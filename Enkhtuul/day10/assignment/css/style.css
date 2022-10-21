@@ -109,13 +109,13 @@ nav {
 }
 
 main {
-    height: 932px;
+    /* height: 932px; */
 }
 
 .help {
     height: 740px;
     width: 1280px;
-    margin: 96px 0px 0px 320px   ;
+    margin: 96px 0px 0px 320px;
 }
 
 .help h1 {
@@ -133,6 +133,7 @@ main {
     line-height: 30px;
     color: #5B5B5B;
 }
+
 .post-section {
     margin-top: 64px;
     display: flex;
@@ -148,8 +149,10 @@ main {
     letter-spacing: -0.03em;
     color: #0D1317;
 }
+
 .post-section p {
     margin-top: 17px;
+    margin-bottom: 17px;
     font-weight: 500;
     font-size: 16px;
     line-height: 28px;
@@ -159,5 +162,18 @@ main {
 .post-section a {
     /* margin-bottom: 96px; */
     text-decoration: none;
-    color:#F58A07;
+    color: #F58A07;
+}
+
+.feaures {
+    height: 665px;
+}
+
+.feaures h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+
 }
