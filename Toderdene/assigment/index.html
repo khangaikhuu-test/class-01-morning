@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
-    <link href="css/style.css" rel="stylesheet">
+
+    <link href="css/index.css" rel="stylesheet">
+    <link href="CSS/footer.css" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -25,7 +28,7 @@
                 <a href="service.html">Service</a>
                 <a href="blog.html">Blog</a>
                 <a href="contact-us.html">Contact</a>
-                <a id="call-to-action" href="#">Call to Action</a>
+                <a id="call-to-action" href="tel:+97689004061" >Call to Action</a>
             </div>
         </div>
     </div>
@@ -40,7 +43,7 @@
                         elementum tristique</p>
                 </div>
                 <div class="buttom-text">
-                    <a href="#">See our services</a>
+                    <a href="thank-you.html">See our services</a>
                     <p id="mid-text">See All Services</p>
                 </div>
                 <div id="mid-text1">
@@ -178,16 +181,17 @@
             <div class="service-inner">
                 <div class="service-button">
                     <div class="button">
-                        <p>Business strategy</p>
+                        <p><a href="thank-you.html">Business strategy</a></p>
                     </div>
                     <div class="button">
-                        <p>Digitalization</p>
+                        <p><a href="thank-you.html">Digitalization</a></p>
                     </div>
                     <div class="button">
-                        <p>Risk assessment</p>
+                        <p><a href="thank-you.html">Risk assessment</a></p>
+                       
                     </div>
                 </div>
-                
+
                 <div class="service-text">
                     <h1>
                         Helping clients with research and strategy for their business
@@ -200,7 +204,11 @@
                     </p>
                     <h6>See all services &#8594</h6>
                 </div>
-                <img id="team" src="images/team.png">
+                <div class="t-pic">
+                    <img id="team" src="images/team.png">
+                    <div id="yell-container"></div>
+                </div>
+
             </div>
         </div>
     </service-section>
@@ -210,11 +218,20 @@
             <div class="cta-container">
                 <h1>Energy of a start-up combined with 30 years of experience.</h1>
                 <div class="buttom">
-                    See Job Vacancies
+                    <a href="thank-you.html">See Job Vacancies</a> 
                 </div>
             </div>
         </div>
     </cta-section>
+
+
+
+
+
+
+
+
+<!-- ----------------------------------------------------------------- -->
     <video-section>
         <div class="vid-section-inner">
             <div class="vid-text">
@@ -222,7 +239,8 @@
                     Finsweet was a dream to work with
                 </h1>
                 <p>
-                    Maecenas efficitur scelerisque lorem, et varius lacus tincidunt vel. Pellentesque a arcu vitae diam dapibus mattis vel vel orci. Vivamus eleifend nec felis vel auctor.
+                    Maecenas efficitur scelerisque lorem, et varius lacus tincidunt vel. Pellentesque a arcu vitae diam
+                    dapibus mattis vel vel orci. Vivamus eleifend nec felis vel auctor.
                 </p>
                 <div id="mangar">
                     <img src="images/profile.png">
@@ -231,15 +249,104 @@
                         CEO at MazeAI
                     </div>
                 </div>
-                
-            </div>    
-            
+            </div>
+
             <div class="vid-img">
                 <img src="images/video-image.png">
             </div>
 
+            <div class="play-i">
+                <img src="images/play.svg">
+                <div>
+                    <a href="https://www.youtube.com/watch?v=L6l6xBVH6j0"><p>Play Video</p></a>
+                </div>
+
+            </div>
         </div>
     </video-section>
+  
+    <lasted-section>
+        <div class="lasted-outer">
+
+            <div class="lasted-inner">
+                <h1>Lasted Blog & News</h1>
+                <div class="lastbox">
+                    <div class="lastbox1">
+                        <img src="images/post1.png">
+                        <h3>Why you have to digitalize in 2021</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
+                            hendrerit elit et.</p>
+                        <h6>Learn More &#8594</h6>
+                    </div>
+                    <div class="lastbox1">
+                        <img src="images/post-2.png">
+                        <h3>Our internal process and longerm vision</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
+                            hendrerit elit et.</p>
+                        <h6>Learn More &#8594</h6>
+                    </div>
+                    <div class="lastbox1">
+                        <img src="images/post-3.png">
+                        <h3>Helping the next generation of leaders</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
+                            hendrerit elit et.</p>
+                        <h6>Learn More &#8594</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </lasted-section>
+
+<!-- ------------------------------------------------------------- -->
+    <footer>
+        <div class="footer-back">
+            <div class="containerf1"></div>
+            <div class="footer-inner">
+                
+                <div class="column1">
+                    <img src="images/logowhite.svg">
+                    <h1>
+                        Bespoke software solutions
+                    </h1>
+                    <div class="icons">
+                        <img src="images/facebook.svg" style="height: 20px;">
+                        <img src="images/youtube.svg" style="height: 17px;">
+                        <img src="images/instagram.svg" style="height: 20px;">
+                        <img src="images/twitter.svg" style="height: 20px;">
+                    </div>
+                    <p>© All rights reserved – Finsweet </p>
+                </div>
+                <div class="column2">
+                    <h4>Company</h4>
+                    <p>About Us</p>
+                    <p>Careers</p>
+                    <p>Services</p>
+                    <p>Blog</p>
+                </div>
+                <div class="column3">
+                    <h4>Connect</h4>
+                    <p>hi@finsweet.com</p>
+                    <p>+(123) 456-7890</p>
+
+                </div>
+                <div class="column4">
+                    <h4>Join Newsletter</h4>
+                    <form>
+                        <input type="text" id="email" placeholder="Type email here">
+                      </form>
+                    <div class="sub">
+                        <a href="thank-you.html">Subscribe</a> </div>
+                    <div class="policy">
+                        <p>Privacy Policy</p>
+                        <p>Terms & Conditions</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container2"></div>
+        </div>
+    </footer>
+
+
 </body>
 
 </html>

@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+    min-width: 100%;
 }
 
 
@@ -146,6 +147,7 @@ header {
     width: 1280px;
     height: 740px;
     margin: 0 auto;
+    margin-left: 480px;
 }
 
 #help1 {
@@ -178,39 +180,52 @@ header {
     width: 100vw;
     height: 665px;
     background: #EDF7FF;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
 
 }
 
 .features0 {
     display: flex;
-
+    margin: 0 auto;
+    gap:40px;
     margin-left: 480px;
+    
 }
 
 .feature-text1 {
     font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
     margin-top: 96px;
     width: 619px;
     height: 132px;
-    box-sizing: content-box;
+    margin: 0 auto;
+    
 }
 
 .feature-text2 {
     font-size: 18px;
-    margin-left: 40px;
-    margin-top: 96px;
+    margin-top: 102px; 
     width: 620px;
     height: 102px;
+    margin: 0 auto;
 
 }
 
 .features1 {
     display: flex;
-    margin-left: 480px;
+    
     gap: 38px;
-    margin-top: 64px;
+    /* margin-top: 64px; */
     width: 1280px;
     height: 277px;
+    margin: 0 auto;
+    margin-left: 480px;
 }
 
 .features2 {
@@ -622,13 +637,16 @@ footer {
     background-color: #F58A07;
     color: white;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 31px;
     padding-left: 32px;
     padding-top: 17px;
-    padding-right: 20px;
+    padding-right: 32px;
     padding-bottom: 18px;
     margin-top: 16px;
-    width: 128px;
+    width: 156px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .footer2 {
@@ -655,7 +673,7 @@ footer {
     padding-top: 18px;
     padding-bottom: 17px;
     padding-left: 32px;
-    border-radius: 20px;
+    border-radius: 31px;
     height: 24px;
     width: 342px;
 }
