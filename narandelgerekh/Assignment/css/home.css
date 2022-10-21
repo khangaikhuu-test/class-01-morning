@@ -9,11 +9,27 @@ body {
     /* width: 1920px; */
 }
 
+main a {
+    color: #F58A07;
+}
+
 /* h1 {
     letter-spacing: -3%;
     line-height: calc(+8px);
     margin: 0 auto; 
 }*/
+
+h2 {
+    color: #0D1317;
+    font-size: 48px;
+    letter-spacing: -0.03rem;
+}
+
+h3 {
+    color: #0D1317;
+    font-size: 24px;
+
+}
 
 /*header menu*/
 header {
@@ -114,11 +130,15 @@ header {
     margin: 58px 240px 0 auto;
 }
 
-/*section1 */
+/* section1 */
 .section1 {
-    margin: 96px 320px;
+    /* margin: 96px 320px;
     width: 1280px;
-    max-height: 740px;
+    max-height: 740px; */
+    height: 932px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section1 h2 {
@@ -128,13 +148,16 @@ header {
     line-height: 56px;
     letter-spacing: -3px;
     color: #1D3444;
+    margin: 0;
 }
 
 #textbox2 {
     width: 735px;
     font-weight: 500;
+    margin-top: 27px;
+    margin-bottom: 64px;
 }
-/*3 sectors with pics*/
+
 .sectors {
     display: flex;
     justify-content: space-between;
@@ -150,11 +173,87 @@ header {
     border-radius: 20px;
 }
 
-.sectors div a {
-    color: #F58A07;
+/*upper footer latest*/
+.upper-footer {
+    background-color: #DCEAF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 819px;
 }
 
-/*section7*/
 .latest {
-    background-color: #DCEAF5;
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+}
+
+.latest-sectors {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    width: 400px;
+    height: 507px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.latest-sectors img {
+    border-radius: 20px 20px 0 0;
+    height: 230px;
+    width: 400px;
+}
+
+.clean {
+    margin: 32px;
+}
+
+/*footer*/
+footer {
+    background-color: #063255;
+    color: rgb(255, 255, 255);
+    height: 463px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-box {
+    height: 199px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.namebox p {
+    font-size: 36px;
+    font-weight: 600;
+    width: 351px;
+    display: flex;
+    
+}
+
+.company-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-box a {
+    text-decoration: none;
+    color:#FFF;
+}
+
+.footer-end {
+    width: 1283px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-tail {
+    width: 301px;
+    display: flex;
+    justify-content: space-between;
 }
