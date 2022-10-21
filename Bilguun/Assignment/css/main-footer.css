@@ -3,49 +3,64 @@
     color: white;
 }
 
+.footer-content{
+    max-width: 1280px;
+    /* width: 100%; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 303px;
+}
 footer {
     background-color: #063255;
     height: 463px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-  
+    margin: auto;
+    padding: 80px 320px;
 }
 
-.footer-container {
-    width: 100%;
+.footer-top{
+    display: flex;
     height: 199px;
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    
 }
 
-.footer-text h1 {
-    width: 351px;
-    height: 88px;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
-    letter-spacing: -0.03em;
-    
-}
-
-.social-icon {
-    width: 136px;
-    height: 20px;
-}
-
-.footer-finsweet-logo {
-    margin: 0 auto;
-    
-}
-
-.company {
+.footer-top-col{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    align-items: flex-start;
+    justify-content: space-between;
 }
 
+.footer-text {
+    font-size: 36px;
+    width: 351px;
+    height: 88px;
 
+}
+
+footer h1{
+    margin: 0;
+    font-size: 18px;
+}
+
+.email {
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.submit {
+    color: white;
+    background-color: #F58A07;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jijken{
+    height: 119px;
+}
