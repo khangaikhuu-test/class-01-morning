@@ -1,27 +1,21 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    min-width: 100%;
+    /* min-width: 100%; */
 }
 
 
 .container {
     display: flex;
-    justify-content: space-around;
-    width: 1280px;
-    height: 52px;
-    margin-left: 480px;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: auto;
     margin-top: 16px;
-    margin-right: 320px;
     margin-bottom: 16px;
     align-items: center;
-    justify-content: flex-start;
-
 }
 
-.logo1 {
-    margin-right: 501px;
-}
+.logo1 {}
 
 .menu {
     text-decoration: none;
@@ -41,7 +35,7 @@ body {
     padding: 0px;
     gap: 32px;
     font-size: 16px;
-    width: 437px;
+
     height: 24px;
 
 }
@@ -57,7 +51,7 @@ body {
     font-family: 'Poppins';
     font-style: normal;
     font-size: 16px;
-    margin-left: 68px;
+    align-self: center;
 
 
 
@@ -67,30 +61,36 @@ header {
     width: 100vw;
     height: 703px;
     background-color: #DCEAF5;
-    margin-top: 0px;
-    margin-left: 0px;
     display: flex;
+    margin: 0 auto;
+}
 
+.container2 {
+    max-width: 1280px;
+
+    display: flex;
+    gap: 53px;
+    margin: 0 auto;
 }
 
 .header-text {
     width: 576px;
     height: 439px;
-    margin-top: 117px;
 
-    margin-bottom: 147px;
-    margin-left: 480px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-
+    margin: auto;
 
 }
 
 .Prosper {
     font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
     color: #1D3444;
-    margin-bottom: 0px;
+    width: 576px;
+    height: 144px;
+    margin: auto;
 }
 
 .header-button {
@@ -98,6 +98,9 @@ header {
     justify-content: flex-start;
     gap: 32px;
     align-items: center;
+    width: 576px;
+    margin: auto;
+
 }
 
 .button1 {
@@ -109,6 +112,7 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 20px;
+
 }
 
 #button1 {
@@ -126,20 +130,24 @@ header {
     display: flex;
     justify-content: flex-start;
     gap: 32px;
+    width: 576px;
+    margin: auto;
+
 }
 
 .lorem {
-    margin-top: 0px;
-    margin-bottom: 32px;
+    margin: auto;
+    width: 576px;
 }
 
 .comp {
     color: rgba(57, 65, 73, 0.5);
-    margin-top: 58px;
+    width: 576px;
+    margin: auto;
 }
 
 .header-image {
-    margin-left: 57px;
+
     margin-top: 58px;
 }
 
@@ -147,7 +155,6 @@ header {
     width: 1280px;
     height: 740px;
     margin: 0 auto;
-    margin-left: 480px;
 }
 
 #help1 {
@@ -193,7 +200,7 @@ header {
     display: flex;
     margin: 0 auto;
     gap: 40px;
-    margin-left: 480px;
+
 
 }
 
@@ -225,7 +232,7 @@ header {
     width: 1280px;
     height: 277px;
     margin: 0 auto;
-    margin-left: 480px;
+
 }
 
 .features2 {
@@ -238,11 +245,11 @@ header {
 }
 
 .about {
-    margin-left: 480px;
     margin-top: 99px;
     width: 1280px;
     height: 667px;
     display: flex;
+    margin: auto;
 }
 
 .about-text3 {
@@ -292,10 +299,11 @@ header {
 .services {
     width: 1274.39px;
     height: 682px;
-    margin-left: 480px;
     margin-top: 95px;
     background-color: #EDF7FF;
     position: relative;
+    margin: auto;
+    border-radius: 20px;
 
 }
 
@@ -449,9 +457,10 @@ header {
 .video {
     width: 1280px;
     height: 501px;
-    margin-left: 480px;
+
     display: flex;
     margin-top: 128px;
+    margin: auto;
     gap: 110px;
 }
 
@@ -523,7 +532,10 @@ header {
     height: 819px;
     background-color: #DCEAF5;
     margin-top: 128px;
-    padding-top: 96px
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .latesttext {
@@ -531,15 +543,18 @@ header {
     height: 56px;
     font-size: 32px;
     margin-top: 96px;
-    margin-left: 480px;
+
     margin-bottom: 64px;
+    margin: auto;
+    margin-left: 480px;
+
 }
 
 .latestimages {
     margin-top: 64px;
     display: flex;
     gap: 40px;
-    margin-left: 480px;
+    margin: 0 auto;
 }
 
 .latestimage1 {
@@ -551,18 +566,23 @@ header {
 
 .latesttext1 {
     font-size: 24px;
-    margin-left: 32px;
+    font-weight: 500;
+    line-height: 36px;
     margin-top: 32px;
-    margin-right: 32px;
+    margin: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+
 }
 
 .latesttext2 {
-    margin-left: 32px;
-    margin-right: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .latesttext3 {
-    margin-left: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
     color: #F58A07;
     text-decoration: none;
 }
@@ -577,6 +597,14 @@ footer {
     background-color: #063255;
     padding-top: 80px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+
+    max-width: 1280px;
+    margin: auto;
 }
 
 .footer1 {
@@ -584,10 +612,7 @@ footer {
     gap: 80px;
 }
 
-.footerleft {
-    margin-left: 480px;
-
-}
+.footerleft {}
 
 .footertext1 {
     width: 351px;
@@ -652,7 +677,7 @@ footer {
 
 .footer2 {
     display: flex;
-    margin-left: 480px;
+
     width: 1280px;
     height: 24px;
     justify-content: space-between;
