@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 1280px;
+    margin: 0 auto;
+    font-size: 16px;
+    
+}
+
+.services-container {
+    margin: 0 auto;
+}

@@ -54,9 +54,10 @@ body
 banner
 {
     display: flex;
+    flex-flow: wrap;
     align-items: center;
     background-color: #DCEAF5;
-    height: 70vh;
+    height: auto;
     width: 110vw;
     margin-top: 10px;
     margin-left: -1em;
@@ -66,6 +67,7 @@ banner
 {
     display: flex;
     flex-direction: column;
+    flex-flow: wrap;
     width: 35vw;
     margin-left: 15vw;
     justify-content: space-between;
@@ -78,6 +80,7 @@ banner
 .logo2
 {
     display: flex;
+    flex-flow: wrap;
     width: 40vw;
     justify-content: space-between;
 }
@@ -88,6 +91,7 @@ banner
 .bannerimage
 {
     display: flex;
+    flex-flow: wrap;
     margin-right: 10vw;
     width: 25vw;
     align-self: flex-end;
@@ -105,12 +109,14 @@ banner
 {
     margin-left: 2em;
 }
-.container3
+.section1
 {
     display: flex;
+    flex-flow: wrap;
     flex-flow: column;
-    margin-left: 15vw;
+    margin:0 auto;
     width: 70vw;
+    height: auto;
     margin-bottom: 3em;
 }
 .row1
@@ -127,6 +133,10 @@ banner
 {
     font-size: 3em;
 }
+.section p
+{
+    width: 22vw;
+}
 .section img
 {
     width: 22vw;
@@ -136,7 +146,7 @@ banner
 {
     color: #F58A07;
 }
-.container4
+.section2
 {
     display: flex;
     width: 100vw;
@@ -145,7 +155,7 @@ banner
     background-color: #DCEAF5;
     flex-direction: column;
 }
-.container4-top
+.section2-top
 {
     display: flex;
     margin-top: 2em;
@@ -153,15 +163,15 @@ banner
     width: 70vw;
     margin-left: 15vw;
 }
-.container4-top-left
+.section2-top-left
 {
     width: 30vw;
 }
-.container4-top-right
+.section2-top-right
 {
     width: 30vw;
 }
-.container4-bottom
+.section2-bottom
 {
     display: flex;
     margin-left: 15vw;
@@ -169,14 +179,14 @@ banner
     width: 70vw;
     margin-bottom: 3rem;
 }
-.container4-bottom-section
+.section2-bottom-section
 {
     width: 20vw;
     background-color: #fff;
     border-radius: 20px;
     padding: 1em;
 }
-.container5
+.section3
 {
     display: flex;
     width: 70vw;
@@ -185,11 +195,11 @@ banner
     justify-content: space-between;
     align-items: center;
 }
-.container5-left
+.section3-left
 {
     width: 30vw;
 }
-.container5-right-1
+.section3-right-1
 {
     min-width: 25%;
     background-color:  rgba(245, 138, 7, 0.5);
@@ -197,7 +207,7 @@ banner
     border-radius: 40px 0 0 40px;
     
 }
-.container5-right
+.section3-right
 {
     display: flex;
     background-image: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png);
@@ -209,30 +219,30 @@ banner
     height: 60vh;
 }
 
-.container5-left-bottom
+.section3-left-bottom
 {
     display: flex;
     justify-content: space-between;
 }
-.container5-left-bottom-left
+.section3-left-bottom-left
 {
     display: flex;
     flex-direction: column;
     width: 16vw;
 }
-.container5-left-bottom-right
+.section3-left-bottom-right
 {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
     width: 16vw;
 }
-.container5-left-bottom h2
+.section3-left-bottom h2
 {
     font-size: 2em;
     color: #F58A07;
 }
-.container6
+.section4
 {
     position: relative;
     display: flex;
@@ -242,7 +252,7 @@ banner
     border-radius: 30px;
     /* align-items: center; */
 }
-.container6::after
+.section4::after
 {
     content: "";
     background-image: url(../img/Ribbon.png);
@@ -252,24 +262,24 @@ banner
     right: 2px;
     top: 0px;
 }
-.container6-left
+.section4-left
 {
     width: 40vw;
     margin:0 auto;
     padding: 30px;
     align-items: center;
 }
-.container6-left h1
+.section4-left h1
 {
     margin-top: 10vh;
 }
-.container6-left-row1
+.section4-left-row1
 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.container6-left-row1 a
+.section4-left-row1 a
 {
     border: 2px solid rgba(168, 188, 204, 1) ;
     color: rgba(168, 188, 204, 1);
@@ -277,7 +287,7 @@ banner
     padding: 5px;
     font-size: 0.8em;
 }
-.container6-right
+.section4-right
 {
     background-image: url(../img/team.png);
     background-size: cover;
@@ -288,11 +298,28 @@ banner
     height: 30vh;
     margin: 30px;
 }
-.container6-right-column1
+.section4-right-column1
 {
     
     min-width: 25%;
     background-color:  rgba(245, 138, 7, 0.5);
     background-size: cover;
     border-radius: 40px 0 0 40px;
+}
+footer
+{
+    color: white;
+    display: flex;
+    height: 50%;
+    background: rgba(6, 50, 85, 1);   
+}
+footer img
+{
+    filter: white;
+}
+footer ul
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
 }
