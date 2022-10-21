@@ -6,7 +6,7 @@
 * {
     box-sizing: border-box;
     border: 1px dashed rgba (221, 184, 184, 0.01);
-    max-width: 1920px;
+    /* max-width: 1920px; */
     margin: 0 auto;
 }
 
@@ -73,13 +73,14 @@ input[type=email] {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    
     border-radius: 30px;
     box-sizing: border-box;
     margin-top: 10px;
     font-size: 16px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
+    background-color: rgba(210, 218, 237, 0.21);
 }
 .forme input[type=texq] {
     width: 505px;
@@ -87,13 +88,14 @@ input[type=email] {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+   
     border-radius: 30px;
     box-sizing: border-box;
     margin-top: 10px;
     font-size: 16px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
+    background-color: rgba(210, 218, 237, 0.21);
 }
 textarea{
     border-radius: 30px;
@@ -103,6 +105,7 @@ textarea{
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     margin-top: 10px;
+    background-color: rgba(210, 218, 237, 0.21);
 
 }
 .s3-2{
@@ -117,4 +120,7 @@ textarea{
 }
 .career-button {
     margin-bottom: 90px;
+}
+.sub a{
+    color: white;
 }
