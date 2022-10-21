@@ -113,8 +113,7 @@ main {
 }
 
 .help {
-    height: 740px;
-    width: 1280px;
+    height: 932px;
     margin: 96px 0px 0px 320px;
 }
 
@@ -167,6 +166,7 @@ main {
 
 .feaures {
     height: 665px;
+    <<<<<<< HEAD
 }
 
 .feaures h1 {
@@ -177,3 +177,39 @@ main {
     color: #0D1317;
 
 }
+
+=======width: 1920px;
+background: #EDF7FF;
+}
+
+/* 
+.feaur-text {
+    height: 132px;
+    width: 1279px;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.about {
+    margin-top: 99px;
+    margin-left: 320px;
+    height: 667px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .all-about {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.about-feature {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .about woman {
+    border-radius: 20px;
+} */
+>>>>>>>35c5eaca3fe1c74856142c4337a1d565f7886369
