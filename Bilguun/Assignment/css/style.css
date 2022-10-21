@@ -1,90 +1,32 @@
-/* This is the style  */
-@font-face {
-    font-family: 'Poppins';
-    src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-}
 
 * {
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 body {
     background: #FFFFFF;
     margin: 0 auto;
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    
-    
-}   
-
-.container {
-    width: 67%;
-    margin: 0 auto;
-    display: flex;
     
 }
 
-.finsweet-logo {
-    background-image: url("../images/Logo.svg");
-    width: 122px;
-    height: 28px;
-}
-
-a {
-    text-decoration: none;
-}
-
-.nav-menu {
-    width: 100%;
-    height: 52px;
-    margin: 16px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-}
-
-.nav-menu a {
-    color: #493d39;
-
-}
-
-.nav-items {
-    display: flex;
-    align-items: center;
-    padding: 0px;
-    gap: 32px;
-}
-
-#call-to-action {
-    color: #F58A07;
-    background-color: #fde8ce;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 106.5%;
-    padding: 1em 1.5em;
-    background: rgba(245, 138, 7, 0.1);
-    border-radius: 31px;
-}
-    
 .first-page {
     width: 100%;
     height: 703px;
-    background: #DCEAF5;
+    background-color: #DCEAF5;
     display: flex;
 }
 
 .first-face-text h1 {
     font-size: 64px;
+    width: 600px;
     line-height: 72px;
     letter-spacing: -0.03em;
     color: #1D3444;
+}
+
+.first-face-text p {
+    color: #5B5B5B;
 }
 
 .first-face-text {
@@ -97,10 +39,539 @@ a {
     margin: 2rem 2 rem 2 rem 0;
 }
 
-.first-face-image {
-    background-image: url("https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/header-image.png");
-    width: 50%;
-
+.worked {
+    color:  #70808f;
 }
 
 
+.first-face-image {
+    background-image: url("https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/header-image.png");
+    width: 58%;
+
+}
+
+.see-our-services-text {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+
+.see-our-services-text a {
+    color: #1D3444;
+}
+
+
+#see-our-services {
+    font-size: 16px;
+    color: white;
+    background-color: #F58A07;
+    border-radius: 27px;
+    width: 199px;
+    height: 54px;
+    padding: 12px;
+    text-align: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.first-page-2 {
+background-color: white;
+width: 1280px;
+display: flex;
+margin: 0 auto;
+
+}
+
+.second-face-text h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 600px;
+    line-height: 56px;
+    letter-spacing: 0.03em;
+    color: #1D3444;
+    width: 735px;
+}
+
+.second-face-text p {
+    color: #5B5B5B;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 30px;
+    width: 735px;
+    height: 90px;
+}
+
+.second-face-picture {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #0D1317;
+    width: 400px;
+    height: 447px;
+    gap: 33px;
+}
+
+.second-face-picture h3 {
+    font-size: 24px;
+    color: #0D1317;
+}
+
+.second-face-picture img {
+    border-radius: 20px;
+}
+
+.learn-more-1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 106.5%;
+    color: #F58A07;
+}
+
+.second-face-post-1 p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+
+.second-face-post-2 p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+
+.second-face-post-3 p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+
+.first-page-3 {
+    font-family: 'Poppins';
+    height: 665px;
+    background-color: #DCEAF5;
+    margin-top: 96px;
+
+}
+
+.third-face-text-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.third-face-text-1 h1 {
+    color: #0D1317;
+    font-weight: 600;
+    line-height: 44px;
+    font-size: 36px;
+    width: 619px;
+    height: 132px;
+    
+}
+
+.third-face-text-1 p {
+    width: 620px;
+    height: 102px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+
+.third-face-post {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+    width: 1280px;
+    height: 277px;
+    gap: 40px;
+    margin-top: 64px;
+}
+
+.third-face-post h4 {
+    font-size: 24px;
+    color: #0D1317;
+}
+
+.third-face-post p {
+    color: #5B5B5B;
+}
+
+.third-face-post-1 {
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.third-face-post-2 {
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.third-face-post-3 {
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;    
+}
+
+.first-page-4 {
+    font-family: 'Poppins';
+    background-color: white;
+    display: flex;
+    margin-top: 99px;
+    margin-bottom: 128px;
+    flex-direction: column;
+    
+}
+
+.container4  {
+    margin: 0 auto;
+    width: 1280px;
+    display: flex;
+    
+}
+
+.fourth-face-head-1 h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+    width: 596px;
+    height: 157px;
+}
+
+.fourth-face-head-1 p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+.fourth-face-post1 {
+    display: flex;
+    gap: 26px;
+}
+.fourth-face-post-1 h1 {
+    color: #F58A07;
+    font-size: 36px;
+}
+
+.fourth-face-post-1 h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 106.5%;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+
+.fourth-face-post-1 p {
+    width: 264px;
+    height: 84px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+
+.fourth-face-post-2 h1 {
+    color: #F58A07;
+    font-size: 36px;
+}
+
+.fourth-face-post-2 h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 106.5%;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+
+.fourth-face-post-2 p {
+    width: 270px;
+    height: 84px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+
+.first-page-4-picture {
+    width: 1280px;
+    
+}
+
+.page4 {
+    background-color: #F58A07;
+    width: 153px;
+    height: 666px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+.first-page-4-picture img {
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+    width: 605px;
+    height: 667px;
+
+}
+
+.container4-1 {
+    font-family: 'Poppins';
+    width: 1280px;
+    height: 682px;
+    background-color: #DCEAF5;
+    margin: 0 auto;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+
+
+.fourth-face-head-2 {
+    display: flex;
+    gap: 24px;  
+}
+
+.fourth-face-text-2 {
+    width: 580px;
+    height: 40px;
+    
+
+}
+.fourth-face-head-2 a {
+    border: 1px solid #5B5B5B;
+    border-radius: 20px;
+    font-size: 16px;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    top: 48px;
+    left: 48px;
+}
+
+.yellow-button {
+    background-color: white;
+    color: #F58A07;
+
+}
+
+.grey-button1 {
+    color:  #0a538f;
+}
+
+.grey-button2 {
+    color:  #0a538f 
+
+}
+
+.fourth-face-text-head {
+    width: 572px;
+    height: 168px;
+    margin: 20px;
+    padding: 50px;
+    
+    
+
+}
+
+.fourth-face-4 {
+    display: flex;
+    width: 1280px;
+}
+
+.fourth-face-picture-1 {
+    width: 1280px;
+    background-color: #F58A07;
+    width: 120px;
+    height: 466px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+    
+.fourth-face-picture-1 img {
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+    width: 427px;
+    height: 466px;
+    
+}
+
+
+.fourth-face-text-head h1 {
+    color: #0D1317;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+}
+
+.fourth-face-text-head p {
+    color: #5B5B5B;
+}
+
+.see-all-services {
+    color: #F58A07;
+}
+
+.first-page-5 {
+    display: flex;
+}
+
+.container5 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between  ;
+  
+    
+}
+
+.first-page-5-text {
+    background-color: #F58A07;
+    font-size: 48px;
+    padding: 128px;
+}
+
+.first-page-5-text h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    width: 532px;
+    height: 168px;
+    
+}
+
+
+.first-page-5-picture {
+    width: 960px;
+    background-image: url("https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png");
+}
+.see-job-button {
+    background-color: white;
+    color: #F58A07;
+    font-size: 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    line-height: 106.5%;
+    text-transform: capitalize;
+    padding: 15px;
+
+}
+
+.first-page-6 {
+    display: flex;
+    width: 1280px;
+    height: 501px;
+    margin: 0 auto;
+    margin-top: 128px;
+    margin-bottom: 128px;
+    
+}
+.container6 {
+    display: flex;
+    top: 120px;
+}
+.first-page-6-text h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;;
+    color: #0D1317;
+}
+
+.first-page-6-text p {
+    color: #5B5B5B;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.person {
+    margin-top: 40px;
+}
+
+.first-page-7 {
+    background-color: #DCEAF5;
+}
+
+.container7 {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.page-7-post {
+    display: flex;
+    
+}
+
+
+
+.first-page-7-text img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.first-page-7-text h3 {
+    width: 336px;
+    height: 72px;
+    font-size: 24px;
+    color: #0D1317;
+    margin: 32px;
+}
+
+.first-page-7-text p {
+    font-size: 16px;
+    color: #5B5B5B;
+    margin: 32px;
+}
+
+.first-page-7-text-head h1 {
+    font-size: 48px;
+    color: #0D1317;
+}
+
+.page-7-yellow-button {
+    color: #F58A07;
+    margin: 32px;
+}
+
+.page-7-post-1 {
+    background-color: #FFFFFF;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.page-7-post-2 {
+    background-color: #FFFFFF;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.page-7-post-3 {
+    background-color: #FFFFFF;
+    margin: 40px;
+    border-radius: 20px;
+}
