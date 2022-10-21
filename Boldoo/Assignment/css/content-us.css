@@ -3,4 +3,50 @@
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+.txtwidth{
+    max-width: 561px;
+}
+.txtwidth2{
+    max-width: 270px;
+}
+/* .formreg{
+    max-width: 605px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+} */
+form{
+    max-width: 605px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.formff{
+    width: 605px;
+    height: 54px;
+    border-radius: 27px;
+    border: 0;
+    background-color: ghostwhite;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.button{
+    width: 155px;
+    height: 17px;
+}
+
+.formcom{
+    height: 160px;
+}
+.formreg{
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+iframe{
+    width: 605px;
+    height: 400px;
 }
