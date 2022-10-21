@@ -166,20 +166,8 @@ main {
 
 .feaures {
     height: 665px;
-    <<<<<<< HEAD
-}
-
-.feaures h1 {
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
-    letter-spacing: -0.03em;
-    color: #0D1317;
-
-}
-
-=======width: 1920px;
-background: #EDF7FF;
+    width: 1920px;
+    background: #EDF7FF;
 }
 
 /* 
