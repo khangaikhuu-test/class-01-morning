@@ -7,14 +7,13 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
-    width: 1280px;
+    max-width: 1280px;
     height: 52px;
-    margin-left: 480px;
+    margin: auto;
     margin-top: 16px;
-    margin-right: 320px;
     margin-bottom: 16px;
     align-items: center;
-    justify-content: flex-start;
+    
 
 }
 
@@ -63,9 +62,9 @@ body {
 }
 
 header {
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 650px;
-    margin-left: 480px;
     margin-top: 108px;
     display: flex;
     gap: 40px;
@@ -114,9 +113,9 @@ header {
 }
 
 .feature {
-    width: 1376px;
+    max-width: 1280px;
     height: 3262px;
-    margin-left: 480px;
+    margin: auto;
     padding-top: 90px;
     position: relative;
 }
@@ -130,7 +129,7 @@ header {
 .feature1image {
     width: 620px;
     height: 550px;
-    margin-left: 0px;
+   
 }
 
 .feature1text {
@@ -174,7 +173,6 @@ header {
     height: 550px;
     margin-top: 128px;
     display: flex;
-    margin-left: 0px;
     gap: 80px;
     position: relative;
 }
@@ -221,7 +219,6 @@ header {
 }
 
 .feature3image {
-    margin-left: 0px;
     width: 620px;
     height: 550px;
     background-image: url("../images/feature3.png");
@@ -257,7 +254,7 @@ header {
 .feature4 {
     width: 1328px;
     height: 550px;
-    margin-left: 0px;
+    
     margin-top: 128px;
     display: flex;
     gap: 80px;
@@ -300,7 +297,6 @@ header {
 .feature5 {
     width: 1324px;
     height: 550px;
-    margin-left: 0px;
     display: flex;
     gap: 80px;
     margin-top: 128px;
@@ -342,9 +338,9 @@ header {
 }
 
 .video {
-    width: 1280px;
+    max-width: 1280px;
     height: 501px;
-    margin-left: 480px;
+    margin: auto;
     display: flex;
     margin-top: 166px;
     gap: 110px;
@@ -414,27 +410,34 @@ header {
 }
 
 .latest {
-    width: 100vw;
     height: 819px;
     background-color: #DCEAF5;
     margin-top: 128px;
-    padding-top: 96px
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .latesttext {
+    min-width: 1280px;
     width: 453px;
     height: 56px;
     font-size: 32px;
-    margin-top: 96px;
-    margin-left: 480px;
-    margin-bottom: 64px;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 96px;
+
 }
 
 .latestimages {
-    margin-top: 64px;
+    
     display: flex;
     gap: 40px;
-    margin-left: 480px;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 96px;
 }
 
 .latestimage1 {
@@ -446,18 +449,23 @@ header {
 
 .latesttext1 {
     font-size: 24px;
-    margin-left: 32px;
+    font-weight: 500;
+    line-height: 36px;
     margin-top: 32px;
-    margin-right: 32px;
+    margin:0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+
 }
 
 .latesttext2 {
-    margin-left: 32px;
-    margin-right: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .latesttext3 {
-    margin-left: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
     color: #F58A07;
     text-decoration: none;
 }
@@ -467,21 +475,29 @@ header {
 }
 
 footer {
-    width: 100vw;
     height: 463px;
     background-color: #063255;
-    padding-top: 80px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+
+    max-width: 1280px;
+    margin: auto;
 }
 
 .footer1 {
     display: flex;
-    gap: 80px;
+    max-width: 1280px;
+    margin: auto;
+    min-width: 1280px;
+    align-items: flex-start;
 }
 
 .footerleft {
-    margin-left: 480px;
-
+    margin: auto;
 }
 
 .footertext1 {
@@ -490,6 +506,7 @@ footer {
     font-size: 36px;
     color: white;
     padding-bottom: 32px;
+    
 }
 
 .footerimg {
@@ -508,23 +525,23 @@ footer {
     color: white;
     width: 92px;
     height: 195px;
-    margin-left: 110px;
+    margin:0 auto;
 }
 
 .footerconnect {
     color: white;
     width: 142px;
     height: 117px;
-    margin-left: 126px;
+    margin:0 auto;
 }
 
 .footerjoin {
     color: white;
     width: 342px;
     height: 175px;
-    margin-left: 100px;
     display: flex;
     flex-direction: column;
+    margin:0 auto;
 }
 
 .footerlink {
@@ -547,11 +564,12 @@ footer {
 
 .footer2 {
     display: flex;
-    margin-left: 480px;
-    width: 1280px;
+
+    max-width: 1280px;
     height: 24px;
     justify-content: space-between;
     margin-top: 84px;
+    margin: auto;
 }
 
 .footerbottom {
@@ -572,7 +590,8 @@ footer {
     border-radius: 31px;
     height: 24px;
     width: 342px;
-    border: solid #063255;
+    border: #063255;
+
 }
 
 .shapeleft {
