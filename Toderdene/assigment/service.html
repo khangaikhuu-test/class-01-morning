@@ -9,7 +9,7 @@
 
     <link href="CSS/services.css" rel="stylesheet">
     <link href="CSS/footer.css" rel="stylesheet">
-    <link href="CSS/head-nav.css" rel="stylesheet">
+    <link href="CSS/navbar.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,20 +19,37 @@
 
 <body>
     <div class="container">
+        <div class="logo">
+            <img src="images/Logo.svg" width="122px" height="28px">
+        </div>
         <div class="main-nav">
-            <div class="logo">
-                <img src="images/Logo.svg" width="122px" height="28px">
-            </div>
-            <div class="nav-menu">
+            <div class="navbar">
                 <a href="index.html">Home</a>
-                <a href="career.html">Career</a>
+                <div class="subnav">
+                        <button class="subnavbtn">Career<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                        <a href="career.html" style="border-radius: 0px 10px 0px 0px;">Career</a>
+                        <a href="career-02.html" style="border-radius: 0px 0px 10px 10px;">Career #2</a>
+                    </div>
+                </div>
                 <a href="service.html">Service</a>
-                <a href="blog.html">Blog</a>
+                <div class="subnav">
+                    <button class="subnavbtn">Blog<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-contento">
+                        <a href="blog.html" style="border-radius: 0px 10px 0px 0px;">Blog</a>
+                        <a href="blog-inner.html" style="border-radius: 0px 0px 10px 10px;">Blog inner</a>
+
+                    </div>
+                </div>
                 <a href="contact-us.html">Contact</a>
-                <a id="call-to-action" href="tel:+97689004061" >Call to Action</a>
+                <a id="call-to-action" href="tel:+97689004061">Call to Action</a>
             </div>
         </div>
+
     </div>
+<!-- -------------------------------------------------------------------- -->
+
+
     <div class="header">
         <div class="headtext">
             <h1>We serve clients with ground breaking solutions</h1>
@@ -133,7 +150,7 @@
                     Maecenas efficitur scelerisque lorem, et varius lacus tincidunt vel. Pellentesque a arcu vitae diam
                     dapibus mattis vel vel orci. Vivamus eleifend nec felis vel auctor.
                 </p>
-                <div id="mangar">
+                <div id="auther">
                     <img src="images/profile.png">
                     <h3>Chikelu Neo</h3>
                     <div class="test">
@@ -149,44 +166,44 @@
             <div class="play-i">
                 <img src="images/play.svg">
                 <div>
-                    <a href="https://www.youtube.com/watch?v=L6l6xBVH6j0&list=RDL6l6xBVH6j0&start_radio=1"><p>Play Video</p></a>
+                    <a href="https://www.youtube.com/watch?v=L6l6xBVH6j0"><p>Play Video</p></a>
                 </div>
 
             </div>
         </div>
     </video-section>
   <!-- ----------------------------------------------------------------- -->
-    <lasted-section>
-        <div class="lasted-outer">
+  <lasted-section>
+    <div class="lasted-outer">
 
-            <div class="lasted-inner">
-                <h1>Lasted Blog & News</h1>
-                <div class="lastbox">
-                    <div class="lastbox1">
-                        <img src="images/post1.png">
-                        <h3>Why you have to digitalize in 2021</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
-                            hendrerit elit et.</p>
-                        <h6>Learn More &#8594</h6>
-                    </div>
-                    <div class="lastbox1">
-                        <img src="images/post-2.png">
-                        <h3>Our internal process and longerm vision</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
-                            hendrerit elit et.</p>
-                        <h6>Learn More &#8594</h6>
-                    </div>
-                    <div class="lastbox1">
-                        <img src="images/post-3.png">
-                        <h3>Helping the next generation of leaders</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
-                            hendrerit elit et.</p>
-                        <h6>Learn More &#8594</h6>
-                    </div>
+        <div class="lasted-inner">
+            <h1>Lasted Blog & News</h1>
+            <div class="lastbox">
+                <div class="lastbox1">
+                    <img src="images/post1.png">
+                    <h3>Why you have to digitalize in 2021</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
+                        hendrerit elit et.</p>
+                    <h6>Learn More &#8594</h6>
+                </div>
+                <div class="lastbox2">
+                    <img src="images/post-2.png">
+                    <h3>Our internal process and longerm vision</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
+                        hendrerit elit et.</p>
+                    <h6>Learn More &#8594</h6>
+                </div>
+                <div class="lastbox1">
+                    <img src="images/post-3.png">
+                    <h3>Helping the next generation of leaders</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
+                        hendrerit elit et.</p>
+                    <h6>Learn More &#8594</h6>
                 </div>
             </div>
         </div>
-    </lasted-section>
+    </div>
+</lasted-section>
 <!-- ---------------------------------------------------------------------- -->
 
     <footer>

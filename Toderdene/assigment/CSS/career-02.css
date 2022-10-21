@@ -26,7 +26,7 @@ body {
     height: 350px;
 }
 #title{
-    width: 1190px;
+    width: 100%;
     font-size: 32px;
     color: #1d3444;
     letter-spacing: -1.5px;
@@ -43,7 +43,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 500px;
-    margin-left: 40px;
+    margin-left: 0px;
     margin-top: 70px;
 }
 .section2 h3{
@@ -64,7 +64,7 @@ body {
 
 }
 .section3{
-    width: 1190px;
+    width: 1280px;
     height: 470px;
     background-color:rgba(193, 228, 255, 0.5);
     display: flex;
@@ -74,7 +74,7 @@ body {
 
 }
 .section3-title{
-    margin-left: 50px;
+    margin-left: 70px;
     margin-top: 60px;
 }
 .section3-title h4{
@@ -92,15 +92,16 @@ color: #F58A07;
     margin-left: 30px;
     margin-right: 80px;
     height: 280px;
-    width: 750px;
+    width: 842px;
     font-size: 16px;
     color: #5b5b5b;
     font-weight: 500;
     line-height: 30px;
 }
+/* ---------------------------------------------------- */
 .input{
     margin-top: 90px;
-    width: 1190px;
+    width: 1280px;
     height: 500px;
 }
 #apply h1{
@@ -110,7 +111,7 @@ color: #F58A07;
     letter-spacing: -1.3px;
 }
 input[type=texta] {
-    width: 570px;
+    width: 628px;
     height: 54px;
     padding: 12px 20px;
     margin: 8px 0;
@@ -124,7 +125,7 @@ input[type=texta] {
     background-color: rgba(210, 218, 237, 0.21);
 }
 input[type=textb] {
-    width: 570px;
+    width: 628px;
     height: 54px;
     padding: 20px 20px;
     margin: 8px 0;
@@ -136,10 +137,10 @@ input[type=textb] {
     font-size: 16px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
-    margin-left: 37.5px;
+    margin-left: 10px;
 }
 input[type=textc] {
-    width: 570px;
+    width: 628px;
     height: 54px;
     padding: 12px 20px;
     margin: 8px 0;
@@ -153,7 +154,7 @@ input[type=textc] {
     font-family: 'Poppins', sans-serif;
 }
 input[type=textd] {
-    width: 570px;
+    width: 628px;
     height: 54px;
     padding: 12px 20px;
     margin: 8px 0;
@@ -165,20 +166,21 @@ input[type=textd] {
     font-size: 16px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
-    margin-left: 37.5px;
+    margin-left: 10px;
 }
 input[type=textl] {
-    width: 1188px;
-    height: 200px;
+    width: 1270px;
+    height: 215px;
     padding: 12px 20px;
     /* display: inline-block; */
     background-color: rgba(210, 218, 237, 0.21);
-    border-radius: 30px;
+    border-radius: 27px;
     box-sizing: border-box;
     font-size: 16px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     margin-top: 30px;
+    /* margin-left: 0%; */
    
 }
 .sub, .career-button a{

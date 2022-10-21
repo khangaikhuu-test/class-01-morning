@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
-
+    <link href="CSS/navbar.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <link href="CSS/footer.css" rel="stylesheet">
+    <link href="CSS/lasted-section.css" rel="stylesheet">
+    
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,22 +20,38 @@
 </head>
 
 <body>
+    <!-- ---------------**Navbar start**----------------------- -->
     <div class="container">
+        <div class="logo">
+            <img src="images/Logo.svg" width="122px" height="28px">
+        </div>
         <div class="main-nav">
-            <div class="logo">
-                <img src="images/Logo.svg" width="122px" height="28px">
-            </div>
-            <div class="nav-menu">
+            <div class="navbar">
                 <a href="index.html">Home</a>
-                <a href="career.html">Career</a>
+                <div class="subnav">
+                        <button class="subnavbtn">Career<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                        <a href="career.html" style="border-radius: 0px 10px 0px 0px;">Career</a>
+                        <a href="career-02.html" style="border-radius: 0px 0px 10px 10px;">Career #2</a>
+                    </div>
+                </div>
                 <a href="service.html">Service</a>
-                <a href="blog.html">Blog</a>
+                <div class="subnav">
+                    <button class="subnavbtn">Blog<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-contento">
+                        <a href="blog.html" style="border-radius: 0px 10px 0px 0px;">Blog</a>
+                        <a href="blog-inner.html" style="border-radius: 0px 0px 10px 10px;">Blog inner</a>
+
+                    </div>
+                </div>
                 <a href="contact-us.html">Contact</a>
-                <a id="call-to-action" href="tel:+97689004061" >Call to Action</a>
+                <a id="call-to-action" href="tel:+97689004061">Call to Action</a>
             </div>
         </div>
-    </div>
 
+    </div>
+    <!-- ---------------**Navbar end**----------------------- -->
+    <!-- --------------------------header start--------------------- -->
     <header>
         <div class="container1">
 
@@ -61,7 +80,8 @@
             </div>
         </div>
     </header>
-
+    <!-- --------------------------header end--------------------- -->
+<!-- --------------------- section start------------------------------------- -->
     <section>
         <div class="sec-text">
             <div class="sec-items">
@@ -105,6 +125,8 @@
             </div>
         </div>
     </section>
+    <!-- --------------------- section end------------------------------------- -->
+    <!-- ---------------------blue section start------------------------------------- -->
     <section-blue>
         <div class="blue1">
             <div class="blue2">
@@ -145,6 +167,8 @@
             </div>
         </div>
     </section-blue>
+    <!-- ---------------------blue section end ------------------------------------- -->
+    <!-- ---------------------------about section start------------------------------- -->
     <about-section>
         <div class="about-section">
             <div class="about-section-text">
@@ -176,6 +200,8 @@
             </div>
         </div>
     </about-section>
+    <!-- -----------------------about section end------------------------------------ -->
+<!-- --------------------------------service section start--------------------------------- -->
     <service-section>
         <div class="service-outer">
             <div class="service-inner">
@@ -212,26 +238,21 @@
             </div>
         </div>
     </service-section>
+<!-- --------------------------------service section end--------------------------------- -->
+<!-- --------------------------------cta section start--------------------------------- -->
     <cta-section>
         <div class="cta-inner">
             <img src="images/coffee.png">
             <div class="cta-container">
                 <h1>Energy of a start-up combined with 30 years of experience.</h1>
-                <div class="buttom">
+                <div class="button">
                     <a href="thank-you.html">See Job Vacancies</a> 
                 </div>
             </div>
         </div>
     </cta-section>
-
-
-
-
-
-
-
-
-<!-- ----------------------------------------------------------------- -->
+<!-- --------------------------------cta section end--------------------------------- -->
+<!-- --------------------------------video section start--------------------------------- -->
     <video-section>
         <div class="vid-section-inner">
             <div class="vid-text">
@@ -242,7 +263,7 @@
                     Maecenas efficitur scelerisque lorem, et varius lacus tincidunt vel. Pellentesque a arcu vitae diam
                     dapibus mattis vel vel orci. Vivamus eleifend nec felis vel auctor.
                 </p>
-                <div id="mangar">
+                <div id="auther">
                     <img src="images/profile.png">
                     <h3>Chikelu Neo</h3>
                     <div class="test">
@@ -264,7 +285,8 @@
             </div>
         </div>
     </video-section>
-  
+  <!-- --------------------------video section end-------------------------------------->
+  <!-- --------------------------------lasted section start----------------------------- -->
     <lasted-section>
         <div class="lasted-outer">
 
@@ -278,7 +300,7 @@
                             hendrerit elit et.</p>
                         <h6>Learn More &#8594</h6>
                     </div>
-                    <div class="lastbox1">
+                    <div class="lastbox2">
                         <img src="images/post-2.png">
                         <h3>Our internal process and longerm vision</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
@@ -297,7 +319,8 @@
         </div>
     </lasted-section>
 
-<!-- ------------------------------------------------------------- -->
+<!-- ------------------------------lasted section end------------------------------- -->
+<!-- ------------------------------footer start------------------------------- -->
     <footer>
         <div class="footer-back">
             <div class="containerf1"></div>
@@ -345,7 +368,7 @@
             <div class="container2"></div>
         </div>
     </footer>
-
+<!-- ------------------------------footer end------------------------------- -->
 
 </body>
 
