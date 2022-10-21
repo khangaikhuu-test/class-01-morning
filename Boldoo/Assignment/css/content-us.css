@@ -37,8 +37,16 @@ form{
     height: 17px;
 }
 
-.formcom{
+textarea{
+    width: 605px;
     height: 160px;
+    background-color: ghostwhite;
+    border-radius: 27px;
+    padding-top: 20px;
+}
+input{
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 .formreg{
     max-width: 1280px;
