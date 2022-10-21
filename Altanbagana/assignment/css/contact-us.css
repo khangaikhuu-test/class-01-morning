@@ -148,6 +148,7 @@ section {
 .imglocation {
     display: inline-block;
     width: 45%;
+    border-radius: 2em;
 }
 
 

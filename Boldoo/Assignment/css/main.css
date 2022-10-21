@@ -5,8 +5,19 @@
         border-radius: 50px;
         text-decoration-line: none;
         color: white;
+        margin-top: 4px;
+        margin-bottom: 4px;
     }
 .button:hover{
     background-color: white;
     color: #F58A07;
 }
+/* input{
+    width: 605px;
+    height: 54px;
+    border-radius: 27px;
+    border: 0;
+    background-color: ghostwhite;
+    padding-left: 20px;
+    margin-bottom: 20px;
+} */
