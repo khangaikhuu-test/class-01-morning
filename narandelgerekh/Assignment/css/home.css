@@ -73,7 +73,7 @@ header {
     font-size: 64px;
     color: #1D3444;
     font-weight: 600;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .links {
@@ -105,16 +105,16 @@ header {
     height: 33px;
     width: 510px;
     margin-top: 12px;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
 .imgbox1 {
-    width:739px;
+    width: 739px;
     height: 645px;
     margin: 58px 240px 0 auto;
 }
 
-/*part2 - section1 */
+/*section1 */
 .section1 {
     margin: 96px 320px;
     width: 1280px;
@@ -132,23 +132,29 @@ header {
 
 #textbox2 {
     width: 735px;
-    font-weight:500;
+    font-weight: 500;
 }
-
-.sectorsCol {
-    display:flex;
+/*3 sectors with pics*/
+.sectors {
+    display: flex;
     justify-content: space-between;
+    width: 1280px;
 }
 
-.sectorsCol div{
-    width:400px;
+.sectors div {
+    width: 400px;
     height: 447px;
 }
 
-.sectorsCol div img {
+.sectors div img {
     border-radius: 20px;
 }
 
-.sectorsCol div a {
-    color:#F58A07;
+.sectors div a {
+    color: #F58A07;
+}
+
+/*section7*/
+.latest {
+    background-color: #DCEAF5;
 }

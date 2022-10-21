@@ -48,6 +48,10 @@ nav a{
     color: #f58a07;
     text-decoration-line: none;
 }
+#call:hover{
+    background-color: #F58A07;
+    color: white;
+}
 .slidepng{
     display: flex; 
     flex-direction: row;
@@ -64,11 +68,15 @@ nav a{
 
 #seeour{
     background-color: #F58A07;
-    padding: 20px 30px;
+    padding: 1em 1.5rem;
     border-radius: 50px;
     text-decoration-line: none;
     color: white;
     margin-top: 20px;
+}
+#seeour:hover{
+    background-color: white;
+    color:#F58A07;
 }
 *{
     font-family: 'Poppins', sans-serif;
@@ -391,6 +399,7 @@ footer{
     flex-direction: row;
     justify-content:space-between;    
 }
+
 .Company{
     display: flex;
     flex-direction: column;
@@ -435,6 +444,10 @@ footer{
     padding-top: 5%;
     padding-left: 10%;
     text-decoration-line: none;
+}
+.whitelink3:hover{
+    background-color: white;
+    color: #F58A07;
 }
 .copyrights{
     max-width: 1280px;
