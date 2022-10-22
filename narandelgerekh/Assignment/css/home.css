@@ -10,7 +10,7 @@ body {
 }
 
 /* h1 {
-    letter-spacing: -3%;
+    letter-spacing: -0.03em;
     line-height: calc(+8px);
     margin: 0 auto; 
 }*/
@@ -57,8 +57,7 @@ header {
     height: 703px;
 }
 
-.textbox1 {
-    /* border: 1px solid black; */
+.textbox {
     height: 439px;
     width: 576px;
     display: flex;
@@ -66,9 +65,9 @@ header {
     margin-left: 325px;
 }
 
-.textbox1 h1 {
+.textbox h1 {
     /* height: 144px; */
-    letter-spacing: -3px;
+    letter-spacing: -0.03em;
     line-height: 72px;
     font-size: 64px;
     color: #1D3444;
@@ -108,7 +107,7 @@ header {
     margin-bottom:0;
 }
 
-.imgbox1 {
+.imgbox {
     width:739px;
     height: 645px;
     margin: 58px 240px 0 auto;
@@ -126,29 +125,46 @@ header {
     font-size: 48px;
     font-weight: 600;
     line-height: 56px;
-    letter-spacing: -3px;
+    letter-spacing: -0.03em;
     color: #1D3444;
 }
 
-#textbox2 {
+.textbox1 {
     width: 735px;
     font-weight:500;
 }
 
-.sectorsCol {
+.sectors {
     display:flex;
     justify-content: space-between;
 }
 
-.sectorsCol div{
+.sectors div{
     width:400px;
     height: 447px;
 }
 
-.sectorsCol div img {
+.sectors div img {
     border-radius: 20px;
 }
 
-.sectorsCol div a {
+.sectors div h3 {
+    color:#0D1317;
+    font-size: 24px;
+    letter-spacing: -0.03em;
+    margin-top: 33px;
+    margin-bottom:17px;
+}
+
+.sectors div p {
+    margin-bottom: 24px;
+}
+
+.sectors div a {
     color:#F58A07;
+    margin:0 auto;
+}
+
+#digitext {
+    color:#1D3444;
 }
