@@ -8,8 +8,7 @@
 
     <link href="CSS/career.css" rel="stylesheet">
     <link href="CSS/footer.css" rel="stylesheet">
-    <link href="CSS/head-nav.css" rel="stylesheet">
-
+    <link href="CSS/navbar.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -18,19 +17,33 @@
 <body>
     <!-- ------------------------------------------------------- -->
     <div class="container">
+        <div class="logo">
+            <img src="images/Logo.svg" width="122px" height="28px">
+        </div>
         <div class="main-nav">
-            <div class="logo">
-                <img src="images/Logo.svg" width="122px" height="28px">
-            </div>
-            <div class="nav-menu">
+            <div class="navbar">
                 <a href="index.html">Home</a>
-                <a href="career.html">Career</a>
+                <div class="subnav">
+                        <button class="subnavbtn">Career<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                        <a href="career.html" style="border-radius: 0px 10px 0px 0px;">Career</a>
+                        <a href="career-02.html" style="border-radius: 0px 0px 10px 10px;">Career #2</a>
+                    </div>
+                </div>
                 <a href="service.html">Service</a>
-                <a href="blog.html">Blog</a>
+                <div class="subnav">
+                    <button class="subnavbtn">Blog<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-contento">
+                        <a href="blog.html" style="border-radius: 0px 10px 0px 0px;">Blog</a>
+                        <a href="blog-inner.html" style="border-radius: 0px 0px 10px 10px;">Blog inner</a>
+
+                    </div>
+                </div>
                 <a href="contact-us.html">Contact</a>
-                <a id="call-to-action" href="tel:+97689004061" >Call to Action</a>
+                <a id="call-to-action" href="tel:+97689004061">Call to Action</a>
             </div>
         </div>
+
     </div>
     <!-- ------------------------------------------------ -->
     <div class="header">
@@ -60,22 +73,22 @@
                         <p>Bengaluru · Full Time </p>
                         <h6>Apply Now</h6>
                     </div>
-                    <div class="careerbox1">                        
+                    <div class="careerbox2">                        
                         <h3>Testing Engineer</h3>
                         <p>Bengaluru · Full Time</p>
                         <h6>Apply Now</h6>
                     </div>
-                    <div class="careerbox1">
+                    <div class="careerbox3">
                         <h3>Hr Manager+</h3>
                         <p>Bengaluru · Full Time</p>
                         <h6>Apply Now</h6>
                     </div>
-                    <div class="careerbox1">
+                    <div class="careerbox4">
                         <h3>Full Stack Developer</h3>
                         <p>Bengaluru · Full Time</p>
                         <h6>Apply Now</h6>
                     </div>
-                    <div class="careerbox1">
+                    <div class="careerbox5">
                         <h3>Testing Engineer</h3>
                         <p>Bengaluru · Full Time</p>
                         <h6>Apply Now</h6>
@@ -99,7 +112,7 @@
                             hendrerit elit et.</p>
                         <h6>Learn More &#8594</h6>
                     </div>
-                    <div class="lastbox1">
+                    <div class="lastbox2">
                         <img src="images/post-2.png">
                         <h3>Our internal process and longerm vision</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,

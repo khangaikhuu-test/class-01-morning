@@ -36,6 +36,32 @@ footer {
     height: 88px;
 
 }
+footer h1{
+    margin: 0;
+    font-size: 18px;
+}
+.email {
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+}
+.submit {
+    color: white;
+    background-color: #F58A07;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jijken{
+    height: 119px;
+}
+
 
 footer h1{
     margin: 0;
