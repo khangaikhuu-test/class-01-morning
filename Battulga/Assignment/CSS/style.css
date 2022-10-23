@@ -37,7 +37,7 @@ html {
 
 }
 
-.container a {
+.nav-menu a {
     text-decoration: none;
     color: #394149;
     font-weight: bolder;
@@ -45,42 +45,57 @@ html {
 
 .header-container {
     background-color: #DCEAF5;
-    max-height: 703px;
-    display: flex;
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 0 auto;
+    height: 703px;
 }
 
 .header-man {
-    height: 645px;
-    width: 734px;
+    width: 747px;
+    height: 618px;
+    padding-top: 85px;
+    padding-left: 53px;
+
 }
 
 .header-content {
-    width: 572px;
-    height: 439px;
-    padding-top: 117px;
-
+    max-width: 1280px;
+    display: flex;
+    margin: 0 auto;
 }
 
-.header-text :nth-child(1) {
+.header-text {
+    padding-top: 117px;
+    width: 576px;
+    height: 439px;
+    box-sizing: border-box;
+}
+
+.header-text1 {
     font-size: 60px;
-    margin: 0 auto;
     font-weight: 600;
     line-height: 72px;
+    margin-bottom: 117px;
+    color: #1D3444;
+    margin: 0;
 }
 
-.header-text :nth-child(2) {
+.header-text2 {
     font-size: 60px;
-    margin: 0 auto;
+    margin-top: 12px;
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
+    color: #5B5B5B;
 }
 
-.header-text :nth-child(3) {
+.header-button {
+    display: flex;
+    margin-top: 32px;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+.header-button :nth-child(1) {
     font-size: 16px;
     background-color: #F58A07;
     width: 197px;
@@ -90,6 +105,14 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 40px;
+}
+
+.header-text3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #39414980;
 }
 
 .header-logo {
@@ -124,22 +147,25 @@ html {
     max-width: 1280px;
     height: 447px;
     display: flex;
-    box-sizing: border-box;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     margin: 0 auto;
+    margin-top: 64px;
 }
 
 .help-posts img {
     border-radius: 20px;
-    width: 399px;
+    width: 400px;
 }
 
 .help-1 :nth-child(2),
 .help-2 :nth-child(2),
 .help-3 :nth-child(2) {
-    color: #0D1317;
+    font-weight: 600;
     font-size: 24px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
 }
 
 
@@ -150,6 +176,7 @@ html {
     font-weight: 500;
     font-size: 16px;
     line-height: 28px;
+    width: 400px;
 }
 
 .help-1 :nth-child(4),
@@ -161,6 +188,7 @@ html {
 .feature-section {
     background-color: #EDF7FF;
     height: 665px;
+    margin-top: 96px;
 
 }
 
@@ -168,9 +196,9 @@ html {
     display: flex;
     max-width: 1280px;
     margin: 0 auto;
-    align-items: baseline;
     flex-direction: row;
     padding-top: 96px;
+
 }
 
 .feature-text :nth-child(1) {
@@ -180,6 +208,7 @@ html {
     line-height: 44px;
     letter-spacing: -0.03em;
     color: #0D1317;
+    margin-top: 0px;
 }
 
 .feature-text :nth-child(2) {
@@ -187,6 +216,7 @@ html {
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
+    margin-top: 0px;
 }
 
 .feature-posts {
@@ -204,6 +234,10 @@ html {
     background-color: white;
     border-radius: 20px;
     align-content: center;
+    box-sizing: border-box;
+    padding-left: 39px;
+
+
 }
 
 .feature-2 {
@@ -211,6 +245,8 @@ html {
     height: 277px;
     background-color: white;
     border-radius: 20px;
+    box-sizing: border-box;
+    padding-left: 39px;
 
 }
 
@@ -219,6 +255,9 @@ html {
     height: 277px;
     background-color: white;
     border-radius: 20px;
+    box-sizing: border-box;
+    padding-left: 39px;
+
 }
 
 .feature-1 :nth-child(2),
@@ -250,12 +289,28 @@ html {
     margin: 0 auto;
     display: flex;
     padding-top: 99px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.about-section img {
-    height: 667px;
-    width: 637px;
+.about-text {
+    width: 596px;
+    height: 549px;
+}
+
+.about-img {
+    background-image: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png);
+    width: 638px;
+    height: 670px;
     border-radius: 20px;
+}
+
+.orange-about {
+    background-color: #F58A07;
+    width: 153px;
+    height: 670px;
+    mix-blend-mode: multiply;
+    border-radius: 20px 0 0 20px;
 }
 
 .about-feature-container {
@@ -294,6 +349,7 @@ html {
     border-radius: 20px;
     margin-top: 95px;
     height: 682px;
+    margin-bottom: 128px;
 }
 
 .service-tab {
@@ -347,8 +403,6 @@ html {
     justify-content: space-around;
     align-items: flex-start;
     margin-top: 88px;
-
-
 }
 
 .service-container img {
@@ -360,18 +414,19 @@ html {
 .CTA-section {
     display: flex;
     justify-content: center;
-    margin-top: 128px;
-    
+    max-width: 1920px;
+    margin: 0 auto;
+
 }
 
 .CTA-section img {
-    width: 963px;
+    width: 50vw;
     height: 518px;
 }
 
 .CTA-right {
     background-color: #F58A07;
-    width: 960px;
+    width: 50vw;
     height: 518px;
 
 }
@@ -380,7 +435,7 @@ html {
     font-size: 16px;
     background-color: #FFFFFF;
     width: 216px;
-height: 54px;
+    height: 54px;
     border-radius: 31px;
     color: #F58A07;
     display: flex;
@@ -390,31 +445,90 @@ height: 54px;
 }
 
 
-.video-section {
+.section7 {
     max-width: 1280px;
     margin: 0 auto;
-    display: flex; 
-    margin-top: 128px;
-    justify-content: space-between;
-}
-.person {
     display: flex;
-    flex-wrap: wrap;
-
+    margin-top: 128px;
 }
-.Player {
-    background-image: url(/Battulga/Assignment/Images/video-image.png);
+
+.section7-img {
+    background-image: url(/Battulga/Assignment/Images/Image\ \(6\).png);
     width: 620px;
     height: 501px;
+    border-radius: 20px
+}
+
+.section7-text {
+    width: 583px;
+    height: 501px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.section7-text1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+    margin-bottom: 24px;
 }
 
 
+.section7-text2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+
+.profile {
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile-1 img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.profile-2 {
+    margin: 0 0 0 24px
+}
+.profile-2 :nth-child(1) {
+    font-weight: 500;
+font-size: 24px;
+line-height: 41px;
+color: #063255;
+margin: 0;
+}
+.profile-2 :nth-child(2) {
+    font-weight: 500;
+font-size: 18px;
+line-height: 31px;
+color: #F58A07;
+margin: 0;
+}
 .latest-section {
     background-color: #EDF7FF;
     height: 819px;
     margin: 0 auto;
+    margin-top: 128px;
 
 }
+
+.latest-text {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+    padding-top: 96px;
+    margin-right: 800px;
+}
+
 .latest-posts {
     max-width: 1280px;
     height: 507px;
@@ -422,7 +536,8 @@ height: 54px;
     box-sizing: border-box;
     margin: 0 auto;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
+
 }
 
 .latest-posts img {
@@ -435,17 +550,18 @@ height: 54px;
     background-color: white;
     border-radius: 20px 20px 0 0;
     width: 400px
-
 }
+
 .latest-2 {
     background-color: white;
     border-radius: 20px 20px 0 0;
     width: 400px;
 }
+
 .latest-3 {
     background-color: white;
     border-radius: 20px 20px 0 0;
-    width: 200px;
+    width: 400px;
 }
 
 .latest-1 :nth-child(2),
@@ -454,6 +570,9 @@ height: 54px;
     color: #0D1317;
     font-size: 24px;
     padding-left: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    width: 336px
 }
 
 
@@ -482,13 +601,13 @@ footer {
 
 
 .footer-top {
-max-width: 1280px;
-margin: 0 auto;
-display: flex;
-justify-content: space-between;
-padding-top: 80px
-
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px
 }
+
 .company {
     color: white;
 }
@@ -521,17 +640,13 @@ padding-top: 80px
 
 .footer-bottom {
     max-width: 1280px;
-margin: 0 auto;
-display: flex;
-justify-content: space-between;
-padding-top: 80px;
-color:white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    color: white;
 }
 
 .footer-bottom :nth-child(2) {
     margin-left: 710px;
 }
-
-
-
-
