@@ -210,6 +210,7 @@ nav a {
   height: 665px;
   margin-top: 96px;
 }
+
 .sectiontext {
   display: flex;
   padding-top: 96px;
@@ -271,6 +272,7 @@ nav a {
   top: 2550px;
   color: #0d1317;
 }
+
 .about2 {
   font-size: 18px;
   font-weight: 500;
@@ -311,12 +313,14 @@ nav a {
   font-size: 16px;
   line-height: 28px;
 }
+
 .image {
   height: 671px;
   width: 638px;
   left: 963px;
   top: 2480px;
 }
+
 .BG {
   background-color: #edf7ff;
 }
@@ -324,11 +328,157 @@ nav a {
 .man {
   margin-top: auto;
 }
+
 .business {
   background-color: #edf7ff;
   height: 682px;
-  display: flex;
   margin-top: 99px;
+  border-radius: 20px;
 }
+
+
 .strategy {
+  margin-top: 56px;
+  margin-left: 48px;
+  gap: 48px;
+  display: flex;
+  flex-direction: row;
+}
+
+#neg {
+  margin-top: 56px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-radius: 31px;
+  border: 1px solid #A8BCCC;
+  color: rgba(6, 50, 85, 0.5);
+  text-decoration: none;
+}
+
+#business {
+  margin-top: 56px;
+  background-color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-radius: 31px;
+  color: #F58A07;
+  text-decoration: none;
+}
+
+.businesstext {
+  margin-left: 48px;
+}
+
+.businesstext1 {
+  width: 572px;
+  height: 168px;
+  margin-top: 88px;
+  font-size: 48px;
+  line-height: 46px;
+
+}
+
+.businesstext2 {
+  margin-top: 24px;
+  width: 510px;
+  height: 210px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.businessbutton {
+  margin-left: 48px;
+
+}
+
+#businessbutton {
+  text-decoration: none;
+  color: #F58A07;
+}
+
+.btext {
+  display: flex;
+  gap: 140px;
+
+
+}
+
+.bpic {
+  width: 472px;
+}
+
+.cta {
+  display: flex;
+  height: 100%;
+  margin-top: 128px;
+
+}
+
+.ctapic {
+  background-image: url(//m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png);
+  background-size: cover;
+  width: 50vw;
+  height: 50vh;
+}
+
+.ctatext {
+  background-color: #F58A07;
+  width: 50vw;
+  height: 50vh;
+}
+
+.ctatext0 {
+  margin-bottom: 128px;
+  margin-left: 128px;
+  width: 532px;
+  height: 168px;
+  color: white;
+  font-size: 48px;
+}
+
+.seebutton {
+  color: #F58A07;
+  margin-bottom: 128px;
+  height: 54px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 31px;
+  margin-left: 128px;
+}
+
+.ctabutton {
+  margin-left: 128px;
+  padding-bottom: 128px;
+  margin-left: 128px;
+}
+
+/* 6th page end  */
+
+
+
+
+
+
+
+
+
+.finsweetsection {
+  height: 112px;
+  width: 550px;
+  left: 320px;
+}
+
+.finsweetsection {
+  max-width: 12980px;
+  height: 501px;
+  display: flex;
+  margin: auto;
+  margin-top: 128px;
+  gap: 110px;
 }
