@@ -272,7 +272,7 @@ banner
 }
 .section4-left
 {
-    width: 25vw;
+    width: 35vw;
     margin:0 auto;
     padding: 30px;
     align-items: center;
@@ -294,6 +294,7 @@ banner
     border-radius: 25px;
     padding: 10px 20px 10px 20px;
     font-size: 0.8em;
+    width: auto;
 }
 .section4-right
 {
@@ -302,8 +303,8 @@ banner
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     border-radius: 20px;
-    width: 30vw;
-    height: 30vh;
+    width: 25vw;
+    height: 500px;
     margin: 30px;
 }
 .section4-right-column1
@@ -368,6 +369,26 @@ banner
     width: 35vw;
     justify-content: center;
 }
+.section6-column1-row3
+{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.section6-column1-row3 h2
+{
+    margin-left: 0;
+}
+.container8-column1-row3-column2
+{
+    margin-left: 30px;
+    line-height: 0.5;
+}
+.section6-column1-row3 h4
+{
+    color: #F58A07;
+}
+
 .section6-column2
 {
     display: flex;
