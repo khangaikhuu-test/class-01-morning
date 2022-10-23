@@ -1,0 +1,45 @@
+/* Header style*/
+header {
+    padding: 3rem 0;
+}
+
+/* Section style*/
+.details {
+    border-radius: 20px;
+    padding: 4rem;
+}
+
+.details div:first-child {
+    width: 25%;
+}
+
+.details div:last-child {
+    width: 70%;
+}
+
+/* Apply section*/
+form {
+    margin: 3rem 0;
+}
+
+form input {
+    border-radius: 27px;
+    background-color: rgba(210, 218, 237, 0.17);
+    border: 0;
+}
+
+.input-set input {
+    width: 620px;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 27px;
+    background-color: rgba(210, 218, 237, 0.17);
+    border: 0;
+    margin: 1rem 0;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+}

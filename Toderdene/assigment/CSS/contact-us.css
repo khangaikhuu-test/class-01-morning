@@ -21,7 +21,7 @@ body {
 }
 
 .contact-inner{
-    width: 1190px;
+    width: 1280px;
 }
 .contact-section1{
     display: flex;
@@ -56,7 +56,7 @@ body {
 .section3{
     display: flex;
     flex-direction: row;
-    width: 1190px;
+    width: 1280px;
     height: 550px;
 }
 .s3-1{
@@ -68,7 +68,7 @@ body {
     margin-top: 50px;
 }
 input[type=email] {
-    width: 505px;
+    width: 605px;
     height: 54px;
     padding: 12px 20px;
     margin: 8px 0;
@@ -83,7 +83,7 @@ input[type=email] {
     background-color: rgba(210, 218, 237, 0.21);
 }
 .forme input[type=texq] {
-    width: 505px;
+    width: 605px;
     height: 54px;
     padding: 12px 20px;
     margin: 8px 0;
@@ -114,6 +114,8 @@ textarea{
     height: 480px;
     border-radius: 20px;
     margin-right: 0px;
+    left: -35px;
+    position: relative;
 }
 .career-button a{
     color: white;

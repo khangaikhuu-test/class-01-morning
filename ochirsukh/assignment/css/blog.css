@@ -178,6 +178,8 @@ header {
 }
 
 footer {
+    width: 100vw;
+    margin: auto;
     margin-top: 128px;
     height: 463px;
     background-color: #063255;
@@ -200,7 +202,7 @@ footer {
 }
 
 .footerleft {
-    margin: auto;
+margin: 0 autp;
 }
 
 .footertext1 {
@@ -227,14 +229,14 @@ footer {
     color: white;
     width: 92px;
     height: 195px;
-    margin: auto;
+    margin:0 auto;
 }
 
 .footerconnect {
     color: white;
     width: 142px;
     height: 117px;
-    margin: auto;
+    margin:0 auto;
 }
 
 .footerjoin {
@@ -243,7 +245,7 @@ footer {
     height: 175px;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin:0 auto;
 }
 
 .footerlink {
@@ -269,8 +271,8 @@ footer {
     max-width: 1280px;
     height: 24px;
     justify-content: space-between;
-    margin-top: 84px;
     margin: auto;
+    margin-top: 84px;
 }
 
 .footerbottom {

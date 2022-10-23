@@ -1,0 +1,302 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+}
+
+a {
+   text-decoration: none;
+}
+
+h1 {
+   margin-bottom: 0.5rem;
+}
+
+/* Fixed width container */
+.container {
+   max-width: 1280px;
+   margin: 0 auto;
+}
+
+/*Main colors*/
+.bg-lightblue {
+   background: #EDF7FF;
+}
+
+.bg-blue {
+   background: #DCEAF5;
+}
+
+.bg-darkblue {
+   background: #063255;
+}
+
+.bg-white {
+   background: #FFFFFF;
+}
+
+.bg-orange {
+   background: #F58A07;
+}
+
+.txt-black {
+   color: #1D3444;
+}
+
+.txt-darkblue {
+   color: #1D3444;
+}
+
+.txt-grey {
+   color: #5B5B5B;
+}
+
+.txt-white {
+   color: #FFFFFF;
+}
+
+.txt-orange {
+   color: #F58A07;
+}
+
+/* Font sizes */
+
+/* 18px */
+.S {
+   font-size: 1.125rem;
+   line-height: 167%;
+}
+
+/* 24px */
+.M {
+   font-size: 1.5rem;
+   line-height: 171%;
+}
+
+/* 36px */
+.L {
+   font-size: 2.25rem;
+   line-height: 122%;
+}
+
+/* 48px */
+.XL {
+   font-size: 3rem;
+   line-height: 117%;
+}
+
+/* 64px*/
+.XXL {
+   font-size: 4rem;
+   line-height: 112%;
+}
+
+
+/* Buttons*/
+.button {
+   color: #FFFFFF;
+   font-style: normal;
+   font-weight: 600;
+   padding: 1em 1.5em;
+   background: #F58A07;
+   border-radius: 31px;
+   transition: 300ms ease-out;
+}
+
+.button:hover {
+   color: #F58A07;
+   background: #FFFFFF;
+}
+
+.button-white {
+   color: #F58A07;
+   font-style: normal;
+   font-weight: 600;
+   padding: 1em 1.5em;
+   background: #FFFFFF;
+   border-radius: 31px;
+   transition: 300ms ease-out;
+   border: 1px solid #F58A07;
+}
+
+.button-white:hover {
+   color: #FFFFFF;
+   background: rgba(245, 138, 7, 1);
+}
+
+#call-to-action {
+   color: #F58A07;
+   background: rgba(245, 138, 7, 0.1);
+
+}
+
+#call-to-action:hover {
+   color: #FFFFFF;
+   background: rgba(245, 138, 7, 1);
+}
+
+
+/* Navigation style*/
+
+nav {
+   padding: 1rem 0;
+}
+
+.logo-blue {
+   background-image: url("../images/Logo.svg");
+   width: 122px;
+   height: 28px;
+}
+
+.logo-white {
+   background-image: url("../images/Logo-white.svg");
+   width: 122px;
+   height: 28px;
+}
+
+.flex-row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav-items {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: flex-end;
+   padding: 0px;
+   gap: 32px;
+}
+
+.nav-items a {
+   font-weight: 600;
+   color: #394149;
+}
+
+
+
+/*Footer style*/
+
+footer * {
+   color: #FFFFFF;
+}
+
+.footer-section {
+   align-items: flex-start;
+}
+
+.footer-section div:first-child {
+   padding-top: 1rem;
+}
+
+.moto-text {
+   width: 350px;
+}
+
+footer a:hover {
+   color: #F58A07;
+}
+
+.social-set {
+   justify-content: flex-start;
+   gap: 2rem;
+}
+
+.copyright {
+   padding: 3rem 0;
+}
+
+.policy {
+   gap: 2rem;
+}
+
+footer {
+   width: 100%;
+   padding-top: 4rem;
+   position: relative;
+}
+
+.text-input {
+   color: #F58A07;
+   padding: 1em 1.5em;
+   background: #FFFFFF;
+   border-radius: 31px;
+   width: 250px;
+}
+
+footer .button {
+   border: 0px;
+}
+
+.fb-logo {
+   background-image: url("../images/facebook.svg");
+   background-repeat: no-repeat;
+   width: 20px;
+   height: 20px;
+}
+
+.fb-logo:hover {
+   background-image: url("../images/facebook-y.svg");
+}
+
+.youtube-logo {
+   background-image: url("../images/youtube.svg");
+   background-repeat: no-repeat;
+   width: 20px;
+   height: 20px;
+}
+
+.youtube-logo:hover {
+   background-image: url("../images/youtube-y.svg");
+}
+
+.insta-logo {
+   background-image: url("../images/instagram.svg");
+   background-repeat: no-repeat;
+   width: 20px;
+   height: 20px;
+}
+
+.insta-logo:hover {
+   background-image: url("../images/instagram-y.svg");
+}
+
+.tw-logo {
+   background-image: url("../images/twitter.svg");
+   background-repeat: no-repeat;
+   width: 20px;
+   height: 20px;
+}
+
+.tw-logo:hover {
+   background-image: url("../images/twitter-y.svg");
+}
+
+
+footer:before {
+   content: "";
+   position: absolute;
+   background-color: #F58A07;
+   border-top-right-radius: 20px;
+   width: 2.5%;
+   height: 30%;
+   bottom: 0px;
+   left: 0px;
+}
+
+footer:after {
+   content: "";
+   position: absolute;
+   background-color: #F58A07;
+   border-bottom-left-radius: 20px;
+   border-top-left-radius: 20px;
+   width: 2.5%;
+   height: 60%;
+   top: 50px;
+   right: 0px;
+}
