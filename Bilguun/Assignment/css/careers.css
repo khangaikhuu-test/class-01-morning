@@ -1,0 +1,205 @@
+
+
+.careers {
+    max-width: 1280px;
+    height: 650px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 108px;
+}
+
+.careers-container {
+    align-items: center;
+}
+
+.careers-container h1 {
+    color: #1d3444;
+    font-size: 64px;
+    width: 618px;
+    height: 216px;
+}
+
+.careers-container p {
+    font-size: 18px;
+    width: 510px;
+    height: 59px;
+    color: #5B5B5B;
+}
+
+.view-positions {
+    background-color: #F58A07;
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.yellow-frame {
+    background-color: #F58A07;
+    width: 180px;
+    height: 650px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.yellow-frame img {
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+}
+
+.careers2 {
+    max-width: 1280px;
+    height: 522px;
+    width: 100%;
+    margin: 0 auto;     
+    margin-top: 128px;
+    margin-bottom: 128px;
+    justify-content: space-between;
+
+    
+
+}
+
+.careers-container1 {
+    align-items: center;
+}
+
+.careers-container1 h1 {
+    color: #1d3444;
+    font-size: 48px;
+    width: 676px;
+    height: 56px;
+}
+
+.careers-container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    width: 100%;
+    gap: 40px;
+    
+}
+
+.careers-container2 h2 {
+    font-size: 24px;
+    color: #0D1317;
+    
+    
+}
+
+.careers-container2 p {
+    color: #394149;
+    font-size: 18px;
+    
+}
+
+.careers-container2-1 {
+    background-color: #e6f4ff;
+    width: 340px;
+    height: 121px;
+    border-radius: 20px;
+    padding: 30px;
+    
+   
+}
+
+.careers-container2-2 {
+    background-color: #e6f4ff;
+    width: 340px;
+    height: 121px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.careers-container2-3 {
+    background-color: #e6f4ff;
+    width: 340px;
+    height: 121px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.careers-container2-4 {
+    background-color: #e6f4ff;
+    width: 340px;
+    height: 121px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.careers-container2-5 {
+    background-color: #e6f4ff;
+    width: 340px;
+    height: 121px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.apply-now {
+    color: #F58A07;
+}
+
+
+/* suuliin tsenher heseg */
+
+.first-page-7 {
+    background-color: #DCEAF5;
+   
+}
+
+.container7 {
+    width: 1280px;
+    margin: 0 auto;
+    
+}
+.page-7-post {
+    display: flex;
+
+}
+.first-page-7-text img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.first-page-7-text h3 {
+    width: 336px;
+    height: 72px;
+    font-size: 24px;
+    color: #0D1317;
+    margin: 32px;
+}
+
+.first-page-7-text p {
+    font-size: 16px;
+    color: #5B5B5B;
+    margin: 32px;
+}
+
+.first-page-7-text-head h1 {
+    font-size: 48px;
+    color: #0D1317;
+}
+
+.page-7-yellow-button {
+    color: #F58A07;
+    margin: 32px;
+}
+
+.page-7-post-1 {
+    background-color: #FFFFFF;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.page-7-post-2 {
+    background-color: #FFFFFF;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.page-7-post-3 {
+    background-color: #FFFFFF;
+    margin: 40px;
+    border-radius: 20px;
+}
