@@ -1,0 +1,145 @@
+.blog {
+    background-color: #DCEAF5;
+    
+}
+
+.blog1 {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 749px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog1-1 {
+    height: 427px;
+    width: 559;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+
+.blog-container {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+   
+}
+
+.blog-container p {
+    font-size: 16px;
+    color: #394149;
+}
+
+.blog-container2 {
+    display: flex;
+    flex-direction: column;
+    width: 559px;
+    height: 427px;
+    
+}
+
+.blog-container2 h1 {
+    width: 527px;
+    height: 216px;
+    font-size: 64px;
+    color: #1D3444;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+}
+
+.blog-container2 p {
+    font-size: 18px;
+    color: #5B5B5B;
+    width: 559px;
+    height: 90px; 
+    font-weight: 500;
+    line-height: 30px;  
+}
+
+.yellow-button {
+    font-size: 16px;
+    color: #F58A07;
+}
+
+
+.blog-container3 img {
+border-radius: 20px;
+
+}
+
+.blog2 {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 1174px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.blog-container2-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.blog-container2-2 h1 {
+    color: #0D1317;
+    font-size: 48px;
+}
+
+.blog-container2-3 {
+    height: 467px;
+    width: 360px;
+    background-color: #EDF7FF;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.blog-container2-1 h2 {
+    color: #0D1317;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.blog-container2-1 p {
+    color: #5B5B5B;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.blog-container2-4 {
+    height: 467px;
+    width: 360px;
+    background-color: #EDF7FF;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.blog-container2-5 {
+    height: 467px;
+    width: 360px;
+    background-color: #EDF7FF;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.blog-container2-1 img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 230px;
+    width: 360px;
+}
+
+.yellow-button1 {
+    font-size: 16px;
+    color: #F58A07;
+    margin: 20px;
+}

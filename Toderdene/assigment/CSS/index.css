@@ -19,17 +19,6 @@ body {
 }
 
 /* ---------------**Navbar start**----------------------- */
-.navbar-main{
-    margin-bottom: -45px;
-   
-}
-
-iframe{
-    width: 1290px;
-    display: flex;
-    align-items: center;
-    
-}
 
 /* ---------------**Navbar end**----------------------- */
 /* --------------------------header start--------------------- */
@@ -684,8 +673,8 @@ sta-section {
 
 .cta-container .button {
     display: flex;
-    width: 200px;
-    height: 50px;
+    width: 220px;
+    height: 54px;
     background-color: white;
     border-radius: 60px;
     align-items: center;
@@ -868,12 +857,19 @@ lasted-section{
     line-height: 28px;
     color: #5B5B5B;
 }
-.lastbox h6{
+.lastbox h6 {
     font-size: 16px;
     font-weight: 500;
     color: #F58A07;
     margin-top: 10px;
-    margin-left: 25px;
+    margin-left: 12px;
+}
+#learn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #F58A07;
+    margin-top: 10px;
+    margin-left: 12px;
 }
 .lastbox img{
     width: 400px;

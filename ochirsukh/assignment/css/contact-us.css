@@ -219,21 +219,21 @@ footer {
     color: white;
     width: 92px;
     height: 195px;
-    margin-left: 110px;
+    margin: 0 auto;
 }
 
 .footerconnect {
     color: white;
     width: 142px;
     height: 117px;
-    margin-left: 126px;
+    margin:0 auto;
 }
 
 .footerjoin {
     color: white;
     width: 342px;
     height: 175px;
-    margin-left: 100px;
+    margin:0 auto;
     display: flex;
     flex-direction: column;
 }
@@ -262,8 +262,9 @@ footer {
     max-width: 1280px;
     height: 24px;
     justify-content: space-between;
-    margin-top: 84px;
     margin: auto;
+    margin-top: 84px;
+    
 }
 
 .footerbottom {

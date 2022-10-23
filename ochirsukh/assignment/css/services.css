@@ -412,9 +412,10 @@ header {
 .latest {
     height: 819px;
     background-color: #DCEAF5;
+    margin: auto;
     margin-top: 128px;
 
-    margin: auto;
+    
     display: flex;
     flex-direction: column;
 }
@@ -491,13 +492,13 @@ footer {
 .footer1 {
     display: flex;
     max-width: 1280px;
-    margin: auto;
+    
     min-width: 1280px;
-    align-items: flex-start;
+    margin: auto;
+    height: 200px;
 }
 
 .footerleft {
-    margin: auto;
 }
 
 .footertext1 {
@@ -564,12 +565,14 @@ footer {
 
 .footer2 {
     display: flex;
-
+    min-width: 1280px;
     max-width: 1280px;
     height: 24px;
-    justify-content: space-between;
-    margin-top: 84px;
     margin: auto;
+    justify-content: space-between;
+   
+    
+    margin-top: 84px;
 }
 
 .footerbottom {

@@ -126,9 +126,13 @@ career-section{
     flex-direction: row;
     margin-left: 0px;
     flex-wrap: wrap;
+}
 
-    
-
+#apply {
+    margin-left: 0px;
+    color: #F58A07;
+    font-size: 16px;
+    font-weight: 600;
 }
 .careerbox1{
     display: flex;
@@ -149,7 +153,7 @@ career-section{
     background-color: #DCEAF5;
     border-radius: 20px;
     margin-right: 11px;
-    margin-left: 26px;
+    margin-left: 25px;
     margin-top: 30px;
 }
 .careerbox3{
@@ -284,12 +288,19 @@ lasted-section{
     line-height: 28px;
     color: #5B5B5B;
 }
-.lastbox h6{
+.lastbox h6 {
     font-size: 16px;
     font-weight: 500;
     color: #F58A07;
     margin-top: 10px;
-    margin-left: 25px;
+    margin-left: 12px;
+}
+#learn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #F58A07;
+    margin-top: 10px;
+    margin-left: 12px;
 }
 .lastbox img{
     width: 400px;

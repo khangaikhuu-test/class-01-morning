@@ -158,12 +158,19 @@ lasted-section{
     line-height: 28px;
     color: #5B5B5B;
 }
-.lastbox1 h6{
+.lastbox a {
     font-size: 16px;
     font-weight: 500;
     color: #F58A07;
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.lastbox h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #F58A07;
+    margin-top: 10px;
+    margin-left: 12px;
 }
 .lastbox img{
     width: 400px;
