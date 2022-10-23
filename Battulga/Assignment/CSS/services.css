@@ -3,28 +3,31 @@ html {
 }
 
 .nav-container {
-display: flex;
-box-sizing: border-box;
-justify-content: space-between;
-align-items: center;
-margin: 0 auto;
-max-width: 1280px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1280px;
 
 
 }
 
 .nav-menu {
-display: flex;
-align-items: flex-start;
-flex-direction: row;
-justify-content: space-between;
-width: 437px;
-color: #394149;
-padding-left: 501px;
-
-
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 437px;
+    color: #394149;
+    padding-left: 501px;
 }
 
+.nav-menu a {
+    text-decoration: none;
+    color: #394149;
+    font-weight: bolder;
+}
 .button {
     background-color: #FEF3E6;
     color: #F58A07;
@@ -43,16 +46,31 @@ header {
     padding-top: 108px;
 }
 
-.header img {
-    
-width: 616px;
-height: 650px;
-border-radius: 20px;
-
- 
+.header-text {
+    width: 618px;
+    height: 216px;
+    margin-right: 46px;
 }
+
+.header-text1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    margin-bottom: 24px;
+    color: #1D3444;
+
+}
+
+.header-text2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B
+}
+
+
 .header-text :nth-child(3) {
-    background-color:#F58A07E6;
+    background-color: #F58A07E6;
     color: white;
     width: 173px;
     height: 52px;
@@ -62,14 +80,497 @@ border-radius: 20px;
     justify-content: center;
 }
 
+.header-img {
+    background-image: url(/Battulga/Assignment/Images/Image.png);
+    width: 616px;
+    height: 650px;
+    border-radius: 20px;
+}
 
 .orange1 {
     background-color: #F58A07;
     width: 180px;
-height: 650px;
-mix-blend-mode: multiply;
+    height: 650px;
+    mix-blend-mode: multiply;
+    border-radius: 0px 19px 20px 0px;
+    transform: rotate(-180deg);
+}
 
 
+.feature {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 90px;
+}
 
+.feature-text {
+    width: 583px;
+    height: 550px;
+    margin-left: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
+
+ul {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B
+}
+
+.feature-text1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+    margin-bottom: 24px;
+}
+
+
+.feature-text2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+
+
+.feature-img {
+    background-image: url(/Battulga/Assignment/Images/Image\ \(1\).png);
+    width: 620px;
+    height: 550px;
+
+}
+
+.orange2 {
+    background-color: #F58A07;
+    width: 95px;
+    height: 97px;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    margin-top: 128px;
+    margin-left: -42.5px;
+    position: absolute;
+}
+
+.section3 {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 128px;
+}
+
+.section3-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 550px;
+}
+
+.section3-text1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+
+.section3-text2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+    width: 580px;
+}
+
+.section3-img {
+    background-image: url(/Battulga/Assignment/Images/Image\ \(2\).png);
+    width: 620px;
+    height: 550px;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+.orange3 {
+    background-color: #F58A07;
+    position: absolute;
+    width: 95px;
+    height: 97px;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    margin-top: 272px;
+    margin-left: 573px;
+}
+
+.section4 {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 128px;
+}
+
+.section4-img {
+    background-image: url(/Battulga/Assignment/Images/Image\ \(3\).png);
+    width: 620px;
+    height: 550px;
+    border-radius: 20px
+}
+
+.section4-text {
+    width: 583px;
+    height: 550px;
+    margin-left: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.section4-text1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+    margin-bottom: 24px;
+}
+
+
+.section4-text2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+
+.section4-text4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B
+}
+
+.orange4 {
+    background-color: #F58A07;
+    width: 95px;
+    height: 97px;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    margin-top: 217px;
+    margin-left: -42.5px;
+    position: absolute;
+}
+
+.section5 {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 128px;
+}
+
+.section5-img {
+    background-image: url(/Battulga/Assignment/Images/Image\ \(4\).png);
+    width: 620px;
+    height: 550px;
+    border-radius: 20px
+}
+
+.section5-text {
+    width: 583px;
+    height: 550px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.section5-text1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+    margin-bottom: 24px;
+}
+
+
+.section5-text2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+
+.section5-text4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B
+}
+
+.orange5 {
+    background-color: #F58A07;
+    width: 95px;
+    height: 97px;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    margin-top: 272px;
+    margin-left: 573px;
+    margin-right: -20px; position: absolute;
+}
+
+
+.section6 {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 128px;
+}
+
+.section6-img {
+    background-image: url(/Battulga/Assignment/Images/Image\ \(5\).png);
+    width: 620px;
+    height: 550px;
+    border-radius: 20px
+}
+
+.section6-text {
+    width: 583px;
+    height: 550px;
+    margin-left: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.section6-text1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+    margin-bottom: 24px;
+}
+
+
+.section6-text2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+
+.section6-text3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B
+}
+
+.orange6 {
+    background-color: #F58A07;
+    width: 95px;
+    height: 97px;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    margin-top: 342px;
+    margin-left: -42.5px;
+    position: absolute;
+}
+
+.section7 {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 128px;
+}
+
+.section7-img {
+    background-image: url(/Battulga/Assignment/Images/Image\ \(6\).png);
+    width: 620px;
+    height: 501px;
+    border-radius: 20px
+}
+
+.section7-text {
+    width: 583px;
+    height: 501px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.section7-text1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+    margin-bottom: 24px;
+}
+
+
+.section7-text2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+
+.profile {
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile-1 img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.profile-2 {
+    margin: 0 0 0 24px
+}
+.profile-2 :nth-child(1) {
+    font-weight: 500;
+font-size: 24px;
+line-height: 41px;
+color: #063255;
+margin: 0;
+}
+.profile-2 :nth-child(2) {
+    font-weight: 500;
+font-size: 18px;
+line-height: 31px;
+color: #F58A07;
+margin: 0;
+}
+
+.latest-section {
+    background-color: #EDF7FF;
+    height: 819px;
+    margin: 0 auto;
+
+}
+.latest-posts {
+    max-width: 1280px;
+    height: 507px;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+.latest-posts img {
+    border-radius: 20px;
+    width: 400px;
+    height: 230px;
+}
+
+.latest-1 {
+    background-color: white;
+    border-radius: 20px;
+    width: 400px
+
+}
+.latest-2 {
+    background-color: white;
+    border-radius: 20px ;
+    width: 400px;
+}
+.latest-3 {
+    background-color: white;
+    border-radius: 20px ;
+    width: 400px;
+}
+
+.latest-1 :nth-child(2),
+.latest-2 :nth-child(2),
+.latest-3 :nth-child(2) {
+    color: #0D1317;
+    font-size: 24px;
+    padding-left: 32px;
+}
+
+
+.latest-1 :nth-child(3),
+.latest-2 :nth-child(3),
+.latest-3 :nth-child(3) {
+    color: #5B5B5B;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    width: 336px;
+    padding-left: 32px;
+}
+
+.latest-1 :nth-child(4),
+.latest-2 :nth-child(4),
+.latest-3 :nth-child(4) {
+    color: #F58A07;
+    padding-left: 32px;
+}
+
+footer {
+    background-color: #063255;
+    height: 463px;
+}
+
+
+.footer-top {
+max-width: 1280px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+padding-top: 80px
+
+}
+.company {
+    color: white;
+}
+
+.connect {
+    color: white;
+}
+
+.subscribe :nth-child(2) {
+    background-color: #FFF;
+    width: 342px;
+    height: 54px;
+    border-radius: 27px;
+    color: #9C9C9C;
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+}
+
+.subscribe :nth-child(3) {
+    background-color: #F58A07;
+    width: 156px;
+    height: 54px;
+    border-radius: 27px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-bottom {
+    max-width: 1280px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+padding-top: 80px;
+color:white;
+}
+
+.footer-bottom :nth-child(2) {
+    margin-left: 710px;
+}
+
+
+
+
+
+
+
