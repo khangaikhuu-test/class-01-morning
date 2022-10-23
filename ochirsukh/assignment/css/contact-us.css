@@ -6,17 +6,13 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 52px;
-    margin-left: 480px;
     margin-top: 16px;
-    margin-right: 320px;
     margin-bottom: 16px;
     align-items: center;
-    justify-content: flex-start;
-
-}
+   }
 
 .logo1 {
     margin-right: 501px;
@@ -61,20 +57,20 @@ body {
 }
 
 header {
-    width: 1165px;
+    max-width: 1280px;
     height: 182px;
+    margin: auto;
     margin-top: 120px;
-    margin-left: 480px;
     display: flex;
     gap: 99px;
     margin-bottom: 64px;
+    
 }
 
 .header1 {
     width: 561px;
     height: 128px;
-    margin-left: 0px;
-    margin-top: 0x;
+    
 }
 
 .header0 {
@@ -95,24 +91,25 @@ h2 {
 }
 
 #header1 {
-    margin-left: 99px;
-    margin-top: 25px;
+    width: 270px;
+    
 }
 
 #header2 {
-    margin-left: 76px;
-    margin-top: 20px;
+   width: 159px;
 }
 
 .header2 {
+    width: 561px;
     display: flex;
-    align-items: flex-start;
+   justify-content: space-between;
+   
 }
 
 .contact {
     width: 1280px;
     height: 456px;
-    margin-left: 480px;
+    margin: auto;
     padding-top: 64px;
     display: flex;
     gap: 55px;
@@ -131,11 +128,12 @@ h2 {
     width: 620px;
     height: 370px;
     border-radius: 20px;
-    background-image: url(../images/map.png);
+    /* background-image: url(../images/map.png); */
+    box-sizing: content-box;
 }
 
 .contact2 {
-    padding-left: 32px;
+    /* padding-left: 32px; */
     padding-top: 17px;
     padding-bottom: 18px;
     color: #9C9C9C;
@@ -143,6 +141,10 @@ h2 {
     border-radius: 27px;
     width: 605px;
     border: 2px solid white;
+}
+
+.contact2::placeholder {
+    padding-left: 32px;
 }
 
 .contact3 {
@@ -153,7 +155,8 @@ h2 {
     width: 605px;
     border: 2px solid white;
 }
-.contact3::placeholder{
+
+.contact3::placeholder {
     float: left;
     margin-top: 32px;
     margin-left: 32px;
@@ -169,11 +172,10 @@ h2 {
     border-radius: 20px;
     width: 119px;
     height: 54px;
-    border : solid white;
+    border: solid white;
 }
 
 footer {
-    width: 100vw;
     height: 463px;
     background-color: #063255;
     padding-top: 80px;
@@ -184,10 +186,12 @@ footer {
 .footer1 {
     display: flex;
     gap: 80px;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .footerleft {
-    margin-left: 480px;
+    
 
 }
 
@@ -250,15 +254,16 @@ footer {
     height: 54px;
     font-size: 18px;
     font-weight: 600;
+    border: solid #063255;
 }
 
 .footer2 {
     display: flex;
-    margin-left: 480px;
-    width: 1280px;
+    max-width: 1280px;
     height: 24px;
     justify-content: space-between;
     margin-top: 84px;
+    margin: auto;
 }
 
 .footerbottom {
@@ -279,6 +284,7 @@ footer {
     border-radius: 31px;
     height: 24px;
     width: 342px;
+    border: solid #063255;
 }
 
 .shapeleft {

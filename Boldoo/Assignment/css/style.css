@@ -1,14 +1,23 @@
 /* tolgoi heseg */
 header{
-    max-width: 1920px;
+    /* max-width: 1920px; */
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 16px;
     margin: 0 auto;
     margin-top: 28px;
     margin-bottom: 28px;
+    
 }
 /* menu */
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
 nav{
     max-width: 1280px;
     margin: 0 auto;
@@ -17,6 +26,10 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
+    position: sticky;
+}
+.nav-menu2 a:hover{
+    color: #F58A07;
 }
 nav a{
     text-decoration-line: none;
@@ -48,6 +61,10 @@ nav a{
     color: #f58a07;
     text-decoration-line: none;
 }
+#call:hover{
+    background-color: #F58A07;
+    color: white;
+}
 .slidepng{
     display: flex; 
     flex-direction: row;
@@ -64,11 +81,15 @@ nav a{
 
 #seeour{
     background-color: #F58A07;
-    padding: 20px 30px;
+    padding: 1em 1.5rem;
     border-radius: 50px;
     text-decoration-line: none;
     color: white;
     margin-top: 20px;
+}
+#seeour:hover{
+    background-color: white;
+    color:#F58A07;
 }
 *{
     font-family: 'Poppins', sans-serif;
@@ -78,6 +99,7 @@ h1{
     font-size: 64px;
     line-height: 72px;
     margin-bottom: inherit;
+    color: #1D3444;
 }
 h2{
     font-size: 48px;
@@ -91,6 +113,7 @@ h3{
 h4{
     font-size: 24px;
     font-weight: 600;
+    color: #0D1317;
 }
 h5{
     font-size: 18px;
@@ -202,6 +225,10 @@ p{
     color: #F58A07;
     background-color: white;
 }
+.tovch:hover{
+    background-color: #F58A07;
+    color: white;
+}
 .textsize{
     width: 572px;
     margin: 0 auto;
@@ -310,7 +337,8 @@ p{
     max-width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-between;
+    align-items:center ;
 }
 .saaralungu::after{
     content: "";
@@ -348,4 +376,145 @@ p{
     width: 120px;
     height: 466px;
     opacity: 0.7;
+}
+footer{
+    /* max-width: 1920px; */
+    height: 463px;
+    background-color: #063255;
+    padding-top: 80px;
+}
+.footerframe11{
+    position: relative;
+    /* max-width: 1920px; */
+    margin: 0 auto;
+    height: 463px;
+    /* border: 1px solid white; */
+}
+
+.footerframe11::after{
+    content: "";
+    position:absolute;
+    width: 53px;
+    height: 144px;
+    background-color: #F58A07;
+    top: 318px;
+    z-index: 10;
+    border-radius: 0px 31px 0px 0px;
+}
+.footerframe11::before{
+    content: "";
+    position:absolute;
+    width: 53px;
+    height: 287px;
+    background-color: #F58A07;
+    top: 38px;
+    right: 0px;
+    z-index: 10;
+    border-radius: 31px 0px 0px 31px;
+}
+.footerbottom{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;    
+}
+
+.Company{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.Connect{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.Newsletter{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.Bespoke{
+    width: 351px;
+    color: white;
+}
+.whitelink1{
+    color: white;
+    text-decoration-line: none;
+    margin-bottom: 10px;
+}
+.whitelink1:hover{
+    color: #F58A07;
+}
+.whitelink2{
+    width: 342px;
+    height: 30px;
+    color: #9C9C9C;
+    background-color: #ffffff;
+    border-radius: 31px;
+    text-decoration-line: none;
+    padding: 1em 1.5rem;
+    margin-bottom: 25px;
+}
+.whitelink3{
+    width: 156px;
+    height: 54px;
+    color: white;
+    background-color: #F58A07;
+    border-radius: 31px;
+    padding: 1em 1rem;
+    text-decoration-line: none;
+}
+.whitelink3:hover{
+    background-color: white;
+    color: #F58A07;
+}
+.copyrights{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 50px;
+    text-decoration-line: none;
+}
+
+/* icon hover */
+.twitter{
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/twitter.svg);
+    background-repeat: no-repeat;
+}
+.twitter:hover{
+    background-image: url(../images/twitter-yellow.svg);
+}
+
+.instagram{
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/instagram.svg);
+    background-repeat: no-repeat;
+}
+.instagram:hover{
+    background-image: url(../images/instagram-yellow.svg);
+}
+.youtube{
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/youtube.svg);
+    background-repeat: no-repeat;
+}
+.youtube:hover{
+    background-image: url(../images/youtube-yellow.svg);
+}
+.fb{
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/fb.svg);
+    background-repeat: no-repeat;
+}
+.fb:hover{
+    background-image: url(../images/fb-yellow.svg);
 }

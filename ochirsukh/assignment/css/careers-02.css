@@ -7,11 +7,10 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 52px;
-    margin-left: 480px;
     margin-top: 16px;
-    margin-right: 320px;
     margin-bottom: 16px;
     align-items: center;
     justify-content: flex-start;
@@ -62,10 +61,10 @@ body {
 
 header {
     display: flex;
-    width: 1086px;
+    max-width: 1280px;
     height: 246px;
     margin-top: 120px;
-    margin-left: 480px;
+    margin: auto;
     gap: 280px;
     align-items: flex-end;
 }
@@ -91,10 +90,11 @@ h1 {
 }
 
 .details {
-    margin-top: 64px;
-    width: 1280px;
+    
+    max-width: 1280px;
     height: 441px;
-    margin-left: 480px;
+    margin: auto;
+    margin-top: 64px;
     background: rgba(193, 228, 255, 0.3);
     border-radius: 20px;
     display: flex;
@@ -123,9 +123,9 @@ p {
 
 
 .apply {
-    width: 1282px;
+    max-width: 1280px;
     height: 564px;
-    margin-left: 480px;
+    margin: auto;
     margin-top: 128px;
     /* display: flex;
     flex-wrap: wrap;
@@ -173,34 +173,33 @@ p {
 }
 
 .apply3 {
-    margin-left: 480px;
-    background-color: #F58A07;
+    margin-top: 32px;
     text-decoration: none;
+    background-color: #F58A07;
     color: white;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
     border-radius: 20px;
+    width: 119px;
+    height: 54px;
+    border: solid white;
 }
 
 footer {
-    width: 100vw;
     height: 463px;
     background-color: #063255;
     padding-top: 80px;
     position: relative;
-    margin-top: 128px;
+    /* margin-top: 128px; */
 }
 
 .footer1 {
     display: flex;
     gap: 80px;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .footerleft {
-    margin-left: 480px;
-
+    
 }
 
 .footertext1 {
@@ -262,12 +261,13 @@ footer {
     height: 54px;
     font-size: 18px;
     font-weight: 600;
+    border: solid #063255;
 }
 
 .footer2 {
     display: flex;
-    margin-left: 480px;
-    width: 1280px;
+    margin: auto;
+    max-width: 1280px;
     height: 24px;
     justify-content: space-between;
     margin-top: 84px;
@@ -291,6 +291,7 @@ footer {
     border-radius: 31px;
     height: 24px;
     width: 342px;
+    border: solid #063255;
 }
 
 .shapeleft {
