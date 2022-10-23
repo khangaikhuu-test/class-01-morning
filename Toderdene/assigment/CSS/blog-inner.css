@@ -25,9 +25,9 @@ body {
     height: 700px;
 }
 .inner-inner1 img{
-    width: 1190px;
+    width: 1280px;
     margin-top: 60px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 .inner-inner2{
     width: 600px;
@@ -42,6 +42,7 @@ body {
     display: flex;
     flex-direction: row;
     margin-left: 0px;
+    margin-top: 30px;
 }
 .auther img{
     margin-right: 10px;
