@@ -172,9 +172,10 @@ header {
     
     height: 819px;
     background-color: #DCEAF5;
-    margin-top: 128px;
+    
 
     margin: auto;
+    margin-top: 128px;
     display: flex;
     flex-direction: column;
 }
@@ -185,19 +186,21 @@ header {
     height: 56px;
     font-size: 32px;
     font-weight: 600;
+    margin: auto;
     margin-top: 96px;
 
     margin-bottom: 64px;
-    margin: auto;
+    
     
 
 }
 
 .latestimages {
-    margin-top: 64px;
+    
     display: flex;
     gap: 40px;
     margin: 0 auto;
+    margin-top: 64px;
 }
 
 .latestimage1 {
@@ -211,8 +214,9 @@ header {
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
-    margin-top: 32px;
     margin:0 auto;
+    margin-top: 32px;
+    
     padding-left: 32px;
     padding-right: 32px;
 
@@ -248,6 +252,7 @@ footer {
     display: flex;
     gap: 80px;
     max-width: 1280px;
+    min-width: 1280px;
     margin: auto;
 }
 
@@ -277,21 +282,21 @@ footer {
     color: white;
     width: 92px;
     height: 195px;
-    margin-left: 110px;
+    margin:0 auto;
 }
 
 .footerconnect {
     color: white;
     width: 142px;
     height: 117px;
-    margin-left: 126px;
+    margin:0 auto;
 }
 
 .footerjoin {
     color: white;
     width: 342px;
     height: 175px;
-    margin-left: 100px;
+    margin:0 auto;
     display: flex;
     flex-direction: column;
 }
@@ -318,11 +323,14 @@ footer {
     display: flex;
 
     max-width: 1280px;
-    margin: auto;
+    min-width: 1280px;   
     height: 24px;
     justify-content: space-between;
-    margin-top: 84px;
+    margin: auto;
+    
 }
+    
+    
 
 .footerbottom {
     display: flex;

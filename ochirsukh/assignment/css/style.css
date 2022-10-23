@@ -640,23 +640,25 @@ footer {
     color: white;
     width: 92px;
     height: 195px;
-    margin-left: 110px;
+    margin:0 auto;
+    
 }
 
 .footerconnect {
     color: white;
     width: 142px;
     height: 117px;
-    margin-left: 126px;
+    margin:0 auto;
+    
 }
 
 .footerjoin {
     color: white;
     width: 342px;
     height: 175px;
-    margin-left: 100px;
     display: flex;
     flex-direction: column;
+    margin:0 auto;
 }
 
 .footerlink {
