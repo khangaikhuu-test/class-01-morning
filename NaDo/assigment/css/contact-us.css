@@ -43,14 +43,21 @@ header {
     display: flex;
     margin: 108px auto 0px;
     max-width: 1280px;
-    justify-content: space-between;
+    gap: 99px
     /* align-items: center; */
 }
-header div:nth-child(1) {
+.header-section-1 {
     max-width: 561px;
+    /* margin-right: 99px; */
 }
-header div:nth-child(2) {
+.header-section-2-1 {
     max-width: 270px;
+    /* margin-right: 76px; */
+}
+.header-section-2 {
+    max-width: 505px;
+    display: flex;
+    gap: 76px;
 }
 .header-text-header {
     font-size: 48px;
@@ -74,7 +81,8 @@ header div:nth-child(2) {
 main section {
     display: flex;
     margin: 63px auto 128px;
-    justify-content: center;
+    justify-content: space-between;
+    max-width: 1280px;
 }
 form {
     display: flex;
@@ -87,26 +95,25 @@ iframe {
     
 }
 input {
-    width: 90%;
     height: 54px;
     border-radius: 27px;
     background-color: rgba(210, 218, 237, 0.17);
-    padding: 17px 0px 18xp 32px;
+    padding: 17px 0px 18px 32px;
     border: 0;
+    font-family: 'Poppins', sans-serif;  
 }
 textarea {
-    width: 90%;
     border-radius: 27px;
     background-color: rgba(210, 218, 237, 0.17);
+    padding: 17px 0px 18px 32px;
     border: 0;
+    font-family: 'Poppins', sans-serif;  
 }
-::placeholder {
+ main ::placeholder {
   font-size: 16px;
-  padding-top: 17px;
-  padding-left: 32px; 
   font-family: 'Poppins', sans-serif;  
 }
-button {
+main button {
     background-color: rgba(245, 138, 7, 1);
     color: rgba(255, 255, 255, 1); 
     font-size: 16px;
@@ -114,6 +121,7 @@ button {
     border-radius: 31px;
     width: 20%;
     min-width: 120px;
+    border: none;
 }
 footer {
     background-color: rgba(6, 50, 85, 1);
@@ -154,6 +162,12 @@ footer .header4 {
     font-size: 36px;
     max-width: 351px;
 }
+.footer-logos {
+    max-width: 136px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
 #type-email {
     font-size: 19px;
     color: rgba(156, 156, 156, 1);
@@ -184,6 +198,28 @@ footer .header4 {
     right: 0px;
     top: 38px;
 }
-button {
-    cursor: pointer;
+.footer-email-input {
+    border: none;
+    font-size: 18px;
+    border-radius: 31px;
+    padding: 18px 188px 17px 32px;
+    margin-top: 24px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 1); 
+}
+.footer-subscribe-button {
+    background-color: rgba(245, 138, 7, 1);
+    color: rgba(255, 255, 255, 1); 
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif; 
+    padding: 18px 32px 18px 32px;
+    border-radius: 31px;
+    width: 46%;
+    min-width: 120px;
+    margin-top: 16px;
+}
+footer ::placeholder {
+    font-size: 16px;
+    padding-top: 17px; 
+    font-family: 'Poppins', sans-serif;  
 }

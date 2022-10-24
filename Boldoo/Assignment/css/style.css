@@ -238,22 +238,28 @@ p{
     flex-direction: row;
     justify-content: center;
     margin-top: 80px;
+    /* width: 100vw; */
 }
 .zuraglast{
-    width:963px;
+    width:50%;
     height: 518px;
+    min-width: 600px;
+    background-repeat: no-repeat; 
     background-image: url("https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png");
+    background-size: cover;
 }
 .zuraglast2{
     display: flex;
-    align-items: center;
-    width: 960px;
+    /* align-items: center; */
+    width: 50vw;
     height: 518px;
-    background-color: #F58A07;    
+    background-color: #F58A07;   
+    
 }
 .whitecolor{
     width: 532px; 
-    margin: 0 auto;   
+    /* margin: 0 auto;    */
+    padding-left: 80px;
     color: white;
     align-self: center;
 }
@@ -271,9 +277,28 @@ p{
     margin-bottom: 80px;
 }
 .backimg{
+    position: relative;
     width: 620px;
     height: 501px;
     background-image: url(../images/video-image.png);
+
+}
+.backplay{
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    /* width: 51px;
+    height: 51px; */
+    margin-top: 380px;
+    margin-left: 40px;
+}
+.backplay2{
+    display: flex;
+    align-items: center;
+}
+.playtxt{
+    color: white;
+    margin-left: 5px;
 }
 
 .col51{
@@ -361,7 +386,7 @@ p{
     left: 1px;
     border-radius: 25px 0px 0px 25px;
     width: 153px;
-    height: 670px;
+    height: 667px;
     opacity: 0.7;
 }
 .pictureyellow{

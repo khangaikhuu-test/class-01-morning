@@ -38,7 +38,10 @@ nav a {
     margin-left: 47px;
 }
 
-
+.calltoaction:hover {
+    border-radius: 31px;
+    background: #063255;
+}
 
 
 
@@ -299,6 +302,7 @@ nav a {
 
 footer {
     background-color: #063255;
+    position: relative;
 }
 
 .foot-all {
@@ -430,6 +434,11 @@ input {
     border-radius: 31px;
     background-color: #fff;
     padding-left: 42px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+    border: #063255;
 }
 
 button {
@@ -439,6 +448,11 @@ button {
     background-color: #F58A07;
     color: #fff;
     margin-top: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 106.5%;
+    text-transform: capitalize;
+    color: #FFFFFF;
 }
 
 .footer-bottom {
@@ -469,23 +483,17 @@ button {
 
 .orange-left {
     position: absolute;
-    height: 144px;
-    width: 53px;
-    margin-top: 332px;
-    margin-left: -276px;
-    border-radius: 0px 20px 0px 0px;
-    background-color: #F58A07;
+    left: 0;
+    bottom: 0px;
 }
 
 .orange-right {
     position: absolute;
-    height: 287px;
-    width: 53px;
-    margin-top: 38px;
-    margin-left: 1547px;
-    border-radius: 20px 0px 0px 20px;
-    background-color: #F58A07;
+    right: 0;
+    bottom: 138px;
 }
+
+
 
 
 /*   footer end  */
