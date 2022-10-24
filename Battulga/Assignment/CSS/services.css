@@ -316,7 +316,8 @@ ul {
     border-radius: 20px;
     margin-top: 272px;
     margin-left: 573px;
-    margin-right: -20px; position: absolute;
+    margin-right: -20px; 
+    position: absolute;
 }
 
 
@@ -444,13 +445,21 @@ line-height: 31px;
 color: #F58A07;
 margin: 0;
 }
-
 .latest-section {
     background-color: #EDF7FF;
     height: 819px;
     margin: 0 auto;
-
+    margin-top: 128px;
 }
+
+.latest-text {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+    margin-right: 800px;
+}
+
 .latest-posts {
     max-width: 1280px;
     height: 507px;
@@ -458,7 +467,8 @@ margin: 0;
     box-sizing: border-box;
     margin: 0 auto;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
+
 }
 
 .latest-posts img {
@@ -470,17 +480,19 @@ margin: 0;
 .latest-1 {
     background-color: white;
     border-radius: 20px;
-    width: 400px
-
+    width: 400px;
+    height: 507px;
 }
+
 .latest-2 {
     background-color: white;
-    border-radius: 20px ;
+    border-radius: 20px;
     width: 400px;
 }
+
 .latest-3 {
     background-color: white;
-    border-radius: 20px ;
+    border-radius: 20px;
     width: 400px;
 }
 
@@ -490,6 +502,9 @@ margin: 0;
     color: #0D1317;
     font-size: 24px;
     padding-left: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    width: 336px;
 }
 
 
@@ -509,6 +524,7 @@ margin: 0;
 .latest-3 :nth-child(4) {
     color: #F58A07;
     padding-left: 32px;
+    text-decoration: none;
 }
 
 footer {
@@ -533,7 +549,7 @@ padding-top: 80px
     color: white;
 }
 
-.subscribe :nth-child(2) {
+.form1 {
     background-color: #FFF;
     width: 342px;
     height: 54px;
@@ -542,9 +558,10 @@ padding-top: 80px
     display: flex;
     align-items: center;
     padding-left: 32px;
+    border: 0;
 }
 
-.subscribe :nth-child(3) {
+button {
     background-color: #F58A07;
     width: 156px;
     height: 54px;
@@ -553,10 +570,15 @@ padding-top: 80px
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 0;
+    font-weight: 600;
+font-size: 18px;
+line-height: 106.5%;
+margin-top: 16px;
 }
 
 .footer-bottom {
-    max-width: 1280px;
+max-width: 1280px;
 margin: 0 auto;
 display: flex;
 justify-content: space-between;
@@ -567,8 +589,6 @@ color:white;
 .footer-bottom :nth-child(2) {
     margin-left: 710px;
 }
-
-
 
 
 

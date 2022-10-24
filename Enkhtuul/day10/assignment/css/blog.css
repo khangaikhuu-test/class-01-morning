@@ -46,7 +46,6 @@ nav a {
 
 
 
-
 /*   section one begins  */
 
 
@@ -66,7 +65,6 @@ nav a {
     width: 413px;
     display: flex;
     align-items: center;
-    /* margin-top: 161px; */
 
 }
 
@@ -127,6 +125,8 @@ h1 {
     margin-bottom: 128px;
 }
 
+
+/*  section one end   */
 
 
 
@@ -252,6 +252,7 @@ h1 {
 
 footer {
     background-color: #063255;
+    position: relative;
 }
 
 .foot-all {
@@ -263,10 +264,6 @@ footer {
 .part7 {
     display: flex;
     justify-content: space-between;
-}
-
-.footer-left {
-    margin-right: 110px;
 }
 
 .footer-logo {
@@ -298,6 +295,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 80px;
+    justify-content: space-between;
 }
 
 .footer-col1 {
@@ -326,9 +324,6 @@ footer {
     margin-bottom: 16px;
 }
 
-.footer-col2 {
-    margin-left: 106px;
-}
 
 .footer-col1 ul {
     list-style: none;
@@ -368,9 +363,6 @@ footer {
     margin-bottom: 24px;
 }
 
-.footer-col3 {
-    margin-left: 140px;
-}
 
 form {
     display: flex;
@@ -401,6 +393,7 @@ button {
     font-size: 18px;
     line-height: 106.5%;
     text-transform: capitalize;
+    color: #FFFFFF;
 }
 
 .footer-bottom {
@@ -431,23 +424,24 @@ button {
 
 .orange-left {
     position: absolute;
-    height: 144px;
+    left: 0;
+    bottom: 0;
     width: 53px;
-    margin-top: 332px;
-    margin-left: -276px;
-    border-radius: 0px 20px 0px 0px;
+    height: 144px;
     background-color: #F58A07;
+    border-radius: 0 20px 0 0;
 }
 
 .orange-right {
     position: absolute;
     height: 287px;
     width: 53px;
-    margin-top: 38px;
-    margin-left: 1547px;
-    border-radius: 20px 0px 0px 20px;
+    right: 0;
+    bottom: 138px;
     background-color: #F58A07;
+    border-radius: 20px 0 0 20px;
 }
+
 
 
 /*   footer end  */
