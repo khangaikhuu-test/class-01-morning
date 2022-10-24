@@ -12,11 +12,10 @@ body {
     margin-top: 16px;
     margin-bottom: 16px;
     align-items: center;
+    justify-content: space-between;
 }
 
-.logo1 {
-    margin-right: 501px;
-}
+.logo1 {}
 
 .menu {
     text-decoration: none;
@@ -32,11 +31,11 @@ body {
 .nav-menu {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     padding: 0px;
     gap: 32px;
     font-size: 16px;
-    width: 437px;
+
     height: 24px;
 
 }
@@ -52,8 +51,7 @@ body {
     font-family: 'Poppins';
     font-style: normal;
     font-size: 16px;
-    margin-left: 68px;
-    margin-right: 0px;
+
 }
 
 header {
