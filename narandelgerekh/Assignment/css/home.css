@@ -225,7 +225,7 @@ header {
     font-size: 16px;
 }
 
-/*section-3*/
+/*section-3 about*/
 .section-3 {
     height: 1672px;
     display: flex;
@@ -594,7 +594,7 @@ footer {
 }
 
 .footer-top p {
-    /* font-weight: 600; */
+
     margin: 0;
 }
 
