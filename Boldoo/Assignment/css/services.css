@@ -4,6 +4,19 @@
 .width5{
     width: 580px;
 }
+.picture11serv{
+    position: relative;
+}
+.picture11serv::after{
+    content: "";
+    position: absolute;
+    background-color: #F58A07;
+    border-radius: 25px 0px 0px 25px;
+    width: 153px;
+    height: 650px;
+    opacity: 0.7;
+    left: 0px;
+}
 .picture12{
     position: relative;
 }
@@ -27,6 +40,34 @@
     background-color: #F58A07;
     left: -42px;
     top: 150px;
+    border-radius: 25px;
+    width: 95px;
+    height: 97px;
+    opacity: 0.7;
+}
+.picture14{
+    position: relative;
+}
+.picture14::after{
+    content: "";
+    position: absolute;
+    background-color: #F58A07;
+    left: -42px;
+    top: 217px;
+    border-radius: 25px;
+    width: 95px;
+    height: 97px;
+    opacity: 0.7;
+}
+.picture15{
+    position: relative;
+}
+.picture15::after{
+    content: "";
+    position: absolute;
+    background-color: #F58A07;
+    left: -42px;
+    top: 342px;
     border-radius: 25px;
     width: 95px;
     height: 97px;
