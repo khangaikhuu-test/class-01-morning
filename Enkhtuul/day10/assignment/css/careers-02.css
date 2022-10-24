@@ -238,9 +238,7 @@ p {
 }
 
 
-
-
-
+/*   section three end  */
 
 
 
@@ -399,6 +397,7 @@ button {
     font-size: 18px;
     line-height: 106.5%;
     text-transform: capitalize;
+    color: #FFFFFF;
 }
 
 .footer-bottom {
