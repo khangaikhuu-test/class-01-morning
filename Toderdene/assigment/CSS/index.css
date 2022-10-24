@@ -205,6 +205,9 @@ section {
     
     
 }
+.main-02 a{
+    margin-left: 0px;
+}
 
 .main-02-1 {
     display: flex;
