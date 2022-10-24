@@ -94,8 +94,8 @@ body {
     bottom: 6px;
     background: #f58a07;
     width: 30%;
-    height: 587px;
-    opacity: 0.7;
+    height: 588px;
+    mix-blend-mode: multiply;
     border-radius: 20px 0px 0px 20px;
 
 
@@ -130,13 +130,13 @@ body {
 
 .features-overlay1 {
     position: relative;
-    z-index: 1;
+    z-index: 3;
     background: #f58a07;
-    width: 75px;
-    height: 110px;
-    right: 640px;
-    top: -400px;
-    opacity: 0.6;
+    width: 95px;
+    height: 96px;
+    right: 310px;
+    top: -360px;
+    mix-blend-mode: multiply;
     border-radius: 20px 20px 20px 20px;
 }
 
@@ -199,11 +199,11 @@ body {
     position: relative;
     z-index: 1;
     background: #f58a07;
-    width: 75px;
-    height: 190px;
-    left: 640px;
-    top: -300px;
-    opacity: 0.6;
+    width: 96px;
+    height: 96px;
+    left: 310px;
+    top: -290px;
+    mix-blend-mode: multiply;
     border-radius: 20px 20px 20px 20px;
 }
 /* ------------------------------------------------------------------------- */
@@ -229,11 +229,11 @@ body {
     position: relative;
     z-index: 1;
     background: #f58a07;
-    width: 80px;
-    height: 190px;
-    right: 640px;
-    top: -300px;
-    opacity: 0.6;
+    width: 96px;
+    height: 96px;
+    right: 310px;
+    top: -320px;
+    mix-blend-mode: multiply;
     border-radius: 20px 20px 20px 20px;
 }
 
@@ -283,11 +283,11 @@ body {
     position: relative;
     z-index: 1;
     background: #f58a07;
-    width: 80px;
-    height: 80px;
-    left: 585px;
-    top: -250px;
-    opacity: 0.6;
+    width: 96px;
+    height: 96px;
+    left: 313px;
+    top: -270px;
+    mix-blend-mode: multiply;
     border-radius: 20px 20px 20px 20px;
 }
 /* ------------------------------------------------------------------------- */
@@ -312,11 +312,11 @@ body {
     position: relative;
     z-index: 1;
     background: #ff8800;
-    width: 80px;
-    height: 80px;
-    right: 590px;
-    top: -180px;
-    opacity: 0.7;
+    width: 96px;
+    height: 96px;
+    right: 310px;
+    top: -250px;
+    mix-blend-mode: multiply;
     border-radius: 20px 20px 20px 20px;
 }
 
@@ -337,6 +337,7 @@ body {
 video-section {
     display: flex;
     max-width: 1280px;
+    margin-top: 450px;
 }
 
 .vid-section-inner {

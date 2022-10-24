@@ -1,0 +1,192 @@
+header {
+    width: 100%;
+    background: #245bae
+    }
+#wildlife{
+  hyphens: auto;
+  border-top: 2px solid orange;
+  box-shadow: 0px 0px 0px rgba(255, 165, 0, 10);
+  width: 100%;
+  height: 20%;
+  margin: 0 auto;
+  padding: 10% 5%;
+  background: url(../image/back2.jpeg) center / cover #454959;
+  color: white;
+}
+h1, h2 {
+  font: 400 4rem/1.1 'Abolition Regular', Impact, Charcoal, sans-serif;  
+}
+.medee{
+  text-shadow: 10px 10px 10px rgba(235, 235, 231, 4),-10px -10px 10px rgba(0, 0, 0, 4);
+  text-align: center;
+}
+.medee p{
+  display: inline-flex;
+  max-width: 50%;
+}
+.intro{
+  padding-bottom: 30px;
+  max-width: 30%;
+  font-family: 'roboto';
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px; 
+  text-align: justify; 
+}
+.me01{
+  display: inline-block;
+  max-width: 100%;
+}
+.me02{
+  display:inline-block;
+  max-width: 30%;
+}
+.me03{
+  display: inline-block;
+  max-width: 300px;
+}
+
+main{
+  max-width: 1000px;
+    margin: 0 auto;
+    hyphens: auto;
+  }
+
+.me04{
+  display: inline-block;
+  max-width: 300px;
+}
+
+header ul {
+    margin: 0
+}
+img{
+  width: 32%;
+  height: 20%;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 20px 0
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none
+}
+.menuzuun{
+    float: right;
+    padding-right: 10px;
+}
+.nav{
+    border-top: #fff solid 1px;
+    background-color: #245bae;       
+}
+.deedtses{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    color: #245bae;
+    
+}
+.deedtses ul li{
+    border-left: 1px solid blue;
+    
+}
+.deedtses ul li a{
+    color: #245bae;
+    margin-left: 5px;
+}
+#top{
+    padding: 8vh 0;
+    /* background-image: url('../img/mountains.jpg') center / cover #f3753b; */
+    background-image: url('../image/bac2.jpeg');
+    background-size: cover;
+    background-blend-mode: multiply;
+    max-width: 50%;
+    max-height: 10%;
+    /* background-repeat: repeat-x;
+    background-position: 75% 25%; */
+  }
+  button{
+    
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+    float: right;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(to top, #F84213 0%, #ffffff 80%);
+  }
+
+  h1{
+    font-family: 'abolition';
+    font-size: 64px;
+    font-weight: 100;
+    line-height: 1;
+    letter-spacing: 5px;
+    text-shadow: 10px 10px 10px rgba(125, 125, 125, 4),-10px -10px 10px rgba(0, 0, 0, 4);
+  }
+  .title{
+    font-family: fantasy;
+    font-size: 40px;
+    line-height: 1px;
+  }
+
+
+  .zuunhuree{
+    
+    display: inline-block;
+    width: 25%;
+    /* margin: 8px; */
+    /* background: linear-gradient(to top, #ffcc00 0%, #7d3cdf 50%); */
+  }
+  .zuunhuree1{
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+    display: inline-block;
+    width:100%;
+    /* margin: 8px; */
+    height: 150px;
+    background: linear-gradient(to top, #ffcc00 0%, #cc6600 50%);
+  }
+  .zuunhuree2{
+    padding: 10px;
+    background-color: brown;
+    width: 100%;
+    height: 150px;
+    max-height: 50%;
+}
+  .baruunhuree{
+    height: 30vh;
+    margin-top: 0%;
+    display: inline-block;
+    width: 24%;
+    height: 300px;
+    /* margin: 8px; */
+    background: linear-gradient(to top, #ffcc00 0%, #7d3cdf 50%);
+    position: relative;
+    top: -200px;
+    border-radius: 10px;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+img{
+    
+    height: 150px;
+}
+body{
+    max-width: 1000px;
+      margin: 0 auto;
+      hyphens: auto;
+     
+    }
