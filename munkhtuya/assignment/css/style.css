@@ -545,15 +545,18 @@ footer {
   height: 463px;
   position: relative;
 }
+
+
 footer::after {
   content: "";
   background-color: #f58a07;
-  width: 53px;
+  width: 96px;
   height: 287px;
   position: absolute;
   top: 53px;
   right: 0;
-  border-bottom: 31px;
+  bottom: 192px;
+  border-radius:20px;
 }
 
 footer::before {
@@ -564,9 +567,13 @@ footer::before {
   position: absolute;
   bottom: 53px;
   left: 0;
-  height: ;
-  border-radius: 31px;
+  height: 96px;
+  border-radius: 20px; 
 }
+
+
+
+
 .container1280 {
   max-width: 1280px;
   margin: 0% auto;
@@ -605,9 +612,11 @@ a {
   border-radius: 30px;
   margin-bottom: 18px;
 }
+
 .sub {
   color: white;
   background-color: #f58a07;
   padding: 10px 20px;
   border-radius: 30px;
 }
+
