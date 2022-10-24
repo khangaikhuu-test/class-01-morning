@@ -454,7 +454,7 @@ section-blue {
     position: relative;
     left: -198px;
     top: -556px;
-    opacity: 0.7;
+    mix-blend-mode: multiply;
     border-radius: 20px 0 0 20px;
 }
 
@@ -618,7 +618,7 @@ section-blue {
     position: relative;
     left: 135px;
     top: -935px;
-    opacity: 0.7;
+    mix-blend-mode: multiply;
     border-radius: 20px 0 0 20px;
     z-index: 2;
 }
