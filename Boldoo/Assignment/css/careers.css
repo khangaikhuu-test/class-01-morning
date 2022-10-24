@@ -19,3 +19,16 @@
     margin-bottom: 40px;
     padding-left: 40px;
 }
+.picture11careers{
+    position: relative;
+}
+.picture11careers::after{
+    content: "";
+    position: absolute;
+    background-color: #F58A07;
+    border-radius: 25px 0px 0px 25px;
+    width: 153px;
+    height: 650px;
+    opacity: 0.7;
+    left: 0px;
+}

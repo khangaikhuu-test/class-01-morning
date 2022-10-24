@@ -1,0 +1,25 @@
+
+
+/* header-section */
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 99px;
+}
+
+.header-text {
+    width: 618px;
+    height: 385px;
+}
+
+.header-img {
+    background-image: url("../img/1.png");
+    width: 616px;
+    height: 650px;
+    border-radius: 20px;
+}
+
+
+
+/* features */

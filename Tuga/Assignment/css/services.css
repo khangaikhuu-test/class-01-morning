@@ -70,6 +70,7 @@ ul {
    background-color: #F58A07;
    mix-blend-mode: multiply;
    border-radius: 20px;
+   z-index: 2;
 }
 
 .section-image-left-middle {
@@ -162,7 +163,13 @@ ul {
    width: 51px;
    height: 51px;
    border-radius: 50%;
+   transition: 300ms ease-out;
 
+}
+
+.play-button:hover {
+   width: 54px;
+   height: 54px;
 }
 
 /* Latest section style*/

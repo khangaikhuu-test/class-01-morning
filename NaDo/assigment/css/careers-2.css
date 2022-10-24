@@ -83,6 +83,15 @@ header {
    color: rgba(13, 19, 23, 1); 
    letter-spacing: -0.03em;
 }
+.career-detail-sub1 div:nth-child(1) {
+    max-width: 184px;
+    font-size: 24px;
+    color:rgba(245, 138, 7, 1); 
+    letter-spacing: -0.03em;
+ }
+ .career-detail-sub1 div {
+    margin-bottom: 40px;
+ }
 .career-detail-sub2 {
     max-width: 842px;
     color: rgba(91, 91, 91, 1);
@@ -97,6 +106,13 @@ header {
     max-width: 1280px;
     margin: 128px auto 0px;
 }
+.aplly-section-header {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: rgba(13, 19, 23, 1);
+    margin-bottom: 51px;
+}
 form {
     display: flex;
     flex-direction: column;
@@ -106,12 +122,12 @@ form div {
     display: flex;
     gap: 24px;
 }
-input {
+main input {
     width: 49%;
     height: 54px;
     border-radius: 27px;
     background-color: rgba(210, 218, 237, 0.17);
-    padding: 17px 0px 18xp 32px;
+    padding: 17px 0px 18px 32px;
     border: 0;
 }
 textarea {
@@ -119,20 +135,23 @@ textarea {
     background-color: rgba(210, 218, 237, 0.17);
     margin-top: 24px;
     border: 0;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 17px;
+    padding-left: 32px; 
 }
-::placeholder {
+main ::placeholder {
   font-size: 16px;
-  padding-top: 17px;
-  padding-left: 32px; 
   font-family: 'Poppins', sans-serif;  
+  
 }
-button {
+main button {
     background-color: rgba(245, 138, 7, 1);
     color: rgba(255, 255, 255, 1); 
     font-size: 16px;
     padding: 18px 32px 18px 32px;
     border-radius: 31px;
     margin: 32px 0px 128px 0px;
+    border: none;
 }
 footer {
     background-color: rgba(6, 50, 85, 1);
@@ -173,6 +192,12 @@ footer .header4 {
     font-size: 36px;
     max-width: 351px;
 }
+.footer-logos {
+    max-width: 136px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
 #type-email {
     font-size: 19px;
     color: rgba(156, 156, 156, 1);
@@ -203,6 +228,28 @@ footer .header4 {
     right: 0px;
     top: 38px;
 }
-button {
-    cursor: pointer;
+.footer-email-input {
+    border: none;
+    font-size: 18px;
+    border-radius: 31px;
+    padding: 18px 188px 17px 32px;
+    margin-top: 24px;
+    font-family: 'Poppins', sans-serif; 
+    background-color: rgba(255, 255, 255, 1); 
+}
+.footer-subscribe-button {
+    background-color: rgba(245, 138, 7, 1);
+    color: rgba(255, 255, 255, 1); 
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif; 
+    padding: 18px 32px 18px 32px;
+    border-radius: 31px;
+    width: 46%;
+    min-width: 120px;
+    margin-top: 16px;
+}
+footer ::placeholder {
+    font-size: 16px;
+    padding-top: 17px; 
+    font-family: 'Poppins', sans-serif;  
 }
