@@ -245,7 +245,13 @@ article.col-2 {
     width: 51px;
     height: 51px;
     border-radius: 50%;
+    transition: 300ms ease-out;
 
+}
+
+.play-button:hover {
+    width: 54px;
+    height: 54px;
 }
 
 /* Latest section style*/
