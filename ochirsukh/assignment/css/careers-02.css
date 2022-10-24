@@ -90,7 +90,7 @@ h1 {
 }
 
 .details {
-    
+
     max-width: 1280px;
     height: 441px;
     margin: auto;
@@ -184,7 +184,7 @@ p {
 }
 
 footer {
-    
+
     height: 463px;
     background-color: #063255;
     padding-top: 80px;
@@ -199,9 +199,7 @@ footer {
     margin: auto;
 }
 
-.footerleft {
-    
-}
+.footerleft {}
 
 .footertext1 {
     width: 351px;
@@ -211,9 +209,7 @@ footer {
     padding-bottom: 32px;
 }
 
-.footerimg {
-    background-color: white;
-}
+.footerimg {}
 
 .social {
     width: 136px;
@@ -227,21 +223,21 @@ footer {
     color: white;
     width: 92px;
     height: 195px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .footerconnect {
     color: white;
     width: 142px;
     height: 117px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .footerjoin {
     color: white;
     width: 342px;
     height: 175px;
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
