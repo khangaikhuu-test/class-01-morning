@@ -38,6 +38,12 @@ nav a {
     margin-left: 47px;
 }
 
+.calltoaction:hover {
+    border-radius: 31px;
+    background: #063255;
+}
+
+
 
 
 /*   section one begins   */
