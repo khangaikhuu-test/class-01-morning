@@ -13,7 +13,7 @@ body {
     margin-top: 16px;
     margin-bottom: 16px;
     align-items: center;
-    
+
 
 }
 
@@ -129,7 +129,7 @@ header {
 .feature1image {
     width: 620px;
     height: 550px;
-   
+
 }
 
 .feature1text {
@@ -254,7 +254,7 @@ header {
 .feature4 {
     width: 1328px;
     height: 550px;
-    
+
     margin-top: 128px;
     display: flex;
     gap: 80px;
@@ -415,7 +415,7 @@ header {
     margin: auto;
     margin-top: 128px;
 
-    
+
     display: flex;
     flex-direction: column;
 }
@@ -433,7 +433,7 @@ header {
 }
 
 .latestimages {
-    
+
     display: flex;
     gap: 40px;
     margin: 0 auto;
@@ -453,7 +453,7 @@ header {
     font-weight: 500;
     line-height: 36px;
     margin-top: 32px;
-    margin:0 auto;
+    margin: 0 auto;
     padding-left: 32px;
     padding-right: 32px;
 
@@ -492,14 +492,13 @@ footer {
 .footer1 {
     display: flex;
     max-width: 1280px;
-    
+
     min-width: 1280px;
     margin: auto;
     height: 200px;
 }
 
-.footerleft {
-}
+.footerleft {}
 
 .footertext1 {
     width: 351px;
@@ -507,12 +506,10 @@ footer {
     font-size: 36px;
     color: white;
     padding-bottom: 32px;
-    
+
 }
 
-.footerimg {
-    background-color: white;
-}
+.footerimg {}
 
 .social {
     width: 136px;
@@ -526,14 +523,14 @@ footer {
     color: white;
     width: 92px;
     height: 195px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .footerconnect {
     color: white;
     width: 142px;
     height: 117px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .footerjoin {
@@ -542,7 +539,7 @@ footer {
     height: 175px;
     display: flex;
     flex-direction: column;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .footerlink {
@@ -570,8 +567,8 @@ footer {
     height: 24px;
     margin: auto;
     justify-content: space-between;
-   
-    
+
+
     margin-top: 84px;
 }
 

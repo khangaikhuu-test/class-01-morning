@@ -12,7 +12,7 @@ body {
     margin-top: 16px;
     margin-bottom: 16px;
     align-items: center;
-   }
+}
 
 .logo1 {
     margin-right: 501px;
@@ -64,13 +64,13 @@ header {
     display: flex;
     gap: 99px;
     margin-bottom: 64px;
-    
+
 }
 
 .header1 {
     width: 561px;
     height: 128px;
-    
+
 }
 
 .header0 {
@@ -92,18 +92,18 @@ h2 {
 
 #header1 {
     width: 270px;
-    
+
 }
 
 #header2 {
-   width: 159px;
+    width: 159px;
 }
 
 .header2 {
     width: 561px;
     display: flex;
-   justify-content: space-between;
-   
+    justify-content: space-between;
+
 }
 
 .contact {
@@ -190,10 +190,7 @@ footer {
     margin: auto;
 }
 
-.footerleft {
-    
-
-}
+.footerleft {}
 
 .footertext1 {
     width: 351px;
@@ -203,9 +200,7 @@ footer {
     padding-bottom: 32px;
 }
 
-.footerimg {
-    background-color: white;
-}
+.footerimg {}
 
 .social {
     width: 136px;
@@ -226,14 +221,14 @@ footer {
     color: white;
     width: 142px;
     height: 117px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .footerjoin {
     color: white;
     width: 342px;
     height: 175px;
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
@@ -264,7 +259,7 @@ footer {
     justify-content: space-between;
     margin: auto;
     margin-top: 84px;
-    
+
 }
 
 .footerbottom {
