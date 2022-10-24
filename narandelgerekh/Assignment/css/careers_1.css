@@ -1,14 +1,50 @@
+#p3-section1 {
+    padding-top: 109px;
+}
+
 .careers-header {
     width: 616px;
     height: 650px;
     border-radius: 20px;
-    background-image: url("../img/1.png");
+    background-image: url("../img/careers1.png");
 }
 
-.header-orange {
-    width: 180px;
-    height: 650px;
-    background-color: #F58A07;
-    mix-blend-mode: multiply;
-    border-radius: 20px 0 0 20px;
+.careers {
+    display: flex;
+    justify-content: center;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.careers-card {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.careers-card h2 {
+    line-height: 56px;
+}
+
+.positions {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.positions-1 {
+    display: flex;
+    gap: 40px;
+}
+
+.positions-1 div{
+    background-color: #C1E4FF4D;
+    width: 400px;
+    height: 181px;
+    border-radius: 20px;
+    padding: 32px 40px;
+}
+
+.positions p {
+    margin-bottom: 32px;
 }
