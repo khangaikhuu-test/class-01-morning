@@ -17,6 +17,28 @@ footer {
     height: 463px;
     margin: auto;
     padding: 80px 320px;
+    position: relative;
+}
+
+.yellow1 {
+background-color: #F58A07;
+position: absolute;
+height: 144px;
+width: 53px;
+border-radius: 0 20px 0 0;
+bottom: 0;
+left: 0;
+
+}
+
+.yellow2 {
+    background-color: #F58A07;
+    position: absolute;
+    height: 287px;
+    width: 53px;
+    border-radius: 20px 0 0 20px;
+    right: 0;
+    top: 38px;
 }
 
 .footer-top{

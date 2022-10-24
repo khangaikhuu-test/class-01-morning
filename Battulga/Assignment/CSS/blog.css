@@ -122,7 +122,6 @@ header {
     font-size: 48px;
     line-height: 56px;
     color: #0D1317;
-    ;
     margin-right: 800px;
 }
 
@@ -133,6 +132,7 @@ header {
     margin: 0 auto;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 
 }
 
@@ -147,6 +147,7 @@ header {
     border-radius: 20px;
     width: 400px;
     margin-bottom: 40px;
+    height: 507px;
 }
 
 .latest-2 {
@@ -154,6 +155,7 @@ header {
     border-radius: 20px;
     width: 400px;
     margin-bottom: 40px;
+    height: 507px;
 }
 
 .latest-3 {
@@ -161,6 +163,7 @@ header {
     border-radius: 20px;
     width: 400px;
     margin-bottom: 40px;
+    height: 507px;
 }
 
 .latest-1 :nth-child(2),
@@ -191,6 +194,7 @@ header {
 .latest-3 :nth-child(4) {
     color: #F58A07;
     padding-left: 32px;
+    text-decoration: none;
 }
 
 footer {
@@ -201,13 +205,13 @@ footer {
 
 
 .footer-top {
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 80px
-}
+max-width: 1280px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+padding-top: 80px
 
+}
 .company {
     color: white;
 }
@@ -216,7 +220,7 @@ footer {
     color: white;
 }
 
-.subscribe :nth-child(2) {
+.form1 {
     background-color: #FFF;
     width: 342px;
     height: 54px;
@@ -225,9 +229,10 @@ footer {
     display: flex;
     align-items: center;
     padding-left: 32px;
+    border: 0;
 }
 
-.subscribe :nth-child(3) {
+button {
     background-color: #F58A07;
     width: 156px;
     height: 54px;
@@ -236,15 +241,20 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 0;
+    font-weight: 600;
+font-size: 18px;
+line-height: 106.5%;
+margin-top: 16px;
 }
 
 .footer-bottom {
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 80px;
-    color: white;
+max-width: 1280px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+padding-top: 80px;
+color:white;
 }
 
 .footer-bottom :nth-child(2) {
