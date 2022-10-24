@@ -1,0 +1,258 @@
+.services
+{
+    display: flex;
+    width: 70vw;
+    height: 50rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.services-left
+{
+    width: 30vw;
+    
+}
+.services-headtext
+{
+    font-size: 2.2em;
+}
+.services-left-bottom
+{
+    margin-top: 40px;
+    margin-left: 0;
+}
+.services-button
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: #F58A07;
+    border-radius: 25px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.services-right
+{
+    display: flex;
+    background-image: url(../img/coffee.png);
+    background-size: cover;
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    width: 500px;
+    height: 550px;
+}
+.services-right::after
+{
+    content: "";
+    position: absolute;
+    background-color: #F58A07;
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+    width: 10vw;
+    height: 550px;
+    border-radius: 40px 0 0 40px;
+    padding: 0;
+}
+serve
+{
+    display: flex;
+    flex-flow: column;
+}
+.bussines-strategy
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70vw;
+    height: 35vw;
+}
+.bussines-column1
+{
+    position: relative;
+    background-image: url(../img/Feature\ 1\ Image.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;    
+}
+.ribbon1
+{
+    position: relative;
+}
+.ribbon1::after
+{
+    content: "";
+    position: absolute;
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    left: 11vw;
+    top: 200px;
+    width: 97px;
+    height: 97px;
+}
+
+.bussines-column2
+{
+    display: flex;
+    align-self: center;
+    flex-flow: column wrap;
+    width: 30vw;
+    margin-left: 5vw;    
+}
+.services-h2
+{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+}
+.services-ul
+{
+    margin-left: -16px;
+}
+.services-paragraph
+{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+
+.digital
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70vw;
+    height: 35vw;
+    flex-flow: row-reverse;
+}
+.digital-column1
+{
+    background-image: url(../img/Feature\ 2\ Image.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;    
+}
+.digital-column2
+{
+    display: flex;
+    align-self: center;
+    flex-flow: column wrap;
+    width: 30vw;    
+}
+.ribbon2
+{
+    position: relative;
+}
+.ribbon2::after
+{
+    content: "";
+    position: absolute;
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    right: 11vw;
+    top: 200px;
+    width: 97px;
+    height: 97px;
+}
+
+/* ribbon3 */
+.risk
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70vw;
+    height: 35vw;
+}
+.risk-column1
+{
+    position: relative;
+    background-image: url(../img/Feature\ 3\ Image.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;    
+}
+.ribbon3
+{
+    position: relative;
+}
+.ribbon3::after
+{
+    content: "";
+    position: absolute;
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    left: 11vw;
+    top: 200px;
+    width: 97px;
+    height: 97px;
+}
+
+.risk-column2
+{
+    display: flex;
+    align-self: center;
+    flex-flow: column wrap;
+    width: 30vw;
+    margin-left: 5vw;    
+}
+
+/* ribbon4 */
+
+.Artificial
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70vw;
+    height: 35vw;
+    flex-flow: row-reverse;
+}
+.Artificial-column1
+{
+    background-image: url(../img/Feature\ 2\ Image.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;    
+}
+.Artificial-column2
+{
+    display: flex;
+    align-self: center;
+    flex-flow: column wrap;
+    width: 30vw;    
+}
+.ribbon4
+{
+    position: relative;
+}
+.ribbon4::after
+{
+    content: "";
+    position: absolute;
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    right: 11vw;
+    top: 200px;
+    width: 97px;
+    height: 97px;
+}
+
+
+
+
+
+

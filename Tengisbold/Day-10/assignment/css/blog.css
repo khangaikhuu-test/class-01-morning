@@ -1,0 +1,111 @@
+.blog-container
+{
+    background-color: #DCEAF5;
+    width: 100vw;
+}
+.blog
+{
+    display: flex;
+    width: 70vw;
+    height: 50rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-left
+{
+    width: 35vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog-profile
+{
+    display: flex;
+    min-width: 15vw;
+}
+.blog-profilepic
+{
+    align-self: center;
+}
+.blog-headtext
+{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+}
+.andrew
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 2vw;
+}
+.blog-left-bottom
+{
+    margin-top: 40px;
+    margin-left: 0;
+}
+.blog-button
+{
+    text-decoration: none;
+    color: #F58A07;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+.blog-right
+{
+    display: flex;
+    background-image: url(../img/blog-header.png);
+    background-size: cover;
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    width: 400px;
+    height: 300px;
+}
+.blog-banner
+{
+    width: 100vw;
+    position: relative;
+}
+
+
+
+.blog-all
+{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+.blog-bannerhead
+{
+    margin-top: 5vw;
+}
+.blog-container2
+{
+    width: 70vw;
+    margin: 0 auto;
+}
+
+
+
+.sectionblog img
+{
+    width: 22vw;
+    border-radius: 20px 20px 0 0;
+}
+.sectionblog
+{
+    background-color: #DCEAF5;
+    width: 22vw;
+    border-radius: 20px;
+    margin-bottom: 5em ;
+}
+.blog-article
+{
+    padding-bottom: 30px;
+    width: 20vw;
+    margin: 0 auto;
+}
