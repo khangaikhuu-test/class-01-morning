@@ -372,19 +372,19 @@ body {
 
 }
 
-.yellow-button {
+/* .yellow-button {
     background-color: white;
     color: #F58A07;
 
-}
+} */
 
-.grey-button1 {
+/* .grey-button1 {
     color: #0a538f;
 }
 
 .grey-button2 {
     color: #0a538f
-}
+} */
 
 .fourth-face-text-head {
     display: flex;
@@ -497,16 +497,28 @@ body {
     line-height: 56px;
     letter-spacing: -0.03em;
     text-transform: capitalize;
-    ;
     color: #0D1317;
 }
 
+.fisrt-page-6-picture {
+    position: relative;
+ }
+ 
+ .images6 {
+    position: absolute;
+    display: flex;
+    color: #FFFFFF;
+    bottom: 40px;
+    left: 40px;
+ }
 .first-page-6-text p {
     color: #5B5B5B;
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
 }
+
+
 
 .person {
     margin-top: 40px;
@@ -574,4 +586,76 @@ body {
     background-color: #FFFFFF;
     margin: 40px;
     border-radius: 20px;
+}
+
+.page4 {
+    max-width: 1280px;
+    width: 100%;
+    height: 682px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #DCEAF5;
+    border-radius: 20px;
+    margin-bottom: 128px;
+    position: relative;
+    padding: 48px;
+
+}
+
+.page4-container2 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.ribbon {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+.page4-container1{
+    display: flex;
+    gap: 24px;
+}
+
+.page4-container1 a{
+    padding: 8px 24px;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: rgba(6, 50, 85, 0.3);
+}
+
+.yellow-button {
+    border: none !important;
+    color: #F58A07 !important;
+    background-color: white ;
+}
+
+
+
+/* .page4-container1 {
+    color: #F58A07;
+    position: absolute;
+    height: 40px;
+    width: 580px;
+    left: 20px;
+    top: 20px;
+    border-radius: 20px;
+    
+} */
+
+.page4-container2-1 {
+
+}
+
+.page4-container2-1 h1 {
+    font-size: 48px;
+    color: #0D1317;
+}
+
+.page4-container2-1 p {
+    font-size: 18px;
+    color: #5B5B5B;
 }
