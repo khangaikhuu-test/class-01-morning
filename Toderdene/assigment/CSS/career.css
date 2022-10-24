@@ -91,8 +91,8 @@ body {
     bottom: 6px;
     background: #f58a07;
     width: 30%;
-    height: 587px;
-    opacity: 0.7;
+    height: 588px;
+    mix-blend-mode: multiply;
     border-radius: 20px 0px 0px 20px;
 }
 /* -------------------------------------------------------------- */

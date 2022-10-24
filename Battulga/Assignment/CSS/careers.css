@@ -125,6 +125,7 @@ header {
     border-radius: 20px;
     box-sizing: border-box;
     padding-left: 40px;
+    height: 181px;
 
 }
 
@@ -134,6 +135,7 @@ header {
     border-radius: 20px;
     box-sizing: border-box;
     padding-left: 40px;
+    height: 181px;
 }
 
 .career3 {
@@ -142,6 +144,7 @@ header {
     border-radius: 20px;
     box-sizing: border-box;
     padding-left: 40px;
+    height: 181px;
 }
 
 .career4 {
@@ -151,6 +154,7 @@ header {
     box-sizing: border-box;
     padding-left: 40px;
     margin-top: 40px;
+    height: 181px;
 }
 
 .career5 {
@@ -161,6 +165,7 @@ header {
     padding-left: 40px;
     margin-top: 40px;
     margin-right: 445px;
+    height: 181px;
 }
 
 .career1 :nth-child(1),
@@ -198,14 +203,25 @@ margin-top: 0px;
     font-size: 18px;
     line-height: 106.5%;    
     color: #F58A07;
+    text-decoration: none;
 }
 
 .latest-section {
     background-color: #EDF7FF;
     height: 819px;
     margin: 0 auto;
-
+    margin-top: 128px;
 }
+
+.latest-text {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+    padding-top: 96px;
+    margin-right: 800px;
+}
+
 .latest-posts {
     max-width: 1280px;
     height: 507px;
@@ -213,7 +229,12 @@ margin-top: 0px;
     box-sizing: border-box;
     margin: 0 auto;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
+
+}
+
+.latest-text {
+    margin-top: 0px;
 }
 
 .latest-posts img {
@@ -224,19 +245,21 @@ margin-top: 0px;
 
 .latest-1 {
     background-color: white;
-    border-radius: 20px 20px 0 0;
-    width: 400px
-
+    border-radius: 20px;
+    width: 400px;
+    height: 507px;
 }
+
 .latest-2 {
     background-color: white;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
     width: 400px;
 }
+
 .latest-3 {
     background-color: white;
-    border-radius: 20px 20px 0 0;
-    width: 200px;
+    border-radius: 20px;
+    width: 400px;
 }
 
 .latest-1 :nth-child(2),
@@ -245,6 +268,9 @@ margin-top: 0px;
     color: #0D1317;
     font-size: 24px;
     padding-left: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    width: 336px
 }
 
 
@@ -264,7 +290,10 @@ margin-top: 0px;
 .latest-3 :nth-child(4) {
     color: #F58A07;
     padding-left: 32px;
+    text-decoration: none;
 }
+
+
 
 footer {
     background-color: #063255;
@@ -288,7 +317,7 @@ padding-top: 80px
     color: white;
 }
 
-.subscribe :nth-child(2) {
+.form1 {
     background-color: #FFF;
     width: 342px;
     height: 54px;
@@ -297,9 +326,10 @@ padding-top: 80px
     display: flex;
     align-items: center;
     padding-left: 32px;
+    border: 0;
 }
 
-.subscribe :nth-child(3) {
+button {
     background-color: #F58A07;
     width: 156px;
     height: 54px;
@@ -308,10 +338,15 @@ padding-top: 80px
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 0;
+    font-weight: 600;
+font-size: 18px;
+line-height: 106.5%;
+margin-top: 16px;
 }
 
 .footer-bottom {
-    max-width: 1280px;
+max-width: 1280px;
 margin: 0 auto;
 display: flex;
 justify-content: space-between;
