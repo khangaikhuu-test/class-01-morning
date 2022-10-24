@@ -38,6 +38,11 @@ nav a {
     margin-left: 47px;
 }
 
+.calltoaction:hover {
+    border-radius: 31px;
+    background: #063255;
+}
+
 /*   section one begins   */
 
 .one {
@@ -283,7 +288,7 @@ nav a {
 
 /*   section five  begins  */
 
-.five{
+.five {
     max-width: 1280px;
     margin: auto;
 }
@@ -381,6 +386,7 @@ nav a {
     background-repeat: no-repeat;
     border-radius: 40px;
 }
+
 .orange-6 {
     position: absolute;
     height: 97px;

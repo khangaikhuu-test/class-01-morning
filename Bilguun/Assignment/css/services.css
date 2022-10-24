@@ -227,16 +227,127 @@
     color: #5B5B5B;
  }
 
- .images2 {
-    background-color: #F58A07;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+/* .images1    {
+   background-color: #F58A07;
+   border-radius: 20px;
+   
+} */
+
+.services-container2 {
+   position: relative;
+}
+
+.image1::before {
+   background-color: #F58A07;
+   height: 95px;
+   width: 97px;
+   content: "";
+   position: absolute;
+   top: 128px;
+   left: -48px;
+   border-radius: 20px;
+   mix-blend-mode: multiply
+}
+
+
+.services-container3 {
+   position: relative;
+}
+
+.images1::after {
+   background-color: #F58A07;
+   height: 95px;
+   width: 97px;
+   content: "";
+   position: absolute;
+   top: 272px;
+   right: -48px;
+   border-radius: 20px;
+   mix-blend-mode: multiply;
+    
+} 
+
+
+.services-container4 {
+   position: relative;
+}
+
+ .images2::before {
+   background-color: #F58A07;
+   height: 95px;
+   width: 97px;
+   content: "";
+   position: absolute;
+   top: 272px;
+   left: -48px;
+   border-radius: 20px;
+   mix-blend-mode: multiply;
     
 }
 
-.images2 img {
-    mix-blend-mode: multiply;
+.services-container5 {
+   position: relative;
 }
+
+.images3::after {
+   background-color: #F58A07;
+   height: 95px;
+   width: 97px;
+   content: "";
+   position: absolute;
+   top: 272px;
+   right: -48px;
+   border-radius: 20px;
+   mix-blend-mode: multiply;
+}
+
+.services-container6 {
+   position: relative;
+}
+
+.images4::before {
+   background-color: #F58A07;
+   height: 95px;
+   width: 97px;
+   content: "";
+   position: absolute;
+   top: 342px;
+   left: -48px;
+   border-radius: 20px;
+   mix-blend-mode: multiply;
+}
+
+.services-container7 {
+   position: relative;
+}
+
+/* .fisrt-page-6-picture::before {
+   height: 95px;
+   width: 97px;
+   content: "";
+   position: absolute;
+   mix-blend-mode: multiply;
+} */
+
+.fisrt-page-6-picture {
+   position: relative;
+}
+
+.images6 {
+   position: absolute;
+   display: flex;
+   color: #FFFFFF;
+   bottom: 40px;
+   left: 40px;
+}
+/* .images6::before {
+   height: 95px;
+   width: 97px;
+   height: 200px;
+   bottom: 500px;
+   content: "";
+   position: absolute;
+} */
 
 
 
@@ -259,6 +370,7 @@
 .first-page-7-text img {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    mix-blend-mode: multiply;
 }
 
 .first-page-7-text h3 {

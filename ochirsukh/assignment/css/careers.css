@@ -8,13 +8,13 @@ body {
     display: flex;
     justify-content: space-around;
     max-width: 1280px;
-    margin:0 auto;
+    margin: 0 auto;
     height: 52px;
-    
+
     margin-top: 16px;
     margin-bottom: 16px;
     align-items: center;
-   
+
 
 }
 
@@ -169,10 +169,10 @@ header {
 }
 
 .latest {
-    
+
     height: 819px;
     background-color: #DCEAF5;
-    
+
 
     margin: auto;
     margin-top: 128px;
@@ -190,13 +190,13 @@ header {
     margin-top: 96px;
 
     margin-bottom: 64px;
-    
-    
+
+
 
 }
 
 .latestimages {
-    
+
     display: flex;
     gap: 40px;
     margin: 0 auto;
@@ -214,9 +214,9 @@ header {
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 32px;
-    
+
     padding-left: 32px;
     padding-right: 32px;
 
@@ -241,7 +241,7 @@ header {
 footer {
     height: 463px;
     background-color: #063255;
-    padding-top: 80px;
+
     position: relative;
     display: flex;
     flex-direction: column;
@@ -266,9 +266,7 @@ footer {
     padding-bottom: 32px;
 }
 
-.footerimg {
-    background-color: white;
-}
+.footerimg {}
 
 .social {
     width: 136px;
@@ -282,21 +280,21 @@ footer {
     color: white;
     width: 92px;
     height: 195px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .footerconnect {
     color: white;
     width: 142px;
     height: 117px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .footerjoin {
     color: white;
     width: 342px;
     height: 175px;
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
@@ -323,14 +321,14 @@ footer {
     display: flex;
 
     max-width: 1280px;
-    min-width: 1280px;   
+    min-width: 1280px;
     height: 24px;
     justify-content: space-between;
     margin: auto;
-    
+
 }
-    
-    
+
+
 
 .footerbottom {
     display: flex;
