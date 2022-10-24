@@ -58,7 +58,6 @@ body {
 }
 
 header {
-    width: 100vw;
     height: 703px;
     background-color: #DCEAF5;
     display: flex;
@@ -70,7 +69,7 @@ header {
 
     display: flex;
     gap: 53px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .header-text {
@@ -184,7 +183,7 @@ header {
 }
 
 .features {
-    width: 100vw;
+
     height: 665px;
     background: #EDF7FF;
     margin: 0 auto;
@@ -245,11 +244,12 @@ header {
 }
 
 .about {
-    margin-top: 99px;
+
     width: 1280px;
     height: 667px;
     display: flex;
     margin: auto;
+    margin-top: 99px;
 }
 
 .about-text3 {
@@ -297,12 +297,12 @@ header {
 }
 
 .services {
-    width: 1274.39px;
+    width: 1280px;
     height: 682px;
-    margin-top: 95px;
     background-color: #EDF7FF;
     position: relative;
     margin: auto;
+    margin-top: 95px;
     border-radius: 20px;
 
 }
@@ -411,6 +411,7 @@ header {
     display: flex;
     width: 100vw;
     height: 100%;
+
     margin-top: 128px;
 
 }
@@ -426,6 +427,8 @@ header {
 .CTA-text {
     background-color: #F58A07;
     width: 50vw;
+    height: 50vh;
+
 
 }
 
@@ -455,12 +458,11 @@ header {
 }
 
 .video {
-    width: 1280px;
+    max-width: 1280px;
     height: 501px;
-
     display: flex;
-    margin-top: 128px;
     margin: auto;
+    margin-top: 128px;
     gap: 110px;
 }
 
@@ -528,25 +530,25 @@ header {
 }
 
 .latest {
-    width: 100vw;
+
     height: 819px;
     background-color: #DCEAF5;
+    margin: auto;
     margin-top: 128px;
-
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 
 .latesttext {
+    min-width: 1280px;
     width: 453px;
     height: 56px;
     font-size: 32px;
+    font-weight: 600;
     margin-top: 96px;
-
     margin-bottom: 64px;
     margin: auto;
-    margin-left: 480px;
+
 
 }
 
@@ -554,7 +556,8 @@ header {
     margin-top: 64px;
     display: flex;
     gap: 40px;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 96px;
 }
 
 .latestimage1 {
@@ -569,7 +572,7 @@ header {
     font-weight: 500;
     line-height: 36px;
     margin-top: 32px;
-    margin: auto;
+    margin: 0 auto;
     padding-left: 32px;
     padding-right: 32px;
 
@@ -592,10 +595,10 @@ header {
 }
 
 footer {
-    width: 100vw;
+
     height: 463px;
     background-color: #063255;
-    padding-top: 80px;
+
     position: relative;
     display: flex;
     flex-direction: column;
@@ -622,9 +625,7 @@ footer {
     padding-bottom: 32px;
 }
 
-.footerimg {
-    background-color: white;
-}
+.footerimg {}
 
 .social {
     width: 136px;
@@ -638,23 +639,25 @@ footer {
     color: white;
     width: 92px;
     height: 195px;
-    margin-left: 110px;
+    margin: 0 auto;
+
 }
 
 .footerconnect {
     color: white;
     width: 142px;
     height: 117px;
-    margin-left: 126px;
+    margin: 0 auto;
+
 }
 
 .footerjoin {
     color: white;
     width: 342px;
     height: 175px;
-    margin-left: 100px;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .footerlink {

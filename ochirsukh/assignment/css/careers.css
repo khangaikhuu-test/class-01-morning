@@ -7,14 +7,14 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
-    width: 1280px;
+    max-width: 1280px;
+    margin: 0 auto;
     height: 52px;
-    margin-left: 480px;
+
     margin-top: 16px;
-    margin-right: 320px;
     margin-bottom: 16px;
     align-items: center;
-    justify-content: flex-start;
+
 
 }
 
@@ -60,9 +60,9 @@ body {
 }
 
 header {
-    width: 1280px;
+    max-width: 1280px;
     height: 650px;
-    margin-left: 480px;
+    margin: auto;
     margin-top: 120px;
     display: flex;
     gap: 46px;
@@ -114,8 +114,8 @@ header {
 
 .career {
     margin-top: 128px;
-    margin-left: 480px;
-    width: 1269.25px;
+    margin: auto;
+    max-width: 1280px;
     height: 522px;
 
 
@@ -169,27 +169,38 @@ header {
 }
 
 .latest {
-    width: 100vw;
+
     height: 819px;
     background-color: #DCEAF5;
+
+
+    margin: auto;
     margin-top: 128px;
-    padding-top: 96px
+    display: flex;
+    flex-direction: column;
 }
 
 .latesttext {
+    min-width: 1280px;
     width: 453px;
     height: 56px;
     font-size: 32px;
+    font-weight: 600;
+    margin: auto;
     margin-top: 96px;
-    margin-left: 480px;
+
     margin-bottom: 64px;
+
+
+
 }
 
 .latestimages {
-    margin-top: 64px;
+
     display: flex;
     gap: 40px;
-    margin-left: 480px;
+    margin: 0 auto;
+    margin-top: 64px;
 }
 
 .latestimage1 {
@@ -201,18 +212,24 @@ header {
 
 .latesttext1 {
     font-size: 24px;
-    margin-left: 32px;
+    font-weight: 500;
+    line-height: 36px;
+    margin: 0 auto;
     margin-top: 32px;
-    margin-right: 32px;
+
+    padding-left: 32px;
+    padding-right: 32px;
+
 }
 
 .latesttext2 {
-    margin-left: 32px;
-    margin-right: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .latesttext3 {
-    margin-left: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
     color: #F58A07;
     text-decoration: none;
 }
@@ -222,22 +239,24 @@ header {
 }
 
 footer {
-    width: 100vw;
     height: 463px;
     background-color: #063255;
-    padding-top: 80px;
+
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .footer1 {
     display: flex;
     gap: 80px;
+    max-width: 1280px;
+    min-width: 1280px;
+    margin: auto;
 }
 
-.footerleft {
-    margin-left: 480px;
-
-}
+.footerleft {}
 
 .footertext1 {
     width: 351px;
@@ -247,9 +266,7 @@ footer {
     padding-bottom: 32px;
 }
 
-.footerimg {
-    background-color: white;
-}
+.footerimg {}
 
 .social {
     width: 136px;
@@ -263,25 +280,24 @@ footer {
     color: white;
     width: 92px;
     height: 195px;
-    margin-left: 110px;
+    margin: 0 auto;
 }
 
 .footerconnect {
     color: white;
     width: 142px;
     height: 117px;
-    margin-left: 126px;
+    margin: 0 auto;
 }
 
 .footerjoin {
     color: white;
     width: 342px;
     height: 175px;
-    margin-left: 100px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
-
 
 .footerlink {
 
@@ -303,12 +319,16 @@ footer {
 
 .footer2 {
     display: flex;
-    margin-left: 480px;
-    width: 1280px;
+
+    max-width: 1280px;
+    min-width: 1280px;
     height: 24px;
     justify-content: space-between;
-    margin-top: 84px;
+    margin: auto;
+
 }
+
+
 
 .footerbottom {
     display: flex;
@@ -328,7 +348,8 @@ footer {
     border-radius: 31px;
     height: 24px;
     width: 342px;
-    border: solid #063255;
+    border: #063255;
+
 }
 
 .shapeleft {

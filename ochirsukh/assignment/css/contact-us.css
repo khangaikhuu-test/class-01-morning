@@ -1,22 +1,17 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    max-width: 1280px;
 }
 
 
 .container {
     display: flex;
-    justify-content: space-around;
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 52px;
-    margin-left: 480px;
     margin-top: 16px;
-    margin-right: 360px;
     margin-bottom: 16px;
     align-items: center;
-    justify-content: flex-start;
-
 }
 
 .logo1 {
@@ -62,20 +57,20 @@ body {
 }
 
 header {
-    width: 1165px;
+    max-width: 1280px;
     height: 182px;
+    margin: auto;
     margin-top: 120px;
-    margin-left: 480px;
     display: flex;
     gap: 99px;
     margin-bottom: 64px;
+
 }
 
 .header1 {
     width: 561px;
     height: 128px;
-    margin-left: 0px;
-    margin-top: 0x;
+
 }
 
 .header0 {
@@ -96,24 +91,25 @@ h2 {
 }
 
 #header1 {
-    margin-left: 99px;
-    margin-top: 25px;
+    width: 270px;
+
 }
 
 #header2 {
-    margin-left: 76px;
-    margin-top: 20px;
+    width: 159px;
 }
 
 .header2 {
+    width: 561px;
     display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
+
 }
 
 .contact {
     width: 1280px;
     height: 456px;
-    margin-left: 480px;
+    margin: auto;
     padding-top: 64px;
     display: flex;
     gap: 55px;
@@ -180,7 +176,6 @@ h2 {
 }
 
 footer {
-    width: 100vw;
     height: 463px;
     background-color: #063255;
     padding-top: 80px;
@@ -191,12 +186,11 @@ footer {
 .footer1 {
     display: flex;
     gap: 80px;
+    max-width: 1280px;
+    margin: auto;
 }
 
-.footerleft {
-    margin-left: 480px;
-
-}
+.footerleft {}
 
 .footertext1 {
     width: 351px;
@@ -206,9 +200,7 @@ footer {
     padding-bottom: 32px;
 }
 
-.footerimg {
-    background-color: white;
-}
+.footerimg {}
 
 .social {
     width: 136px;
@@ -222,21 +214,21 @@ footer {
     color: white;
     width: 92px;
     height: 195px;
-    margin-left: 110px;
+    margin: 0 auto;
 }
 
 .footerconnect {
     color: white;
     width: 142px;
     height: 117px;
-    margin-left: 126px;
+    margin: 0 auto;
 }
 
 .footerjoin {
     color: white;
     width: 342px;
     height: 175px;
-    margin-left: 100px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
@@ -262,11 +254,12 @@ footer {
 
 .footer2 {
     display: flex;
-    margin-left: 480px;
-    width: 1280px;
+    max-width: 1280px;
     height: 24px;
     justify-content: space-between;
+    margin: auto;
     margin-top: 84px;
+
 }
 
 .footerbottom {
