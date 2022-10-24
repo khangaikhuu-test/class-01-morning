@@ -38,6 +38,11 @@ nav a {
     margin-left: 47px;
 }
 
+.calltoaction:hover {
+    border-radius: 31px;
+    background: #063255;
+}
+
 /*   section one begins   */
 
 .one {
@@ -283,7 +288,7 @@ nav a {
 
 /*   section five  begins  */
 
-.five{
+.five {
     max-width: 1280px;
     margin: auto;
 }
@@ -381,6 +386,7 @@ nav a {
     background-repeat: no-repeat;
     border-radius: 40px;
 }
+
 .orange-6 {
     position: absolute;
     height: 97px;
@@ -687,6 +693,11 @@ input {
     border-radius: 31px;
     background-color: #fff;
     padding-left: 42px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+    border: #063255;
 }
 
 button {
@@ -696,6 +707,10 @@ button {
     background-color: #F58A07;
     color: #fff;
     margin-top: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 106.5%;
+    text-transform: capitalize;
 }
 
 .footer-bottom {

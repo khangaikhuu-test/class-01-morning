@@ -31,6 +31,8 @@ nav a {
     font-size: 16px;
 }
 
+
+
 .calltoaction {
     padding: 18px 30px 17px 29px;
     border-radius: 31px;
@@ -38,6 +40,10 @@ nav a {
     margin-left: 47px;
 }
 
+.calltoaction:hover {
+    border-radius: 31px;
+    background: #063255;
+}
 
 /* banner begins */
 
@@ -86,10 +92,22 @@ nav a {
     text-decoration: none;
 }
 
+.our:hover {
+    background: #063255;
+
+}
+
+
 .all {
     text-decoration: none;
+    color: #1D3444;
     /* margin-left: 40px; */
 }
+
+.all:hover {
+    color: #F58A07;
+}
+
 
 .p02 {
     margin-top: 56px;
@@ -450,8 +468,8 @@ nav a {
 
 .ribbon {
     position: absolute;
-   margin-left: 1070px;
-   margin-top: -65px;
+    margin-left: 1070px;
+    margin-top: -65px;
 }
 
 /*  section strategy end  */
@@ -662,6 +680,7 @@ nav a {
 
 /*  section last end  */
 
+
 /*  footer begins here  */
 
 footer {
@@ -797,6 +816,11 @@ input {
     border-radius: 31px;
     background-color: #fff;
     padding-left: 42px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+    border: #063255;
 }
 
 button {
@@ -806,6 +830,11 @@ button {
     background-color: #F58A07;
     color: #fff;
     margin-top: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 106.5%;
+    text-transform: capitalize;
+    color: #FFFFFF;
 }
 
 .footer-bottom {

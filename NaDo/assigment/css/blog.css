@@ -151,6 +151,12 @@ footer .header4 {
     font-size: 36px;
     max-width: 351px;
 }
+.footer-logos {
+    max-width: 136px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
 #type-email {
     font-size: 19px;
     color: rgba(156, 156, 156, 1);
@@ -180,4 +186,28 @@ footer .header4 {
     position: absolute;
     right: 0px;
     top: 38px;
+}
+.footer-email-input {
+    border: none;
+    font-size: 18px;
+    border-radius: 31px;
+    padding: 18px 188px 17px 32px;
+    margin-top: 24px;
+    font-family: 'Poppins', sans-serif;  
+}
+.footer-subscribe-button {
+    background-color: rgba(245, 138, 7, 1);
+    color: rgba(255, 255, 255, 1); 
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif; 
+    padding: 18px 32px 18px 32px;
+    border-radius: 31px;
+    width: 46%;
+    min-width: 120px;
+    margin-top: 16px;
+}
+footer ::placeholder {
+    font-size: 16px;
+    padding-top: 17px; 
+    font-family: 'Poppins', sans-serif;  
 }
