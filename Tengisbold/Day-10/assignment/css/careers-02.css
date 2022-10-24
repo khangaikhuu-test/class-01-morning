@@ -1,0 +1,128 @@
+main
+{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    width: 70vw;
+}
+.career-head
+{
+    margin-top: 5vh;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+}
+.careers-article
+{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+}
+.careers-article-column1
+{
+    width: 30vw;
+}
+.careers-article-column2
+{
+
+}
+.career-detail
+{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    background-color: rgba(193, 228, 255, 0.3) ;
+    margin-top: 5em;
+    border-radius: 25px;
+}
+.detail-head
+{
+    padding: 5em;
+    font-weight: 100;
+}
+.yellow-head
+{
+    color: rgba(245, 138, 7, 1);
+}
+.detail-paragraph
+{
+    padding: 5em;
+}
+.apply-form
+{
+    margin-bottom: 10vh ;
+}
+.applynow
+{
+    font-size: 48px;
+    font-weight: 600;
+}
+.form-apply
+{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+/* .apply-input
+{
+    background-color:rgba(210, 218, 237, 0.17);
+    width: 30vw;
+} */
+.big-apply
+{
+    width: 70vw;
+}
+
+
+input[type=text] {
+    background-color:rgba(210, 218, 237, 0.17);
+    width: 30vw;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+input[type=submit] 
+{
+    width: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=email] {
+    background-color:rgba(210, 218, 237, 0.17);
+    width: 30vw;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: none;
+  }
+  input[type=number] {
+    background-color:rgba(210, 218, 237, 0.17);
+    width: 30vw;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: none;
+  }
+  textarea
+  {
+    position: relative;
+    width: 70vw;
+    background-color:rgba(210, 218, 237, 0.17);
+    border-radius: 20px;
+    border: none; 
+  }
+  textarea::placeholder 
+  {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+  }
+
+

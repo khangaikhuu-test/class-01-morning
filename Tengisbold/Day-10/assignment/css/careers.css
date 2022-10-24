@@ -85,7 +85,7 @@
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    width: 400px;
+    width: 600px;
     height: 100px;
     border-radius: 20px;
     background-color: rgba(193, 228, 255, 0.3);

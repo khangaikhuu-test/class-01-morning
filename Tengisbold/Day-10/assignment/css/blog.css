@@ -2,6 +2,7 @@
 {
     background-color: #DCEAF5;
     width: 100vw;
+    margin-top: 3vh;
 }
 .blog
 {
@@ -40,6 +41,7 @@
     line-height: 32px;
     margin-left: 2vw;
 }
+
 .blog-left-bottom
 {
     margin-top: 40px;

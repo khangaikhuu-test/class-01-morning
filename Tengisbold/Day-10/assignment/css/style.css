@@ -27,17 +27,16 @@ body
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 35vw;
+    width: 50vw;
 }
 .nav-menu
 {
     display: flex;
-    width: 23vw;
+    width: 50vw;
     height: 24px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     color: black;
-
 }
 .button1
 {
