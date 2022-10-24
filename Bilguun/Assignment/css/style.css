@@ -322,12 +322,13 @@ body {
 
 }
 
-.page4 {
-    background-color: #F58A07;
+.page4-11 {
+    background-color: #F58A07 ;
     width: 153px;
     height: 666px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    position: relative;
 }
 
 
@@ -403,6 +404,7 @@ body {
     height: 466px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    position: absolute;
 }
 
 .fourth-face-picture-1 img {
@@ -431,7 +433,7 @@ body {
 }
 
 .first-page-5 {
-    display: flex;
+    /* display: flex; */
 }
 
 .container5 {
@@ -446,6 +448,7 @@ body {
     background-color: #F58A07;
     font-size: 48px;
     padding: 128px;
+    width: 50%;
 }
 
 .first-page-5-text h1 {
@@ -454,14 +457,16 @@ body {
     line-height: 56px;
     letter-spacing: -0.03em;
     width: 532px;
-    height: 168px;
+    height: 50%;
 
 }
 
 
 .first-page-5-picture {
-    width: 960px;
+    width: 50%;
     background-image: url("https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .see-job-button {
