@@ -201,6 +201,7 @@ footer {
     background-color: #063255;
     height: 463px;
     margin-top: 88px;
+    position: relative;
 }
 
 
@@ -259,4 +260,32 @@ color:white;
 
 .footer-bottom :nth-child(2) {
     margin-left: 710px;
+}
+
+.footer-orange1 {
+    width: 53px;
+    height: 144px;
+    background-color: #F58A07;
+    border-radius: 0 20px 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+}
+
+.footer-orange2 {
+    width: 53px;
+    height: 287px;
+    right: 0;
+    bottom: 138px;
+    background-color: #F58A07;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+}
+
+.social {
+    width: 136px;
+    height: 20px;
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
 }

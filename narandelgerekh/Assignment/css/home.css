@@ -9,15 +9,24 @@ body {
     /* width: 1920px; */
 }
 
-main a {
+a {
     color: #F58A07;
     text-decoration: none;
+}
+
+main p {
+    margin: 0;
+}
+
+h1 {
+    letter-spacing: -0.03rem;
 }
 
 h2 {
     color: #0D1317;
     font-size: 48px;
     letter-spacing: -0.03rem;
+    margin: 0;
 }
 
 h3 {
@@ -31,6 +40,8 @@ h4 {
     color: #0D1317;
     font-size: 24px;
     margin: 0;
+    font-weight: 500;
+    line-height: 36px;
 }
 
 /*header menu*/
@@ -38,7 +49,6 @@ header {
     max-width: 1280px;
     height: 52px;
     margin: 16px auto;
-    /*add 320 side margin*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,6 +83,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 53px;
     height: 703px;
 }
 
@@ -81,11 +92,12 @@ header {
     width: 576px;
     display: flex;
     flex-direction: column;
-    margin: 117px 53px 140px 325px;
+    margin-top: 117px;
+    margin-bottom: 147px;
+    margin-left: 325px;
 }
 
 .textbox h1 {
-    /* height: 144px; */
     letter-spacing: -0.3rem;
     line-height: 72px;
     font-size: 64px;
@@ -94,9 +106,19 @@ header {
     margin: 0 auto;
 }
 
+.textbox p {
+    line-height: 30px;
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+
 .links {
-    margin-top: 50px;
+    margin-top: 18px;
     margin-bottom: 75px;
+}
+
+.textbox div p {
+    margin: 0;
 }
 
 #sos {
@@ -427,8 +449,8 @@ header {
 }
 
 .cta-right h2 {
-    height: 168px;
     width: 532px;
+    height: 168px;
     color: #FFF;
     line-height: 56px;
     font-weight: 600;
@@ -568,8 +590,15 @@ header {
     width: 400px;
 }
 
-.clean {
+.col-text {
     margin: 32px;
+}
+
+.col-text p {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /*footer*/
@@ -691,7 +720,6 @@ footer {
     font-size: 16px;
     width: 301px;
     display: flex;
-    font-weight: 500;
     gap: 39px;
 }
 
